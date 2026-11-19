@@ -8,7 +8,7 @@ using **llama.cpp** (`llama-server`) in CPU-only mode on an HP Pavilion laptop.
 ## 📂 Repository Structure
 
 ```
-task3_local_llm/
+task3/
 │
 ├── docs/
 │   └── REPORT.md              <- Full written report (findings, theory, 20-user plan)
