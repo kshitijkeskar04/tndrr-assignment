@@ -1,0 +1,1446 @@
+{
+  "100_word_chunks": [
+    {
+      "chunk_size": 100,
+      "question_id": 1,
+      "question": "What three components explain how modern AI systems can exhibit intelligent behaviour?",
+      "correct_answer": "The report identifies advanced algorithms, data, and computing power as the three components.",
+      "gold_page": 8,
+      "source_passage": "These three components of advanced algorithms, data and computing power explain how machines can exhibit intelligent behaviour.",
+      "matched_rank": "Not found",
+      "matched_score": null,
+      "success": false,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5637579560279846,
+          "page": 34,
+          "chunk_id": "p34_w160",
+          "text": "tourism experience. Example Answer 2: Over the next decade, artificial intelligence will have a major impact on the travel and tourism industry. AI tools will be used to provide hyper-personalised recommendations for travellers, allowing companies to tailor suggestions based on individual interests and budgets. AI chatbots and virtual assistants will become ubiquitous, helping tourists research, book, and manage trips. AI could also help optimise routes and itineraries, reducing transit times and creating more seamless journeys. Behind the scenes, AI will enable businesses to forecast demand more accurately, adjust pricing dynamically, and target marketing campaigns more precisely. But while AI will"
+        },
+        {
+          "rank": 2,
+          "score": 0.5478655099868774,
+          "page": 7,
+          "chunk_id": "p7_w320",
+          "text": "There is no single, universally accepted definition for Artificial Intelligence, but the Oxford English Dictionary defines AI as “the capacity of computers, or other machines, to exhibit intelligent behaviour”. This means AI systems appear to think, learn and act like humans and in some cases exceed the capabilities of humans. AI systems can analyse vast amounts of data, solve complex problems, make decisions and perform creative tasks. FAKE FAKE"
+        },
+        {
+          "rank": 3,
+          "score": 0.5319287776947021,
+          "page": 35,
+          "chunk_id": "p35_w160",
+          "text": "able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can"
+        },
+        {
+          "rank": 4,
+          "score": 0.5275141000747681,
+          "page": 21,
+          "chunk_id": "p21_w80",
+          "text": "AI systems can be categorised based on the way they learn. This includes machine learning and deep learning, with different techniques for training these AI systems including supervised learning, unsupervised learning and reinforcement learning. The second useful way to group, or classify, an AI system is based on its capability, which means an AI system delivers either artificial narrow intelligence (ANI), artificial general intelligence (AGI), or artificial super intelligence (ASI)."
+        },
+        {
+          "rank": 5,
+          "score": 0.5178600549697876,
+          "page": 7,
+          "chunk_id": "p7_w240",
+          "text": "fast. It is impossible to accurately predict how AI will shape our lives over the next 5 to 50 years, but the following section explains why now is a crucial moment for the future of AI and society. WHAT IS ARTIFICIAL INTELLIGENCE & WHY THERE IS GLOBAL INTEREST NOW One of the most important aspects of AI is that it is a multi-use technology. Like electricity it can be applied in lots of different ways, to lots of different scenarios. There is no single, universally accepted definition for Artificial Intelligence, but the Oxford English Dictionary defines AI as “the capacity"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 2,
+      "question": "How does traditional programming differ from AI systems according to the report?",
+      "correct_answer": "Traditional programming follows explicitly coded rules and steps; AI learns how to solve a problem by examining training data rather than following explicitly pre-programmed decision points.",
+      "gold_page": 9,
+      "source_passage": "Unlike traditional programming, AI systems are not explicitly coded in a series of precise steps, but instead ‘learn’ how to solve a problem by examining training data.",
+      "matched_rank": 1,
+      "matched_score": 0.6035,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6035423278808594,
+          "page": 9,
+          "chunk_id": "p9_w80",
+          "text": "‘intelligent systems’ is best suited to constrained environments which do not change much over time and where the rules can be strictly defined. A good example of this could be an intelligent ‘tax calculator’ which when presented with an individual’s financial income and other relevant circumstances could efficiently review a series of ‘IF-THEN-ELSE’ rules to calculate their tax liability. Traditional Programming Artificial Intelligence (AI) Unlike traditional programming, AI systems are not explicitly coded in a series of precise steps, but instead ‘learn’ how to solve a problem by examining training data. In the example above, a traditional programme (in red"
+        },
+        {
+          "rank": 2,
+          "score": 0.538422703742981,
+          "page": 35,
+          "chunk_id": "p35_w160",
+          "text": "able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can"
+        },
+        {
+          "rank": 3,
+          "score": 0.5231953263282776,
+          "page": 21,
+          "chunk_id": "p21_w80",
+          "text": "AI systems can be categorised based on the way they learn. This includes machine learning and deep learning, with different techniques for training these AI systems including supervised learning, unsupervised learning and reinforcement learning. The second useful way to group, or classify, an AI system is based on its capability, which means an AI system delivers either artificial narrow intelligence (ANI), artificial general intelligence (AGI), or artificial super intelligence (ASI)."
+        },
+        {
+          "rank": 4,
+          "score": 0.5092222690582275,
+          "page": 9,
+          "chunk_id": "p9_w160",
+          "text": "instead ‘learn’ how to solve a problem by examining training data. In the example above, a traditional programme (in red on the left) goes through a series of defined steps and pre-programmed decision points at A, B and C to reach an outcome D (in green), whereas in the AI example (in blue on the right) the system calculates the best route to the outcome (the snake to point 2) based on the data it has been trained on (at point 1), not on explicitly defined and pre-programmed decision points. AI systems can also continuously ‘learn from experience’ and therefore"
+        },
+        {
+          "rank": 5,
+          "score": 0.5063779354095459,
+          "page": 34,
+          "chunk_id": "p34_w160",
+          "text": "tourism experience. Example Answer 2: Over the next decade, artificial intelligence will have a major impact on the travel and tourism industry. AI tools will be used to provide hyper-personalised recommendations for travellers, allowing companies to tailor suggestions based on individual interests and budgets. AI chatbots and virtual assistants will become ubiquitous, helping tourists research, book, and manage trips. AI could also help optimise routes and itineraries, reducing transit times and creating more seamless journeys. Behind the scenes, AI will enable businesses to forecast demand more accurately, adjust pricing dynamically, and target marketing campaigns more precisely. But while AI will"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 3,
+      "question": "What is Explainable AI trying to achieve?",
+      "correct_answer": "It seeks to understand and articulate how AI systems reach an output, improving trust and making the black box more transparent.",
+      "gold_page": 10,
+      "source_passage": "‘Explainable AI’ is therefore an active and ongoing field in which researchers are trying to understand and articulate how AI systems reach an output. This is crucial to improve trust in artificial intelligence systems.",
+      "matched_rank": 1,
+      "matched_score": 0.6443,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6442905068397522,
+          "page": 10,
+          "chunk_id": "p10_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 10 < Contents | ‘Explainable AI’ is therefore an active and ongoing field in which researchers are trying to understand and articulate how AI systems reach an output. This is crucial to improve trust in artificial intelligence systems (i.e. to understand the magic inside the black box and to turn a ‘black box’ into a ‘glass box’). The ‘digital doctor’ example nicely illustrates why ‘explainable AI’ is so important (in this case for both the patient and the doctor) to understand why an AI system has made a decision and believes a"
+        },
+        {
+          "rank": 2,
+          "score": 0.6307547092437744,
+          "page": 9,
+          "chunk_id": "p9_w400",
+          "text": "screening (the analysis of mammogram images) was as good as two radiologists working together 2. It also reduced their workload by 50% and led to 20% more cancers being detected early for treatment 3. This illustrates some of the incredible capabilities of AI and its benefit to society. But this also leads to an important concept in AI called ‘Explainable AI’. It is possible to verify the output of an AI system as correct (for example did a patient really have cancer or not), but it may not be possible to know exactly how the AI system got to a"
+        },
+        {
+          "rank": 3,
+          "score": 0.6106396913528442,
+          "page": 35,
+          "chunk_id": "p35_w160",
+          "text": "able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can"
+        },
+        {
+          "rank": 4,
+          "score": 0.5819915533065796,
+          "page": 9,
+          "chunk_id": "p9_w480",
+          "text": "have cancer or not), but it may not be possible to know exactly how the AI system got to a decision or outcome, as the AI has calculated the ‘interim steps’ (e.g. the blue snake in the diagram above) by itself, without human programming of the specific steps to be taken. AI systems are therefore sometimes referred to as ‘black boxes’ with details of exactly how they work and operate - in some cases - not fully known, or understood. This can even include their developers, as they too can often only verify the output and not the steps taken"
+        },
+        {
+          "rank": 5,
+          "score": 0.5730062127113342,
+          "page": 7,
+          "chunk_id": "p7_w320",
+          "text": "There is no single, universally accepted definition for Artificial Intelligence, but the Oxford English Dictionary defines AI as “the capacity of computers, or other machines, to exhibit intelligent behaviour”. This means AI systems appear to think, learn and act like humans and in some cases exceed the capabilities of humans. AI systems can analyse vast amounts of data, solve complex problems, make decisions and perform creative tasks. FAKE FAKE"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 4,
+      "question": "What is the difference between machine learning and deep learning?",
+      "correct_answer": "Machine learning learns from data to make predictions or recognise patterns. Deep learning is a more sophisticated subset of machine learning that uses artificial neural networks inspired by the human brain.",
+      "gold_page": 10,
+      "source_passage": "Deep Learning is a more sophisticated subset of Machine Learning and uses complex processes inspired by the human brain called Artificial Neural Networks (ANN).",
+      "matched_rank": 1,
+      "matched_score": 0.5962,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5962079763412476,
+          "page": 10,
+          "chunk_id": "p10_w160",
+          "text": "performance over time when provided with more and/or better quality training data. With this ‘knowledge’ gained from training data, machine learning powered AI systems can then make predictions (such as for weather forecasting), or recognise patterns in data (such as for image and speech recognition). • Deep Learning : Deep Learning (DL) is a more sophisticated subset of Machine Learning and uses complex processes inspired by the human brain called Artificial Neural Networks (ANN). How neutral networks function is beyond the scope of this ‘Introduction to AI’ report, but deep learning systems can excel at very complex tasks such as"
+        },
+        {
+          "rank": 2,
+          "score": 0.5951449871063232,
+          "page": 36,
+          "chunk_id": "p36_w160",
+          "text": "of AI that involves training algorithms with large amounts of data, so that a computer is capable of making predictions, or decisions. An email spam filter can be an example of an AI system using machine learning. By training an AI algorithm on a dataset of known spam and non-spam emails, it can learn to distinguish between the two and is then able to automatically detect and filter out new spam messages, even though it has never seen them before. Deep Learning Deep learning is a type of advanced machine learning, which uses complex mathematical structures inspired by the human"
+        },
+        {
+          "rank": 3,
+          "score": 0.594872236251831,
+          "page": 10,
+          "chunk_id": "p10_w80",
+          "text": "for both the patient and the doctor) to understand why an AI system has made a decision and believes a patient has breast cancer before sending them for intrusive cancer treatment. When considering how an AI system is constructed, there are two primary methods for how an AI system ‘learns’ to perform a task, which are machine learning and deep learning. • Machine Learning : Machine Learning (ML) systems can learn from huge amounts of data and continuously improve their performance over time when provided with more and/or better quality training data. With this ‘knowledge’ gained from training data, machine"
+        },
+        {
+          "rank": 4,
+          "score": 0.5295326709747314,
+          "page": 36,
+          "chunk_id": "p36_w240",
+          "text": "Deep Learning Deep learning is a type of advanced machine learning, which uses complex mathematical structures inspired by the human brain called ‘neural networks’. This enables a computer to identify complex patterns in data that would otherwise be too difficult to identify using traditional machine learning techniques. A bank could use deep learning algorithms to detect fraudulent transactions, by identifying patterns in complex financial data. Predictive AI Predictive AI is the general term for a type of AI that uses data with either machine learning, or deep learning, to forecast future outcomes or behaviours. An airline could use predictive AI"
+        },
+        {
+          "rank": 5,
+          "score": 0.46926558017730713,
+          "page": 36,
+          "chunk_id": "p36_w80",
+          "text": "powered check in, or concierge robot, to assist guests in the lobby and interact with them in a safe and productive way. Whilst embodiment is required for true General AI to be realised, this hotel example is a form of Narrow AI with embodiment, as the robot is only able to perform specific tasks – it cannot do all tasks that a human could do, such as carry guests’ luggage to their room. Machine Learning Machine learning is a type of AI that involves training algorithms with large amounts of data, so that a computer is capable of making predictions,"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 5,
+      "question": "How are supervised, unsupervised, and reinforcement learning distinguished?",
+      "correct_answer": "Supervised learning uses correctly labelled data; unsupervised learning finds patterns in unlabelled data; reinforcement learning learns through trial and error using rewards or penalties.",
+      "gold_page": 11,
+      "source_passage": "Supervised Learning: AI models are trained on data that has been correctly labelled. Unsupervised Learning: AI models are trained on data that has not been labelled. Reinforcement Learning: AI models ‘learn by doing’ through a trial-and-error feedback loop.",
+      "matched_rank": 1,
+      "matched_score": 0.4968,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.49677231907844543,
+          "page": 11,
+          "chunk_id": "p11_w320",
+          "text": "most common approaches are: • Comparing AI-generated outcomes or predictions to the correct answer: this is known as ‘Supervised Learning’ in which Al models are trained on data that has been correctly labelled (for example an AI animal recognition system could be trained on images of animals correctly labelled as cats or dogs). • Finding patterns in data: this is known as ‘Unsupervised Learning’ in which AI models are trained on data that has not been labelled. In this case the AI system learns by finding patterns in the data (for example edges, shapes, features, or colours in images of"
+        },
+        {
+          "rank": 2,
+          "score": 0.49508827924728394,
+          "page": 11,
+          "chunk_id": "p11_w400",
+          "text": "the AI system learns by finding patterns in the data (for example edges, shapes, features, or colours in images of animals that are common to cats or dogs). • Trial & Error: this is known as ‘Reinforcement Learning’ in which AI models ‘learn by doing’. Each outcome of the AI training is either mathematically rewarded or punished, in a ‘trial and error’ feedback loop (for example an AI animal recognition system that identified a certain breed of dog as a cat would be ‘punished’, but ‘rewarded’ it if correctly identified it as a dog, even though it had not seen"
+        },
+        {
+          "rank": 3,
+          "score": 0.47964513301849365,
+          "page": 9,
+          "chunk_id": "p9_w160",
+          "text": "instead ‘learn’ how to solve a problem by examining training data. In the example above, a traditional programme (in red on the left) goes through a series of defined steps and pre-programmed decision points at A, B and C to reach an outcome D (in green), whereas in the AI example (in blue on the right) the system calculates the best route to the outcome (the snake to point 2) based on the data it has been trained on (at point 1), not on explicitly defined and pre-programmed decision points. AI systems can also continuously ‘learn from experience’ and therefore"
+        },
+        {
+          "rank": 4,
+          "score": 0.461150199174881,
+          "page": 21,
+          "chunk_id": "p21_w80",
+          "text": "AI systems can be categorised based on the way they learn. This includes machine learning and deep learning, with different techniques for training these AI systems including supervised learning, unsupervised learning and reinforcement learning. The second useful way to group, or classify, an AI system is based on its capability, which means an AI system delivers either artificial narrow intelligence (ANI), artificial general intelligence (AGI), or artificial super intelligence (ASI)."
+        },
+        {
+          "rank": 5,
+          "score": 0.40828776359558105,
+          "page": 11,
+          "chunk_id": "p11_w240",
+          "text": "Modern, sophisticated, AI chatbots (such as Google Bard and Microsoft Copilot) can be very difficult to distinguish from a human. The Turing Test is also a useful way to measure the progress of AI research, and since 1950 has helped to raise international awareness of the potential for machines to think and behave like humans. Whether an AI system uses machine learning, or deep learning techniques to ‘learn’, there are different ways that AI algorithms can be ‘trained’, but the most common approaches are: • Comparing AI-generated outcomes or predictions to the correct answer: this is known as ‘Supervised Learning’"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 6,
+      "question": "What are the four Vs used to characterise Big Data?",
+      "correct_answer": "Volume, velocity, variety, and veracity.",
+      "gold_page": 13,
+      "source_passage": "Big Data is characterised by its volume, velocity, variety and veracity, commonly referred to as the 4 V’s.",
+      "matched_rank": 1,
+      "matched_score": 0.6283,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6282846927642822,
+          "page": 13,
+          "chunk_id": "p13_w400",
+          "text": "as home security systems) and 30% are connected car applications (such as networked vehicle diagnostics tools, emergency calling systems and in car entertainment platforms). This volume of data is also leading to a significant rise in cloud computing and data storage centres, with the U.S. hosting 10x more data centres than any other country in the world (in 2023) 8. These extremely large and very complex datasets are often called ‘Big Data’ and are characterised by their volume, velocity, variety and veracity, commonly referred to as the 4 V ’s."
+        },
+        {
+          "rank": 2,
+          "score": 0.40931546688079834,
+          "page": 15,
+          "chunk_id": "p15_w80",
+          "text": "large, neatly organised, filing cabinets Data warehouses could store information such as booking data, hotel occupancy rates, flight schedules, pricing information, financial transactions, web traffic statistics or marketing campaign performance data. This structured way of storage can be easily searched and is very good at quickly finding specific pieces of information such as “how many people booked trips to the Caribbean last year?” or “what was the average cost of a hotel room in Paris this summer?” . Alternatively a data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos,"
+        },
+        {
+          "rank": 3,
+          "score": 0.40614181756973267,
+          "page": 15,
+          "chunk_id": "p15_w160",
+          "text": "data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos, customer feedback surveys, or online reviews. A data lake can be thought of as a big, open room, into which all sorts of information can be thrown, in an unstructured and disorganised manner. This form of storage is good for collecting many different types of data and for keeping all the relevant information (within privacy limits), even when you’re not sure how, or when, it could be used in the future. When the best aspects of a data warehouse and"
+        },
+        {
+          "rank": 4,
+          "score": 0.4039464294910431,
+          "page": 14,
+          "chunk_id": "p14_w160",
+          "text": "insights from AI systems, such as AI powered image recognition tools. 3. Model Performance: big data enhances the performance and robustness of AI models, allowing them to handle a wide range of situations and inputs. This is especially important in sectors such as healthcare, where AI systems can analyse extensive patient and medical data to assist in diagnosis, treatment and drug discovery. 4. Predictive Analytics: large datasets and AI can be used by businesses to forecast trends, customer behaviour and market shifts. This provides companies with actionable insights and helps with corporate decision making. 5. Personalisation: when AI systems can"
+        },
+        {
+          "rank": 5,
+          "score": 0.3936142027378082,
+          "page": 15,
+          "chunk_id": "p15_w320",
+          "text": "Analyse social media sentiment to gauge public opinion on different travel destinations • Use image recognition with social media photos to identify the most popular tourist attractions • Analyse customer feedback to identify areas of concern and improve customer services The combination of AI, data warehouses, data lakes and cloud infrastructure, provides a scalable and flexible environment for managing and gleaning insights from different forms of big data. Used together they can help a travel company provide amazing and personalised travel experiences!"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 7,
+      "question": "What is the difference between a data warehouse and a data lake?",
+      "correct_answer": "A data warehouse stores structured data in an organised and optimised way. A data lake stores many types of unstructured data, such as posts, images, videos, surveys, and reviews.",
+      "gold_page": 15,
+      "source_passage": "A data warehouse is a repository that stores structured data, in a highly organised and optimised way. Alternatively a data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos, customer feedback surveys, or online reviews.",
+      "matched_rank": 1,
+      "matched_score": 0.7716,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.771577000617981,
+          "page": 15,
+          "chunk_id": "p15_w160",
+          "text": "data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos, customer feedback surveys, or online reviews. A data lake can be thought of as a big, open room, into which all sorts of information can be thrown, in an unstructured and disorganised manner. This form of storage is good for collecting many different types of data and for keeping all the relevant information (within privacy limits), even when you’re not sure how, or when, it could be used in the future. When the best aspects of a data warehouse and"
+        },
+        {
+          "rank": 2,
+          "score": 0.7199859619140625,
+          "page": 15,
+          "chunk_id": "p15_w240",
+          "text": "sure how, or when, it could be used in the future. When the best aspects of a data warehouse and data lake are merged into one data management solution it is called a data lakehouse. The application of AI to each system has its advantages. For example: AI applied with a data warehouse could: • Optimise pricing strategies, based on historical booking data • Predict customer preferences and recommend personalised travel packages AI applied with a data lake could: • Analyse social media sentiment to gauge public opinion on different travel destinations • Use image recognition with social media photos"
+        },
+        {
+          "rank": 3,
+          "score": 0.6180639266967773,
+          "page": 15,
+          "chunk_id": "p15_w80",
+          "text": "large, neatly organised, filing cabinets Data warehouses could store information such as booking data, hotel occupancy rates, flight schedules, pricing information, financial transactions, web traffic statistics or marketing campaign performance data. This structured way of storage can be easily searched and is very good at quickly finding specific pieces of information such as “how many people booked trips to the Caribbean last year?” or “what was the average cost of a hotel room in Paris this summer?” . Alternatively a data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos,"
+        },
+        {
+          "rank": 4,
+          "score": 0.5920267105102539,
+          "page": 15,
+          "chunk_id": "p15_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 15 Companies have been working towards becoming more data-driven for many years, with some now using cloud computing to store and manage their vast quantities of data on remote cloud-based servers (rather than on premises computers), in either ‘data lakes’ or ‘data warehouses’ (or both). A data warehouse is a repository that stores structured data, in a highly organised and optimised way. They can be thought of as very large, neatly organised, filing cabinets Data warehouses could store information such as booking data, hotel occupancy rates, flight schedules, pricing"
+        },
+        {
+          "rank": 5,
+          "score": 0.4251794219017029,
+          "page": 13,
+          "chunk_id": "p13_w400",
+          "text": "as home security systems) and 30% are connected car applications (such as networked vehicle diagnostics tools, emergency calling systems and in car entertainment platforms). This volume of data is also leading to a significant rise in cloud computing and data storage centres, with the U.S. hosting 10x more data centres than any other country in the world (in 2023) 8. These extremely large and very complex datasets are often called ‘Big Data’ and are characterised by their volume, velocity, variety and veracity, commonly referred to as the 4 V ’s."
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 8,
+      "question": "Why are GPUs useful for AI and deep learning?",
+      "correct_answer": "GPUs can process tasks in parallel rather than sequentially, and this accelerated parallel processing is well suited to AI applications, especially deep learning.",
+      "gold_page": 16,
+      "source_passage": "A key innovation was their ability to process tasks in parallel (rather than sequentially as in normal computers) and it turns out the accelerated parallel processing required to create lifelike graphics in computer games and movies is ideal for powering AI applications and especially deep learning systems.",
+      "matched_rank": 1,
+      "matched_score": 0.6546,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6546352505683899,
+          "page": 16,
+          "chunk_id": "p16_w400",
+          "text": "point where they are now almost indistinguishable from real life. The images below show just how much computer graphics, powered by GPU chips, have improved in only the last 3 years. The rapid advance of GPU chips partly explains why now is a global moment for AI. As GPU technology evolved for computer games, a key innovation was their ability to process tasks in parallel (rather than sequentially as in normal computers) and it turns out the accelerated parallel processing required to create lifelike graphics in computer games and movies is ideal for powering AI applications and especially deep learning"
+        },
+        {
+          "rank": 2,
+          "score": 0.5259459614753723,
+          "page": 16,
+          "chunk_id": "p16_w480",
+          "text": "required to create lifelike graphics in computer games and movies is ideal for powering AI applications and especially deep learning systems, such as sophisticated AI chatbots. Therefore GPU computer chips, originally from the gaming industry, eFootball Computer Game Graphics of Argentinian Lionel Messi Real Lionel Messi (2021 to 2023) 41"
+        },
+        {
+          "rank": 3,
+          "score": 0.518319845199585,
+          "page": 16,
+          "chunk_id": "p16_w320",
+          "text": "even more computing power. In the 1990’s a company called NVIDIA popularised the term ‘Graphics Processing Unit’ (GPU), which was typically an electronic circuit board that plugged into a computer to accelerate its power. This became a critical piece of technology for computer gamers (and later Hollywood), as it enabled very fast and realistic rendering of graphics and special effects. GPU chips led computer games to advance from pixilated images to realistic graphics in just a few years, to the point where they are now almost indistinguishable from real life. The images below show just how much computer graphics, powered"
+        },
+        {
+          "rank": 4,
+          "score": 0.5181501507759094,
+          "page": 16,
+          "chunk_id": "p16_w240",
+          "text": "can be traced back to the 1960’s, when Gordon Moore (a co-founder of Intel) observed that the number of transistors on an integrated circuit was doubling around every two years. This became known as ‘Moore’s Law’. This doubling led to exponential growth in the power of computer chips, which has enabled computers small enough, powerful enough and cheap enough to now sit on all of our desks and power the smartphones in our pockets. But to achieve AI breakthroughs required even more computing power. In the 1990’s a company called NVIDIA popularised the term ‘Graphics Processing Unit’ (GPU), which was"
+        },
+        {
+          "rank": 5,
+          "score": 0.5033947229385376,
+          "page": 18,
+          "chunk_id": "p18_w320",
+          "text": "is specifically designed for AI, called a TPU (Tensor Processing Unit). Although GPU chips are at the core of most AI computing power today and can perform tasks in parallel, a TPU chip takes this a step further and can perform ‘matrix calculations’ which significantly accelerates machine learning tasks. These differences could be thought of like a traditional newspaper printing press – a normal laptop computer could print one letter at a time, a GPU chip could print a whole line of text at a time, and a TPU chip could print an entire page at a time. Example chip"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 9,
+      "question": "How does the report distinguish a TPU from a GPU?",
+      "correct_answer": "The report says a TPU can perform matrix calculations that significantly accelerate machine-learning tasks; its analogy is that a GPU prints a line of text at a time while a TPU prints an entire page at a time.",
+      "gold_page": 18,
+      "source_passage": "A TPU chip takes this a step further and can perform ‘matrix calculations’ which significantly accelerates machine learning tasks.",
+      "matched_rank": 1,
+      "matched_score": 0.5258,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5257524251937866,
+          "page": 18,
+          "chunk_id": "p18_w320",
+          "text": "is specifically designed for AI, called a TPU (Tensor Processing Unit). Although GPU chips are at the core of most AI computing power today and can perform tasks in parallel, a TPU chip takes this a step further and can perform ‘matrix calculations’ which significantly accelerates machine learning tasks. These differences could be thought of like a traditional newspaper printing press – a normal laptop computer could print one letter at a time, a GPU chip could print a whole line of text at a time, and a TPU chip could print an entire page at a time. Example chip"
+        },
+        {
+          "rank": 2,
+          "score": 0.49399533867836,
+          "page": 16,
+          "chunk_id": "p16_w320",
+          "text": "even more computing power. In the 1990’s a company called NVIDIA popularised the term ‘Graphics Processing Unit’ (GPU), which was typically an electronic circuit board that plugged into a computer to accelerate its power. This became a critical piece of technology for computer gamers (and later Hollywood), as it enabled very fast and realistic rendering of graphics and special effects. GPU chips led computer games to advance from pixilated images to realistic graphics in just a few years, to the point where they are now almost indistinguishable from real life. The images below show just how much computer graphics, powered"
+        },
+        {
+          "rank": 3,
+          "score": 0.4493362307548523,
+          "page": 19,
+          "chunk_id": "p19_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 19 CPU vs GPU vs TPU The ‘matrix’ capability of TPU chips makes them ideal for training and deploying very large AI models. They are already installed in many Google data centres, so when you use Google Translate today (which involves AI processing in the background), TPU’s are probably powering your query 14 15. The latest generation of Google TPU’s (TPU v5) are capable of nearly 400 trillion calculations per second! But despite this incredible ability, the real magic happens when thousands of chips are interconnected to create a"
+        },
+        {
+          "rank": 4,
+          "score": 0.42651939392089844,
+          "page": 16,
+          "chunk_id": "p16_w240",
+          "text": "can be traced back to the 1960’s, when Gordon Moore (a co-founder of Intel) observed that the number of transistors on an integrated circuit was doubling around every two years. This became known as ‘Moore’s Law’. This doubling led to exponential growth in the power of computer chips, which has enabled computers small enough, powerful enough and cheap enough to now sit on all of our desks and power the smartphones in our pockets. But to achieve AI breakthroughs required even more computing power. In the 1990’s a company called NVIDIA popularised the term ‘Graphics Processing Unit’ (GPU), which was"
+        },
+        {
+          "rank": 5,
+          "score": 0.41719743609428406,
+          "page": 18,
+          "chunk_id": "p18_w240",
+          "text": "technology companies to develop their own chips to power AI applications, including Amazon, Apple, Google, IBM, Microsoft and Tesla. Chip designers and manufacturers including Intel, AMD and Qualcomm are also building new production facilities. TSMC, for example, is building a plant in Arizona (its first production facility outside of Taiwan) and Intel is building a new plant in Ohio, with tax credits provided by the US Chips & Science Act. Since 2016, Google has also developed its own chip that is specifically designed for AI, called a TPU (Tensor Processing Unit). Although GPU chips are at the core of most"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 10,
+      "question": "What are the three capability-based categories of AI?",
+      "correct_answer": "Artificial Narrow Intelligence (ANI), Artificial General Intelligence (AGI), and Artificial Super Intelligence (ASI).",
+      "gold_page": 21,
+      "source_passage": "An AI system delivers either artificial narrow intelligence (ANI), artificial general intelligence (AGI), or artificial super intelligence (ASI).",
+      "matched_rank": 1,
+      "matched_score": 0.5786,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.578649640083313,
+          "page": 21,
+          "chunk_id": "p21_w80",
+          "text": "AI systems can be categorised based on the way they learn. This includes machine learning and deep learning, with different techniques for training these AI systems including supervised learning, unsupervised learning and reinforcement learning. The second useful way to group, or classify, an AI system is based on its capability, which means an AI system delivers either artificial narrow intelligence (ANI), artificial general intelligence (AGI), or artificial super intelligence (ASI)."
+        },
+        {
+          "rank": 2,
+          "score": 0.5376733541488647,
+          "page": 37,
+          "chunk_id": "p37_w160",
+          "text": "trained with more than just text, such as large datasets of images, video or audio Foundational models are also referred to as ‘General Purpose AI’ in the EU 40. However business leaders should note that EU General Purpose AI are foundational models able to be applied to lots of areas and is not the same as General AI, or Artificial General Intelligence (AGI) which is described earlier in this table and refers to AI that has the full intellectual capabilities of humans. Foundational models can serve as the basis (hence the name Foundational) for developing more specialised models. They have"
+        },
+        {
+          "rank": 3,
+          "score": 0.5191938281059265,
+          "page": 35,
+          "chunk_id": "p35_w160",
+          "text": "able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can"
+        },
+        {
+          "rank": 4,
+          "score": 0.5175009965896606,
+          "page": 7,
+          "chunk_id": "p7_w320",
+          "text": "There is no single, universally accepted definition for Artificial Intelligence, but the Oxford English Dictionary defines AI as “the capacity of computers, or other machines, to exhibit intelligent behaviour”. This means AI systems appear to think, learn and act like humans and in some cases exceed the capabilities of humans. AI systems can analyse vast amounts of data, solve complex problems, make decisions and perform creative tasks. FAKE FAKE"
+        },
+        {
+          "rank": 5,
+          "score": 0.5159224271774292,
+          "page": 42,
+          "chunk_id": "p42_w240",
+          "text": "G7 Towards a Common Understanding of Generative AI (https://www.oecd-ilibrary.org/science-and- technology/g7-hiroshima-process-on-generative-artificial-intelligence-ai_bf3c0c60-en) 24 Sequoia Capital – Generative AI Market Map (https://www.sequoiacap.com/article/generative-ai-act- two) 25 ITU Statistics (https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx) 26 ITU Measuring Digital Development 2022 (https://www.itu.int/en/ITU-D/Statistics/Pages/facts/ default.aspx) 27 UK Government - AI for Development at the UN General Assembly (https://www.gov.uk/ government/news/uk-sets-out-ai-for-development-vision-at-un-general-assembly) 28 ITU Secretary General Speech – UN High Level Political Forum 2023 (https://www.itu.int/en/osg/ Pages/Speeches.aspx?ItemID=18) 29 Randstad Work Monitor Survey (https://www.randstad.co.uk/workmonitor) 30 Randstad Work Monitor Survey – Only 13% Offered AI Training (https://www.randstad.com/"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 11,
+      "question": "What is generative AI and what kinds of content can it produce?",
+      "correct_answer": "Generative AI produces new content from a user prompt and what it learned from large training datasets. It can generate text, imagery, video, and audio.",
+      "gold_page": 24,
+      "source_passage": "Generative AI is a type of AI technology that can produce new and creative content such as text, imagery, video and audio, from a user ‘prompt’.",
+      "matched_rank": 1,
+      "matched_score": 0.7432,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.7432031035423279,
+          "page": 24,
+          "chunk_id": "p24_w240",
+          "text": "models which can be defined as “AI models trained on a broad data set that can applied to a wide range of downstream tasks” 21 .These enable anyone to automate projects and generate amazing content on a standard computer. The diagram below illustrates just some of the possible outputs (such as text, computer code, images and video) and tasks (such as producing marketing and advertising material, website building, video editing and document summarisation) that generative AI foundation models can achieve. Generative AI Application Landscape Generative AI has its origins in a 2017 Google research paper entitled “Attention Is All Y"
+        },
+        {
+          "rank": 2,
+          "score": 0.7298521995544434,
+          "page": 36,
+          "chunk_id": "p36_w400",
+          "text": "text, images, video or audio, which resembles human created content. The roll out of Generative AI capabilities to the public is widely regarding as launching the current global interest in AI. AI chatbots are a form of Generative AI. A business could use generative AI tools to produce product descriptions, press releases or marketing copy, whereas a media company could use Generative AI to compose new music, or develop visual advertising materials."
+        },
+        {
+          "rank": 3,
+          "score": 0.7116045355796814,
+          "page": 24,
+          "chunk_id": "p24_w160",
+          "text": "AI to corporate businesses and the mass general public. AI chatbots are powered by generative AI, which is a type of AI technology that can produce new and creative content such as text, imagery, video and audio, from a user ‘prompt’. It creates this new content based on the prompt and what it has learned from very large quantities of training data (sometimes many millions of internet pages) to produce a generative AI model. An example of this is foundation models which can be defined as “AI models trained on a broad data set that can applied to a wide"
+        },
+        {
+          "rank": 4,
+          "score": 0.7023142576217651,
+          "page": 36,
+          "chunk_id": "p36_w320",
+          "text": "data with either machine learning, or deep learning, to forecast future outcomes or behaviours. An airline could use predictive AI to forecast future ticket demands and optimise its pricing and sales strategy, or a retailer could use predictive AI to forecast the future demand for products, which would help them to make informed decisions on stock management and production planning Generative AI Generative AI is the general term for AI systems that can create new and original material such as text, images, video or audio, which resembles human created content. The roll out of Generative AI capabilities to the public"
+        },
+        {
+          "rank": 5,
+          "score": 0.6963762044906616,
+          "page": 24,
+          "chunk_id": "p24_w320",
+          "text": "Generative AI Application Landscape Generative AI has its origins in a 2017 Google research paper entitled “Attention Is All Y ou Need” 22, which introduced a new type of AI architecture for language understanding called ‘Transformers’. Many research organisations, universities and companies have investigated this technique to develop innovative AI applications. Since 2017, the number of scientific publications focussed on generative AI has grown fivefold and venture capital (VC) investment in generative AI solutions reached $12 billion (USD) in the first six months of 2023 alone."
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 12,
+      "question": "What is the difference between a large language model and a foundational model?",
+      "correct_answer": "An LLM is designed for understanding and generating human-like language. Foundational models are broader and can include models trained on text, images, video, or audio; LLMs are one type within this broader category.",
+      "gold_page": 37,
+      "source_passage": "Foundational Models are a broader category of underlying AI architecture, which includes LLM’s, but also AI models trained with more than just text, such as large datasets of images, video or audio.",
+      "matched_rank": 1,
+      "matched_score": 0.6057,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6057076454162598,
+          "page": 37,
+          "chunk_id": "p37_w80",
+          "text": "(LLM’s) can perform a wide range of language related tasks, such as real time translation, writing documents, or answering questions in an informative way. The terms LLM and Generative AI are sometime used interchangeably, but are in fact different. An LLM is the underlying AI model that powers the language capabilities of a Generative AI system (such as an AI Chatbot). Foundational Models Foundational Models are a broader category of underlying AI architecture, which includes LLM’s, but also AI models trained with more than just text, such as large datasets of images, video or audio Foundational models are also referred"
+        },
+        {
+          "rank": 2,
+          "score": 0.5110030174255371,
+          "page": 37,
+          "chunk_id": "p37_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 37 Large Language Models (LLM) Large Language Models (LLM’s) are a type of underlying AI architecture that are specifically designed to understand and generate human-like language. They are trained on massive datasets of text and computer code (hence the name Large - Language Models) to develop a deep understanding of language patterns, grammar and semantics, enabling them to generate new coherent, relevant and natural sounding text Large Language Models (LLM’s) can perform a wide range of language related tasks, such as real time translation, writing documents, or answering questions"
+        },
+        {
+          "rank": 3,
+          "score": 0.5076106786727905,
+          "page": 37,
+          "chunk_id": "p37_w240",
+          "text": "of humans. Foundational models can serve as the basis (hence the name Foundational) for developing more specialised models. They have wide uses and can be adapted (often referred to as ‘fine tuned’) with industry specific data and knowledge. For example a business may ‘fine tune’ an LLM with its company policies to create an AI chatbot for its website, or a manufacturer may fine tune a foundational ‘vision’ model with specific product information to automatically identify defects on its assembly line. Prompting, Prompt Engineering and Prompt Design Prompting is the process of providing instructions and examples to an AI system"
+        },
+        {
+          "rank": 4,
+          "score": 0.47372037172317505,
+          "page": 25,
+          "chunk_id": "p25_w160",
+          "text": "technology for all Travel & Tourism businesses to recognise. Number of Global News Articles Number of posts on X (formally Twitter) A specific type of generative AI foundation model is a large language model (LLM), which is a sophisticated AI model designed to generate human like text responses to a user’s prompt. It is the underlying AI model driving AI chatbots (such as Google Bard or Microsoft CoPilot). The user ‘prompt’ is commonly a text input, but could also be something else, such as an image or audio input for example. A prompt allows the user to provide instructions to"
+        },
+        {
+          "rank": 5,
+          "score": 0.4108406603336334,
+          "page": 37,
+          "chunk_id": "p37_w160",
+          "text": "trained with more than just text, such as large datasets of images, video or audio Foundational models are also referred to as ‘General Purpose AI’ in the EU 40. However business leaders should note that EU General Purpose AI are foundational models able to be applied to lots of areas and is not the same as General AI, or Artificial General Intelligence (AGI) which is described earlier in this table and refers to AI that has the full intellectual capabilities of humans. Foundational models can serve as the basis (hence the name Foundational) for developing more specialised models. They have"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 13,
+      "question": "What does the report mean by an AI hallucination?",
+      "correct_answer": "A hallucination is an AI output that may seem real but is actually incorrect or unrealistic.",
+      "gold_page": 38,
+      "source_passage": "Hallucinations are outputs from AI systems that may seem real, but are in fact incorrect, or unrealistic.",
+      "matched_rank": 2,
+      "matched_score": 0.6541,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6765376329421997,
+          "page": 28,
+          "chunk_id": "p28_w160",
+          "text": "Generative AI Hallucinations In the AI chatbot example above, the table is also incomplete as it has missed other reports published by WTTC in 2022, including a report on ‘Critical Factors to Attract Hotel Investment’ (published in June 2022) and a joint report with Harvard University on the ‘Circular Economy in Travel & Tourism’ (published in May 2022). Nevertheless, the AI has done a remarkable job of finding and correctly summarising the majority of WTTC reports, in only a few seconds, from a single sentence text prompt asking for information on the reports published by WTTC in 2022 (written in"
+        },
+        {
+          "rank": 2,
+          "score": 0.6540842652320862,
+          "page": 38,
+          "chunk_id": "p38_w80",
+          "text": "creative content or exploring new ideas, such as for drug discovery. An example of hallucination may be an AI chatbot providing a false answer, rather than saying it doesn’t know the answer to a question, or an AI powered image recognition system that mistakenly classifies products, leading to incorrect order fulfilment. Hallucinations can sometimes be hard to spot. For example if an AI system output that 92 x 53 = 6784 (which is wrong), it would be hard to spot as a hallucination without manual verification. Preventing hallucinations in business commercial arrangements is especially important. For example an AI system"
+        },
+        {
+          "rank": 3,
+          "score": 0.6346176862716675,
+          "page": 28,
+          "chunk_id": "p28_w80",
+          "text": "the last example, where the AI chatbot was asked to provide the months that the reports were published, it has provided incorrect information. This is known as a ‘hallucination’ and is a feature of all AI chatbots today. Sometimes they produce answers, information and statistics that look accurate and sound convincing, but are in fact incorrect. This is due to the complex way that large language models produce their output. Some common reasons for hallucinations are illustrated below. Reasons for Generative AI Hallucinations In the AI chatbot example above, the table is also incomplete as it has missed other reports"
+        },
+        {
+          "rank": 4,
+          "score": 0.6247038245201111,
+          "page": 38,
+          "chunk_id": "p38_w160",
+          "text": "as a hallucination without manual verification. Preventing hallucinations in business commercial arrangements is especially important. For example an AI system could incorrectly give the wrong price to a customer for a holiday."
+        },
+        {
+          "rank": 5,
+          "score": 0.6111412048339844,
+          "page": 38,
+          "chunk_id": "p38_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 38 < Contents | Hallucinations Hallucinations are outputs from AI systems that may seem real, but are in fact incorrect, or unrealistic. They may come as the output from either Predictive or Generative AI systems and are most likely to occur when the AI algorithms have been trained on incomplete, or inaccurate data. Hallucinations can be misleading (or even dangerous) if not properly understood, but can also be useful for generating new creative content or exploring new ideas, such as for drug discovery. An example of hallucination may be an AI chatbot"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 14,
+      "question": "According to the report, what proportion of the world had never been connected to the internet in 2022?",
+      "correct_answer": "The ITU estimate cited in the report was 34%, representing 2.6 billion people.",
+      "gold_page": 31,
+      "source_passage": "The International Telecommunications Union (ITU) estimates that 34% of the world has never been connected to the internet (in 2022), representing 2.6 billion people.",
+      "matched_rank": 1,
+      "matched_score": 0.6551,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.655076265335083,
+          "page": 31,
+          "chunk_id": "p31_w240",
+          "text": "greater computer power, they become more accurate, creative and insightful. However it is also important to note that handling massive amounts of data can present privacy, security and data governance challenges for AI developers and users and that there is a significant data and ‘digital divide’ in the world. The International Telecommunications Union (ITU) – the UN agency responsible for advancing digital technology – estimates that 34% of the world has never been connected to the internet (in 2022), representing 2.6 billion people 25. Therefore a third of the world’s population does not have access to AI. The ITU considers"
+        },
+        {
+          "rank": 2,
+          "score": 0.6515330076217651,
+          "page": 13,
+          "chunk_id": "p13_w160",
+          "text": "the world, but all agree that it is many billions of devices. The CISCO Annual Internet Report 2023 7 estimates there are 29.3 billion networked devices in the world, which is more than 3 x the global population of 8 billion people (in 2023). 2. Growth of social media: social media platforms generate many terabytes of text, video and audio data every day (1 terabyte = approximately 1500 CD’s) with billions of messages and posts made every minute. In 2020, during the height of the COVID-19 pandemic, the Head of WhatsApp (Will Catchcart) issued a tweet stating that approximately 100"
+        },
+        {
+          "rank": 3,
+          "score": 0.6073706150054932,
+          "page": 31,
+          "chunk_id": "p31_w400",
+          "text": "behind connectivity, with 75% of all 15-24 year olds in the world now online, compared to 65% amongst the rest of the population. Sadly the affordability of entry level fixed and mobile internet services is leaving populations in the least developed countries (LDCs) behind. ITU data from 2022 finds that in a typical low income economy, the cheapest mobile broadband costs 9% of a person’s income (over 6x the global average) and in those least developed countries 64% of the population is not connected to the internet (almost double the global average of 34% who are not online). To begin"
+        },
+        {
+          "rank": 4,
+          "score": 0.587445080280304,
+          "page": 31,
+          "chunk_id": "p31_w320",
+          "text": "2.6 billion people 25. Therefore a third of the world’s population does not have access to AI. The ITU considers that ‘universal and meaningful digital connectivity’ 26 (defined as a ‘the possibility for everyone to enjoy a safe, productive and affordable online experience’) should be a global priority. The ITU states that the AI revolution should benefit everyone in the world and should not worsen the international digital divide. ITU data shows that the global youth are the driving force behind connectivity, with 75% of all 15-24 year olds in the world now online, compared to 65% amongst the rest"
+        },
+        {
+          "rank": 5,
+          "score": 0.5812039375305176,
+          "page": 32,
+          "chunk_id": "p32_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 32 < Contents | In addressing digital inequality, the science fiction writer William Gibson (who first used the term ‘cyberspace’ in his 1984 novel Neuromancer) is reported to have said over 30 years ago that “the future is already here, it’s just not evenly distributed yet”. This could be used to describe the global digital divide and AI situation today. The Worlds Offline Population : ITU Global Connectivity Report 2022 (Size of tile represents the country’s share of the world’s offline population) At the annual UN mid-year policy discussions on urgent global"
+        }
+      ]
+    },
+    {
+      "chunk_size": 100,
+      "question_id": 15,
+      "question": "What did the 2023 Randstad survey report about workers receiving AI training?",
+      "correct_answer": "Only 13% of workers had been offered any form of AI training in the previous 12 months.",
+      "gold_page": 33,
+      "source_passage": "Randstad surveyed 7,000 employees in companies of all sizes, across 34 countries and found that only 13% of workers had been offered any form of AI training in the last 12 months.",
+      "matched_rank": 1,
+      "matched_score": 0.6652,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6652106642723083,
+          "page": 33,
+          "chunk_id": "p33_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 33 This digital skills gap affects both developed and developing countries. In 2023, international HR and recruitment company Randstad surveyed 7,000 employees in companies of all sizes, across 34 countries and found that only 13% of workers had been offered any form of AI training in the last 12 months 29. This is despite a huge global surge in AI, with Randstad also observing a 20x increase in the number of new job postings across all industries requiring AI skills in 2023 30. Their research also found that AI"
+        },
+        {
+          "rank": 2,
+          "score": 0.5860602855682373,
+          "page": 33,
+          "chunk_id": "p33_w80",
+          "text": "number of new job postings across all industries requiring AI skills in 2023 30. Their research also found that AI training was the third most requested form of development requested by workers, after leadership and wellbeing training. A similar result was found in the GitLab 2023 global survey of software development companies 31. It’s showed that even when AI training was provided within organisations, there was a significant difference in the quality and availability of training across seniority levels. Those lower in organisations were most concerned about job losses from AI, yet were not provided the skills necessary to work"
+        },
+        {
+          "rank": 3,
+          "score": 0.571609377861023,
+          "page": 33,
+          "chunk_id": "p33_w400",
+          "text": "people in AI by the end of 2026, with a focus on underrepresented communities 36. To achieve this goal IBM is collaborating with universities and training providers around the world to deliver adult education and launching new generative AI coursework on topics such as ‘Prompt Writing’ and ‘Improving Customer Service with AI’ through IBM SkillsBuild 37. Many online creators are also making videos on how to use AI and there have been more than 1.7 billion views of videos related to AI tools on YouTube in 2023 alone 38. More sophisticated, paid for training courses are also available from several"
+        },
+        {
+          "rank": 4,
+          "score": 0.5708388090133667,
+          "page": 43,
+          "chunk_id": "p43_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 43 press/2023/over-50-believe-ai-will-future-proof-their-careers-only-13-have-been-offered-ai-training) 31 GitLab Global Software Developer Survey (https://about.gitlab.com/developer-survey) 32 IBM Institute of Business Values AI Survey (https://www.ibm.com/thought-leadership/institute- business-value/en-us/report/augmented-workforce) 33 Microsoft Learn (https://learn.microsoft.com/en-us) 34 Grow with Google (https://grow.google/intl/uk/courses-and-tools) 35 IBM AI Training (https://www.ibm.com/training/ailearning) 36 IBM Commits to AI Training for Underrepresented Communities (https://newsroom.ibm. com/2023-09-18-IBM-Commits-to-Train-2-Million-in-Artificial-Intelligence-in-Three-Years,-with-a-Focus-on- Underrepresented-Communities) 37 IBM SkillsBuild (https://skillsbuild.org) 38 YouTube Culture & Trends Report 2023 (https://blog.youtube/culture-and-trends/youtube-culture- trends-report-2023) 39 Microsoft Research Paper – Sparks of Artificial General Intelligence (https://www.microsoft.com/en- us/research/publication/sparks-of-artificial-general-intelligence-early-experiments-with-gpt-4) 40 EU Parliament – General Purpose AI (https://www.europarl.europa.eu/RegData/etudes/ ATAG/2023/745708/EPRS_ATA(2023)745708_EN.pdf) 41 eFootball Graphics Evolution – YouTube (https://youtu.be/_wQ6IGAIqII)"
+        },
+        {
+          "rank": 5,
+          "score": 0.5572603940963745,
+          "page": 33,
+          "chunk_id": "p33_w320",
+          "text": "of an entire workforce can seem like a daunting and expensive task. That is why organisations, such as Microsoft, Google and IBM offer basic AI training for free via their YouTube channel and website (such as online at Microsoft Learn 33, Grow with Google 34 or IBM Training 35), often in partnership with organisations such as LinkedIn Learning, Coursera and edX. In September 2023, IBM also announced a plan to help close the AI skills gap by training 2 million people in AI by the end of 2026, with a focus on underrepresented communities 36. To achieve this goal IBM"
+        }
+      ]
+    }
+  ],
+  "300_word_chunks": [
+    {
+      "chunk_size": 300,
+      "question_id": 1,
+      "question": "What three components explain how modern AI systems can exhibit intelligent behaviour?",
+      "correct_answer": "The report identifies advanced algorithms, data, and computing power as the three components.",
+      "gold_page": 8,
+      "source_passage": "These three components of advanced algorithms, data and computing power explain how machines can exhibit intelligent behaviour.",
+      "matched_rank": 3,
+      "matched_score": 0.5494,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5723063349723816,
+          "page": 20,
+          "chunk_id": "p20_w280",
+          "text": "as Algorithms + Data + Compute (rather than computing power) to reflect the essential elements of AI. As these three core components of AI get increasingly more capable, accessible and affordable to businesses and the public, what AI can really achieve in the future is yet to be determined!"
+        },
+        {
+          "rank": 2,
+          "score": 0.5507242679595947,
+          "page": 7,
+          "chunk_id": "p7_w280",
+          "text": "ARTIFICIAL INTELLIGENCE & WHY THERE IS GLOBAL INTEREST NOW One of the most important aspects of AI is that it is a multi-use technology. Like electricity it can be applied in lots of different ways, to lots of different scenarios. There is no single, universally accepted definition for Artificial Intelligence, but the Oxford English Dictionary defines AI as “the capacity of computers, or other machines, to exhibit intelligent behaviour”. This means AI systems appear to think, learn and act like humans and in some cases exceed the capabilities of humans. AI systems can analyse vast amounts of data, solve complex problems, make decisions and perform creative tasks. FAKE FAKE"
+        },
+        {
+          "rank": 3,
+          "score": 0.5493524670600891,
+          "page": 8,
+          "chunk_id": "p8_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 8 < Contents | Some AI technologies have been around for more than 50 years, but advances in computing power, the availability of enormous quantities of data and new developments in software algorithms have led to major AI breakthroughs in recent years. It is these three components of advanced algorithms, data and computing power, that explain how machines can exhibit intelligent behaviour and why AI has suddenly exploded into our everyday lives. Algorithms tell computers what to do. Data tells computers what to learn. Computing power gives machines the power to learn and make decisions ALGORITHMS : THE BRAINS OF AI ‘Traditional programming’ involves encoding human knowledge and experience into a set of precise rules that a computer can follow, step-by-step, which make the computer appear to respond intelligently. These rules, called algorithms, tell computers how to perform tasks and in traditional programming are often expressed in an ‘IF-THEN-ELSE’ format, which resembles a decision tree. For example to create a ‘digital doctor’, an algorithm might look like: IF the patient has a fever THEN prescribe Drug X ELSE send the patient home The intelligence in traditional computer systems comes directly from human knowledge and expertise being recorded into a format that a computer can process. Humans can read this ‘computer code’ and understand how these digital systems make specific decisions and can therefore identify mistakes and improve the system. For example, in the ‘digital doctor’ scenario, new clauses could be added to deal with special cases, or to reflect new medical knowledge. For example: IF the patient has a fever AND is allergic to Drug X THEN prescribe Drug Y ELSE prescribe Drug X"
+        },
+        {
+          "rank": 4,
+          "score": 0.5263364315032959,
+          "page": 35,
+          "chunk_id": "p35_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 35 ANNEX : AI TERMINOLOGY AI has introduced many new concepts and technical terms into business and everyday language. The below table summarises some key terms that would be helpful for every business leader to have a basic appreciation of at a high level. By understanding the basics of these concepts it will help to ground AI systems into practical situations that business leaders can relate to. Description Examples Narrow AI Narrow AI (sometimes called weak AI) is a type of AI that is designed to only perform a specific task, or set of tasks. Examples of narrow AI include smart speaker voice assistants, computers capable of playing chess, or AI medical systems able to analyse images and detect cancer. These are narrow AI examples as they are only able to perform tasks that they have been specifically trained for – for example the AI medical imager is not able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can rival human intelligence in all aspects, remains a theoretical concept and has not yet been achieved. True general AI would also require the AI to be able to interact with the real world (to perform tasks humans can do) and"
+        },
+        {
+          "rank": 5,
+          "score": 0.48138439655303955,
+          "page": 11,
+          "chunk_id": "p11_w280",
+          "text": "to raise international awareness of the potential for machines to think and behave like humans. Whether an AI system uses machine learning, or deep learning techniques to ‘learn’, there are different ways that AI algorithms can be ‘trained’, but the most common approaches are: • Comparing AI-generated outcomes or predictions to the correct answer: this is known as ‘Supervised Learning’ in which Al models are trained on data that has been correctly labelled (for example an AI animal recognition system could be trained on images of animals correctly labelled as cats or dogs). • Finding patterns in data: this is known as ‘Unsupervised Learning’ in which AI models are trained on data that has not been labelled. In this case the AI system learns by finding patterns in the data (for example edges, shapes, features, or colours in images of animals that are common to cats or dogs). • Trial & Error: this is known as ‘Reinforcement Learning’ in which AI models ‘learn by doing’. Each outcome of the AI training is either mathematically rewarded or punished, in a ‘trial and error’ feedback loop (for example an AI animal recognition system that identified a certain breed of dog as a cat would be ‘punished’, but ‘rewarded’ it if correctly identified it as a dog, even though it had not seen that breed before)"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 2,
+      "question": "How does traditional programming differ from AI systems according to the report?",
+      "correct_answer": "Traditional programming follows explicitly coded rules and steps; AI learns how to solve a problem by examining training data rather than following explicitly pre-programmed decision points.",
+      "gold_page": 9,
+      "source_passage": "Unlike traditional programming, AI systems are not explicitly coded in a series of precise steps, but instead ‘learn’ how to solve a problem by examining training data.",
+      "matched_rank": 2,
+      "matched_score": 0.4818,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.4995218515396118,
+          "page": 8,
+          "chunk_id": "p8_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 8 < Contents | Some AI technologies have been around for more than 50 years, but advances in computing power, the availability of enormous quantities of data and new developments in software algorithms have led to major AI breakthroughs in recent years. It is these three components of advanced algorithms, data and computing power, that explain how machines can exhibit intelligent behaviour and why AI has suddenly exploded into our everyday lives. Algorithms tell computers what to do. Data tells computers what to learn. Computing power gives machines the power to learn and make decisions ALGORITHMS : THE BRAINS OF AI ‘Traditional programming’ involves encoding human knowledge and experience into a set of precise rules that a computer can follow, step-by-step, which make the computer appear to respond intelligently. These rules, called algorithms, tell computers how to perform tasks and in traditional programming are often expressed in an ‘IF-THEN-ELSE’ format, which resembles a decision tree. For example to create a ‘digital doctor’, an algorithm might look like: IF the patient has a fever THEN prescribe Drug X ELSE send the patient home The intelligence in traditional computer systems comes directly from human knowledge and expertise being recorded into a format that a computer can process. Humans can read this ‘computer code’ and understand how these digital systems make specific decisions and can therefore identify mistakes and improve the system. For example, in the ‘digital doctor’ scenario, new clauses could be added to deal with special cases, or to reflect new medical knowledge. For example: IF the patient has a fever AND is allergic to Drug X THEN prescribe Drug Y ELSE prescribe Drug X"
+        },
+        {
+          "rank": 2,
+          "score": 0.4817771315574646,
+          "page": 9,
+          "chunk_id": "p9_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 9 This example now starts to illustrate a key limitation of traditionally programmed systems. To develop a useful and reliable ‘digital doctor’, a huge number of rules and exceptions would be required that the system would very quickly become very large and very complicated. Thousands of IF-THEN-ELSE rules would still be unlikely to capture all of a real doctor’s expertise and experience gained over time. Therefore traditional programming of ‘intelligent systems’ is best suited to constrained environments which do not change much over time and where the rules can be strictly defined. A good example of this could be an intelligent ‘tax calculator’ which when presented with an individual’s financial income and other relevant circumstances could efficiently review a series of ‘IF-THEN-ELSE’ rules to calculate their tax liability. Traditional Programming Artificial Intelligence (AI) Unlike traditional programming, AI systems are not explicitly coded in a series of precise steps, but instead ‘learn’ how to solve a problem by examining training data. In the example above, a traditional programme (in red on the left) goes through a series of defined steps and pre-programmed decision points at A, B and C to reach an outcome D (in green), whereas in the AI example (in blue on the right) the system calculates the best route to the outcome (the snake to point 2) based on the data it has been trained on (at point 1), not on explicitly defined and pre-programmed decision points. AI systems can also continuously ‘learn from experience’ and therefore the route taken to the outcome might be different each time the AI system is run (like a car driver taking different routes through a city based on experience of traffic conditions at different times of day). Returning to a"
+        },
+        {
+          "rank": 3,
+          "score": 0.47368744015693665,
+          "page": 35,
+          "chunk_id": "p35_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 35 ANNEX : AI TERMINOLOGY AI has introduced many new concepts and technical terms into business and everyday language. The below table summarises some key terms that would be helpful for every business leader to have a basic appreciation of at a high level. By understanding the basics of these concepts it will help to ground AI systems into practical situations that business leaders can relate to. Description Examples Narrow AI Narrow AI (sometimes called weak AI) is a type of AI that is designed to only perform a specific task, or set of tasks. Examples of narrow AI include smart speaker voice assistants, computers capable of playing chess, or AI medical systems able to analyse images and detect cancer. These are narrow AI examples as they are only able to perform tasks that they have been specifically trained for – for example the AI medical imager is not able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can rival human intelligence in all aspects, remains a theoretical concept and has not yet been achieved. True general AI would also require the AI to be able to interact with the real world (to perform tasks humans can do) and"
+        },
+        {
+          "rank": 4,
+          "score": 0.45479127764701843,
+          "page": 7,
+          "chunk_id": "p7_w280",
+          "text": "ARTIFICIAL INTELLIGENCE & WHY THERE IS GLOBAL INTEREST NOW One of the most important aspects of AI is that it is a multi-use technology. Like electricity it can be applied in lots of different ways, to lots of different scenarios. There is no single, universally accepted definition for Artificial Intelligence, but the Oxford English Dictionary defines AI as “the capacity of computers, or other machines, to exhibit intelligent behaviour”. This means AI systems appear to think, learn and act like humans and in some cases exceed the capabilities of humans. AI systems can analyse vast amounts of data, solve complex problems, make decisions and perform creative tasks. FAKE FAKE"
+        },
+        {
+          "rank": 5,
+          "score": 0.4515724182128906,
+          "page": 33,
+          "chunk_id": "p33_w280",
+          "text": "also found that most business leaders estimate that implementing AI and automation within their company will require at least 40% of their workforce to re-skill over the next three years 32. But the thought of digitally retraining half, or more, of an entire workforce can seem like a daunting and expensive task. That is why organisations, such as Microsoft, Google and IBM offer basic AI training for free via their YouTube channel and website (such as online at Microsoft Learn 33, Grow with Google 34 or IBM Training 35), often in partnership with organisations such as LinkedIn Learning, Coursera and edX. In September 2023, IBM also announced a plan to help close the AI skills gap by training 2 million people in AI by the end of 2026, with a focus on underrepresented communities 36. To achieve this goal IBM is collaborating with universities and training providers around the world to deliver adult education and launching new generative AI coursework on topics such as ‘Prompt Writing’ and ‘Improving Customer Service with AI’ through IBM SkillsBuild 37. Many online creators are also making videos on how to use AI and there have been more than 1.7 billion views of videos related to AI tools on YouTube in 2023 alone 38. More sophisticated, paid for training courses are also available from several universities (both in person and online) and many training providers who may also offer consulting services to tailor training to your specific organisational needs. A simple, useful tool, for training an entire workforce can also be peer-to-peer training, where an employee who attends a training course (or workshop/seminar) shares the key learnings with other members of the team. Awareness training and co-mentoring, where teams coach each other and swap expertise in one-to-one sessions, can also allow organisations to make the"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 3,
+      "question": "What is Explainable AI trying to achieve?",
+      "correct_answer": "It seeks to understand and articulate how AI systems reach an output, improving trust and making the black box more transparent.",
+      "gold_page": 10,
+      "source_passage": "‘Explainable AI’ is therefore an active and ongoing field in which researchers are trying to understand and articulate how AI systems reach an output. This is crucial to improve trust in artificial intelligence systems.",
+      "matched_rank": 3,
+      "matched_score": 0.5924,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6209862232208252,
+          "page": 35,
+          "chunk_id": "p35_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 35 ANNEX : AI TERMINOLOGY AI has introduced many new concepts and technical terms into business and everyday language. The below table summarises some key terms that would be helpful for every business leader to have a basic appreciation of at a high level. By understanding the basics of these concepts it will help to ground AI systems into practical situations that business leaders can relate to. Description Examples Narrow AI Narrow AI (sometimes called weak AI) is a type of AI that is designed to only perform a specific task, or set of tasks. Examples of narrow AI include smart speaker voice assistants, computers capable of playing chess, or AI medical systems able to analyse images and detect cancer. These are narrow AI examples as they are only able to perform tasks that they have been specifically trained for – for example the AI medical imager is not able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can rival human intelligence in all aspects, remains a theoretical concept and has not yet been achieved. True general AI would also require the AI to be able to interact with the real world (to perform tasks humans can do) and"
+        },
+        {
+          "rank": 2,
+          "score": 0.5949251651763916,
+          "page": 9,
+          "chunk_id": "p9_w280",
+          "text": "taking different routes through a city based on experience of traffic conditions at different times of day). Returning to a ‘digital doctor’ example, an ‘AI digital doctor’ could be trained on thousands (or millions!) of medical scans from sick and well patients to learn how to detect tumours, without following pre-defined rules which are otherwise very difficult to codify and write. Many human doctors may say that experience plays a significant role in clinical diagnosis, but an AI system can be trained on far more x-ray images than a doctor could ever experience, leading to AI systems having remarkable capabilities in areas such as breast cancer detection. For example a Swedish AI study in 2023 found that AI-supported breast cancer screening (the analysis of mammogram images) was as good as two radiologists working together 2. It also reduced their workload by 50% and led to 20% more cancers being detected early for treatment 3. This illustrates some of the incredible capabilities of AI and its benefit to society. But this also leads to an important concept in AI called ‘Explainable AI’. It is possible to verify the output of an AI system as correct (for example did a patient really have cancer or not), but it may not be possible to know exactly how the AI system got to a decision or outcome, as the AI has calculated the ‘interim steps’ (e.g. the blue snake in the diagram above) by itself, without human programming of the specific steps to be taken. AI systems are therefore sometimes referred to as ‘black boxes’ with details of exactly how they work and operate - in some cases - not fully known, or understood. This can even include their developers, as they too can often only verify the output and not the steps taken"
+        },
+        {
+          "rank": 3,
+          "score": 0.5923624038696289,
+          "page": 10,
+          "chunk_id": "p10_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 10 < Contents | ‘Explainable AI’ is therefore an active and ongoing field in which researchers are trying to understand and articulate how AI systems reach an output. This is crucial to improve trust in artificial intelligence systems (i.e. to understand the magic inside the black box and to turn a ‘black box’ into a ‘glass box’). The ‘digital doctor’ example nicely illustrates why ‘explainable AI’ is so important (in this case for both the patient and the doctor) to understand why an AI system has made a decision and believes a patient has breast cancer before sending them for intrusive cancer treatment. When considering how an AI system is constructed, there are two primary methods for how an AI system ‘learns’ to perform a task, which are machine learning and deep learning. • Machine Learning : Machine Learning (ML) systems can learn from huge amounts of data and continuously improve their performance over time when provided with more and/or better quality training data. With this ‘knowledge’ gained from training data, machine learning powered AI systems can then make predictions (such as for weather forecasting), or recognise patterns in data (such as for image and speech recognition). • Deep Learning : Deep Learning (DL) is a more sophisticated subset of Machine Learning and uses complex processes inspired by the human brain called Artificial Neural Networks (ANN). How neutral networks function is beyond the scope of this ‘Introduction to AI’ report, but deep learning systems can excel at very complex tasks such as generating new works of art and medical drug discovery."
+        },
+        {
+          "rank": 4,
+          "score": 0.5767344236373901,
+          "page": 7,
+          "chunk_id": "p7_w280",
+          "text": "ARTIFICIAL INTELLIGENCE & WHY THERE IS GLOBAL INTEREST NOW One of the most important aspects of AI is that it is a multi-use technology. Like electricity it can be applied in lots of different ways, to lots of different scenarios. There is no single, universally accepted definition for Artificial Intelligence, but the Oxford English Dictionary defines AI as “the capacity of computers, or other machines, to exhibit intelligent behaviour”. This means AI systems appear to think, learn and act like humans and in some cases exceed the capabilities of humans. AI systems can analyse vast amounts of data, solve complex problems, make decisions and perform creative tasks. FAKE FAKE"
+        },
+        {
+          "rank": 5,
+          "score": 0.5734485983848572,
+          "page": 8,
+          "chunk_id": "p8_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 8 < Contents | Some AI technologies have been around for more than 50 years, but advances in computing power, the availability of enormous quantities of data and new developments in software algorithms have led to major AI breakthroughs in recent years. It is these three components of advanced algorithms, data and computing power, that explain how machines can exhibit intelligent behaviour and why AI has suddenly exploded into our everyday lives. Algorithms tell computers what to do. Data tells computers what to learn. Computing power gives machines the power to learn and make decisions ALGORITHMS : THE BRAINS OF AI ‘Traditional programming’ involves encoding human knowledge and experience into a set of precise rules that a computer can follow, step-by-step, which make the computer appear to respond intelligently. These rules, called algorithms, tell computers how to perform tasks and in traditional programming are often expressed in an ‘IF-THEN-ELSE’ format, which resembles a decision tree. For example to create a ‘digital doctor’, an algorithm might look like: IF the patient has a fever THEN prescribe Drug X ELSE send the patient home The intelligence in traditional computer systems comes directly from human knowledge and expertise being recorded into a format that a computer can process. Humans can read this ‘computer code’ and understand how these digital systems make specific decisions and can therefore identify mistakes and improve the system. For example, in the ‘digital doctor’ scenario, new clauses could be added to deal with special cases, or to reflect new medical knowledge. For example: IF the patient has a fever AND is allergic to Drug X THEN prescribe Drug Y ELSE prescribe Drug X"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 4,
+      "question": "What is the difference between machine learning and deep learning?",
+      "correct_answer": "Machine learning learns from data to make predictions or recognise patterns. Deep learning is a more sophisticated subset of machine learning that uses artificial neural networks inspired by the human brain.",
+      "gold_page": 10,
+      "source_passage": "Deep Learning is a more sophisticated subset of Machine Learning and uses complex processes inspired by the human brain called Artificial Neural Networks (ANN).",
+      "matched_rank": 1,
+      "matched_score": 0.5328,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5327862501144409,
+          "page": 10,
+          "chunk_id": "p10_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 10 < Contents | ‘Explainable AI’ is therefore an active and ongoing field in which researchers are trying to understand and articulate how AI systems reach an output. This is crucial to improve trust in artificial intelligence systems (i.e. to understand the magic inside the black box and to turn a ‘black box’ into a ‘glass box’). The ‘digital doctor’ example nicely illustrates why ‘explainable AI’ is so important (in this case for both the patient and the doctor) to understand why an AI system has made a decision and believes a patient has breast cancer before sending them for intrusive cancer treatment. When considering how an AI system is constructed, there are two primary methods for how an AI system ‘learns’ to perform a task, which are machine learning and deep learning. • Machine Learning : Machine Learning (ML) systems can learn from huge amounts of data and continuously improve their performance over time when provided with more and/or better quality training data. With this ‘knowledge’ gained from training data, machine learning powered AI systems can then make predictions (such as for weather forecasting), or recognise patterns in data (such as for image and speech recognition). • Deep Learning : Deep Learning (DL) is a more sophisticated subset of Machine Learning and uses complex processes inspired by the human brain called Artificial Neural Networks (ANN). How neutral networks function is beyond the scope of this ‘Introduction to AI’ report, but deep learning systems can excel at very complex tasks such as generating new works of art and medical drug discovery."
+        },
+        {
+          "rank": 2,
+          "score": 0.48179861903190613,
+          "page": 11,
+          "chunk_id": "p11_w280",
+          "text": "to raise international awareness of the potential for machines to think and behave like humans. Whether an AI system uses machine learning, or deep learning techniques to ‘learn’, there are different ways that AI algorithms can be ‘trained’, but the most common approaches are: • Comparing AI-generated outcomes or predictions to the correct answer: this is known as ‘Supervised Learning’ in which Al models are trained on data that has been correctly labelled (for example an AI animal recognition system could be trained on images of animals correctly labelled as cats or dogs). • Finding patterns in data: this is known as ‘Unsupervised Learning’ in which AI models are trained on data that has not been labelled. In this case the AI system learns by finding patterns in the data (for example edges, shapes, features, or colours in images of animals that are common to cats or dogs). • Trial & Error: this is known as ‘Reinforcement Learning’ in which AI models ‘learn by doing’. Each outcome of the AI training is either mathematically rewarded or punished, in a ‘trial and error’ feedback loop (for example an AI animal recognition system that identified a certain breed of dog as a cat would be ‘punished’, but ‘rewarded’ it if correctly identified it as a dog, even though it had not seen that breed before)"
+        },
+        {
+          "rank": 3,
+          "score": 0.46556156873703003,
+          "page": 36,
+          "chunk_id": "p36_w280",
+          "text": "to identify using traditional machine learning techniques. A bank could use deep learning algorithms to detect fraudulent transactions, by identifying patterns in complex financial data. Predictive AI Predictive AI is the general term for a type of AI that uses data with either machine learning, or deep learning, to forecast future outcomes or behaviours. An airline could use predictive AI to forecast future ticket demands and optimise its pricing and sales strategy, or a retailer could use predictive AI to forecast the future demand for products, which would help them to make informed decisions on stock management and production planning Generative AI Generative AI is the general term for AI systems that can create new and original material such as text, images, video or audio, which resembles human created content. The roll out of Generative AI capabilities to the public is widely regarding as launching the current global interest in AI. AI chatbots are a form of Generative AI. A business could use generative AI tools to produce product descriptions, press releases or marketing copy, whereas a media company could use Generative AI to compose new music, or develop visual advertising materials."
+        },
+        {
+          "rank": 4,
+          "score": 0.3850198984146118,
+          "page": 14,
+          "chunk_id": "p14_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 14 < Contents | This exponential rise in the quantity, availability, quality and diversity of data around the globe is powering the current wave of AI technology. Data provides the information required for AI models to learn and improve, and is the fuel for AI systems to undertake very complex tasks at scale. In particular ‘big data’ supports the rise of AI in the following ways : 1. Training Data: AI systems require substantial amounts of training data to learn patterns. This makes their predictions and decisions more accurate, which is especially important in areas such as self-driving cars where massive datasets of images and videos, from many different road scenarios, are captured and used to train AI algorithms, which can then perceive and navigate complex environments by themselves. 2. Feature Extraction: large and diverse datasets help AI algorithms to accurately identify and extract features from within data. This enables more accurate insights from AI systems, such as AI powered image recognition tools. 3. Model Performance: big data enhances the performance and robustness of AI models, allowing them to handle a wide range of situations and inputs. This is especially important in sectors such as healthcare, where AI systems can analyse extensive patient and medical data to assist in diagnosis, treatment and drug discovery. 4. Predictive Analytics: large datasets and AI can be used by businesses to forecast trends, customer behaviour and market shifts. This provides companies with actionable insights and helps with corporate decision making. 5. Personalisation: when AI systems can access large volumes of data on human behaviours, preferences, and interactions they can provide tailored suggestions and experiences for users. This is useful for e-commerce and social media platforms to suggest products, content, or services tailored to an individual user."
+        },
+        {
+          "rank": 5,
+          "score": 0.3812221884727478,
+          "page": 35,
+          "chunk_id": "p35_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 35 ANNEX : AI TERMINOLOGY AI has introduced many new concepts and technical terms into business and everyday language. The below table summarises some key terms that would be helpful for every business leader to have a basic appreciation of at a high level. By understanding the basics of these concepts it will help to ground AI systems into practical situations that business leaders can relate to. Description Examples Narrow AI Narrow AI (sometimes called weak AI) is a type of AI that is designed to only perform a specific task, or set of tasks. Examples of narrow AI include smart speaker voice assistants, computers capable of playing chess, or AI medical systems able to analyse images and detect cancer. These are narrow AI examples as they are only able to perform tasks that they have been specifically trained for – for example the AI medical imager is not able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can rival human intelligence in all aspects, remains a theoretical concept and has not yet been achieved. True general AI would also require the AI to be able to interact with the real world (to perform tasks humans can do) and"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 5,
+      "question": "How are supervised, unsupervised, and reinforcement learning distinguished?",
+      "correct_answer": "Supervised learning uses correctly labelled data; unsupervised learning finds patterns in unlabelled data; reinforcement learning learns through trial and error using rewards or penalties.",
+      "gold_page": 11,
+      "source_passage": "Supervised Learning: AI models are trained on data that has been correctly labelled. Unsupervised Learning: AI models are trained on data that has not been labelled. Reinforcement Learning: AI models ‘learn by doing’ through a trial-and-error feedback loop.",
+      "matched_rank": 1,
+      "matched_score": 0.544,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5440424680709839,
+          "page": 11,
+          "chunk_id": "p11_w280",
+          "text": "to raise international awareness of the potential for machines to think and behave like humans. Whether an AI system uses machine learning, or deep learning techniques to ‘learn’, there are different ways that AI algorithms can be ‘trained’, but the most common approaches are: • Comparing AI-generated outcomes or predictions to the correct answer: this is known as ‘Supervised Learning’ in which Al models are trained on data that has been correctly labelled (for example an AI animal recognition system could be trained on images of animals correctly labelled as cats or dogs). • Finding patterns in data: this is known as ‘Unsupervised Learning’ in which AI models are trained on data that has not been labelled. In this case the AI system learns by finding patterns in the data (for example edges, shapes, features, or colours in images of animals that are common to cats or dogs). • Trial & Error: this is known as ‘Reinforcement Learning’ in which AI models ‘learn by doing’. Each outcome of the AI training is either mathematically rewarded or punished, in a ‘trial and error’ feedback loop (for example an AI animal recognition system that identified a certain breed of dog as a cat would be ‘punished’, but ‘rewarded’ it if correctly identified it as a dog, even though it had not seen that breed before)"
+        },
+        {
+          "rank": 2,
+          "score": 0.37323781847953796,
+          "page": 21,
+          "chunk_id": "p21_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 21 TYPES OF ARTIFICIAL INTELLIGENCE As noted at the start of this chapter, artificial intelligence is a multi-use technology, with many different applications. There are therefore different ways that AI systems can be categorised, but they are normally segmented into one of three categories - either by the way they learn, by their capabilities or by their functionality. The previous section of this report summarised the different ways that AI systems can be categorised based on the way they learn. This includes machine learning and deep learning, with different techniques for training these AI systems including supervised learning, unsupervised learning and reinforcement learning. The second useful way to group, or classify, an AI system is based on its capability, which means an AI system delivers either artificial narrow intelligence (ANI), artificial general intelligence (AGI), or artificial super intelligence (ASI)."
+        },
+        {
+          "rank": 3,
+          "score": 0.36870577931404114,
+          "page": 10,
+          "chunk_id": "p10_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 10 < Contents | ‘Explainable AI’ is therefore an active and ongoing field in which researchers are trying to understand and articulate how AI systems reach an output. This is crucial to improve trust in artificial intelligence systems (i.e. to understand the magic inside the black box and to turn a ‘black box’ into a ‘glass box’). The ‘digital doctor’ example nicely illustrates why ‘explainable AI’ is so important (in this case for both the patient and the doctor) to understand why an AI system has made a decision and believes a patient has breast cancer before sending them for intrusive cancer treatment. When considering how an AI system is constructed, there are two primary methods for how an AI system ‘learns’ to perform a task, which are machine learning and deep learning. • Machine Learning : Machine Learning (ML) systems can learn from huge amounts of data and continuously improve their performance over time when provided with more and/or better quality training data. With this ‘knowledge’ gained from training data, machine learning powered AI systems can then make predictions (such as for weather forecasting), or recognise patterns in data (such as for image and speech recognition). • Deep Learning : Deep Learning (DL) is a more sophisticated subset of Machine Learning and uses complex processes inspired by the human brain called Artificial Neural Networks (ANN). How neutral networks function is beyond the scope of this ‘Introduction to AI’ report, but deep learning systems can excel at very complex tasks such as generating new works of art and medical drug discovery."
+        },
+        {
+          "rank": 4,
+          "score": 0.3487236797809601,
+          "page": 36,
+          "chunk_id": "p36_w280",
+          "text": "to identify using traditional machine learning techniques. A bank could use deep learning algorithms to detect fraudulent transactions, by identifying patterns in complex financial data. Predictive AI Predictive AI is the general term for a type of AI that uses data with either machine learning, or deep learning, to forecast future outcomes or behaviours. An airline could use predictive AI to forecast future ticket demands and optimise its pricing and sales strategy, or a retailer could use predictive AI to forecast the future demand for products, which would help them to make informed decisions on stock management and production planning Generative AI Generative AI is the general term for AI systems that can create new and original material such as text, images, video or audio, which resembles human created content. The roll out of Generative AI capabilities to the public is widely regarding as launching the current global interest in AI. AI chatbots are a form of Generative AI. A business could use generative AI tools to produce product descriptions, press releases or marketing copy, whereas a media company could use Generative AI to compose new music, or develop visual advertising materials."
+        },
+        {
+          "rank": 5,
+          "score": 0.315270334482193,
+          "page": 8,
+          "chunk_id": "p8_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 8 < Contents | Some AI technologies have been around for more than 50 years, but advances in computing power, the availability of enormous quantities of data and new developments in software algorithms have led to major AI breakthroughs in recent years. It is these three components of advanced algorithms, data and computing power, that explain how machines can exhibit intelligent behaviour and why AI has suddenly exploded into our everyday lives. Algorithms tell computers what to do. Data tells computers what to learn. Computing power gives machines the power to learn and make decisions ALGORITHMS : THE BRAINS OF AI ‘Traditional programming’ involves encoding human knowledge and experience into a set of precise rules that a computer can follow, step-by-step, which make the computer appear to respond intelligently. These rules, called algorithms, tell computers how to perform tasks and in traditional programming are often expressed in an ‘IF-THEN-ELSE’ format, which resembles a decision tree. For example to create a ‘digital doctor’, an algorithm might look like: IF the patient has a fever THEN prescribe Drug X ELSE send the patient home The intelligence in traditional computer systems comes directly from human knowledge and expertise being recorded into a format that a computer can process. Humans can read this ‘computer code’ and understand how these digital systems make specific decisions and can therefore identify mistakes and improve the system. For example, in the ‘digital doctor’ scenario, new clauses could be added to deal with special cases, or to reflect new medical knowledge. For example: IF the patient has a fever AND is allergic to Drug X THEN prescribe Drug Y ELSE prescribe Drug X"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 6,
+      "question": "What are the four Vs used to characterise Big Data?",
+      "correct_answer": "Volume, velocity, variety, and veracity.",
+      "gold_page": 13,
+      "source_passage": "Big Data is characterised by its volume, velocity, variety and veracity, commonly referred to as the 4 V’s.",
+      "matched_rank": 1,
+      "matched_score": 0.4637,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.4637244641780853,
+          "page": 13,
+          "chunk_id": "p13_w280",
+          "text": "as TikTok and YouTube account for over half of all internet traffic. Social data is rising at an incredible pace, but is also very useful for AI systems to understand human behaviour. 3. New data collection and storage technologies: new technologies, such as sensors placed throughout our cities, energy grids and transport infrastructure, are generating huge amounts of data on human usage patterns. Similarly the ‘Internet of Things (IoT)’, which are the networked everyday items (such as fitness trackers and Smart TV’s) are growing in popularity and producing new streams of data. The CISCO Annual Internet Report 2023 estimates that of the 29.3 billion connected devices, 14.7 billion are IoT devices. Nearly 50% of these are connected home appliances (such as home security systems) and 30% are connected car applications (such as networked vehicle diagnostics tools, emergency calling systems and in car entertainment platforms). This volume of data is also leading to a significant rise in cloud computing and data storage centres, with the U.S. hosting 10x more data centres than any other country in the world (in 2023) 8. These extremely large and very complex datasets are often called ‘Big Data’ and are characterised by their volume, velocity, variety and veracity, commonly referred to as the 4 V ’s."
+        },
+        {
+          "rank": 2,
+          "score": 0.4272887706756592,
+          "page": 15,
+          "chunk_id": "p15_w280",
+          "text": "each system has its advantages. For example: AI applied with a data warehouse could: • Optimise pricing strategies, based on historical booking data • Predict customer preferences and recommend personalised travel packages AI applied with a data lake could: • Analyse social media sentiment to gauge public opinion on different travel destinations • Use image recognition with social media photos to identify the most popular tourist attractions • Analyse customer feedback to identify areas of concern and improve customer services The combination of AI, data warehouses, data lakes and cloud infrastructure, provides a scalable and flexible environment for managing and gleaning insights from different forms of big data. Used together they can help a travel company provide amazing and personalised travel experiences!"
+        },
+        {
+          "rank": 3,
+          "score": 0.395081102848053,
+          "page": 15,
+          "chunk_id": "p15_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 15 Companies have been working towards becoming more data-driven for many years, with some now using cloud computing to store and manage their vast quantities of data on remote cloud-based servers (rather than on premises computers), in either ‘data lakes’ or ‘data warehouses’ (or both). A data warehouse is a repository that stores structured data, in a highly organised and optimised way. They can be thought of as very large, neatly organised, filing cabinets Data warehouses could store information such as booking data, hotel occupancy rates, flight schedules, pricing information, financial transactions, web traffic statistics or marketing campaign performance data. This structured way of storage can be easily searched and is very good at quickly finding specific pieces of information such as “how many people booked trips to the Caribbean last year?” or “what was the average cost of a hotel room in Paris this summer?” . Alternatively a data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos, customer feedback surveys, or online reviews. A data lake can be thought of as a big, open room, into which all sorts of information can be thrown, in an unstructured and disorganised manner. This form of storage is good for collecting many different types of data and for keeping all the relevant information (within privacy limits), even when you’re not sure how, or when, it could be used in the future. When the best aspects of a data warehouse and data lake are merged into one data management solution it is called a data lakehouse. The application of AI to each system has its advantages. For example: AI applied with a data warehouse could: • Optimise pricing strategies, based on"
+        },
+        {
+          "rank": 4,
+          "score": 0.3939996361732483,
+          "page": 13,
+          "chunk_id": "p13_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 13 The volume of digital data in the world is rising so fast, and getting so large, that in 2022 scientists formally agreed two new units of measurement for the first time in 31 years. These are the Ronnabyte (RB) and the Quettabyte (QB). A Ronnabyte is a billion, billion, billion bytes (!) and a Quettabyte is a thousand Ronnabytes…or 1 followed by 30 zeros! Scientists believe this will be sufficient for at least the next 25 years, but the relentless pace of digital innovation means we may all be using Quettabytes quicker than anyone expected! Data Bytes Size 1 Ronnabyte (RB) 1,000,000,000,000,000,000,000,000,000 1027 1 Quettabyte (QB) 1,000,000,000,000,000,000,000,000,000,000 1030 This data explosion is largely driven by three factors: 1. Increasing numbers of smartphones and internet devices: the number of devices connected to the internet grows every year. There are several estimates for the total number of networked devices in the world, but all agree that it is many billions of devices. The CISCO Annual Internet Report 2023 7 estimates there are 29.3 billion networked devices in the world, which is more than 3 x the global population of 8 billion people (in 2023). 2. Growth of social media: social media platforms generate many terabytes of text, video and audio data every day (1 terabyte = approximately 1500 CD’s) with billions of messages and posts made every minute. In 2020, during the height of the COVID-19 pandemic, the Head of WhatsApp (Will Catchcart) issued a tweet stating that approximately 100 billion messages were being exchanged every day on WhatsApp alone and it is estimated that videos shared on platforms such as TikTok and YouTube account for over half of all internet traffic. Social data is rising at an incredible pace,"
+        },
+        {
+          "rank": 5,
+          "score": 0.36634108424186707,
+          "page": 12,
+          "chunk_id": "p12_w280",
+          "text": "years). To put that in context, a top-of-the-range laptop in 2024 may come with a 1 terabyte hard drive, which is a billion times smaller than a zettabyte. Therefore the volume of global data produced in a single year in 2025, may be equivalent to 175 billion laptop computers.…or 21 laptops for every person on earth! Data Bytes Size 1 Kilobyte (KB) 1,000 103 1 Megabyte (MB) 1,000,000 106 1 Gigabyte (GB) 1,000,000,000 109 1 Terabyte (TB) 1,000,000,000,000 1012 1 Petabyte (PB) 1,000,000,000,000,000 1015 1 Exabyte (EB) 1,000,000,000,000,000,000 1018 1 Zettabyte (ZB) 1,000,000,000,000,000,000,000 1021"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 7,
+      "question": "What is the difference between a data warehouse and a data lake?",
+      "correct_answer": "A data warehouse stores structured data in an organised and optimised way. A data lake stores many types of unstructured data, such as posts, images, videos, surveys, and reviews.",
+      "gold_page": 15,
+      "source_passage": "A data warehouse is a repository that stores structured data, in a highly organised and optimised way. Alternatively a data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos, customer feedback surveys, or online reviews.",
+      "matched_rank": 1,
+      "matched_score": 0.6065,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6065491437911987,
+          "page": 15,
+          "chunk_id": "p15_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 15 Companies have been working towards becoming more data-driven for many years, with some now using cloud computing to store and manage their vast quantities of data on remote cloud-based servers (rather than on premises computers), in either ‘data lakes’ or ‘data warehouses’ (or both). A data warehouse is a repository that stores structured data, in a highly organised and optimised way. They can be thought of as very large, neatly organised, filing cabinets Data warehouses could store information such as booking data, hotel occupancy rates, flight schedules, pricing information, financial transactions, web traffic statistics or marketing campaign performance data. This structured way of storage can be easily searched and is very good at quickly finding specific pieces of information such as “how many people booked trips to the Caribbean last year?” or “what was the average cost of a hotel room in Paris this summer?” . Alternatively a data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos, customer feedback surveys, or online reviews. A data lake can be thought of as a big, open room, into which all sorts of information can be thrown, in an unstructured and disorganised manner. This form of storage is good for collecting many different types of data and for keeping all the relevant information (within privacy limits), even when you’re not sure how, or when, it could be used in the future. When the best aspects of a data warehouse and data lake are merged into one data management solution it is called a data lakehouse. The application of AI to each system has its advantages. For example: AI applied with a data warehouse could: • Optimise pricing strategies, based on"
+        },
+        {
+          "rank": 2,
+          "score": 0.5897849798202515,
+          "page": 15,
+          "chunk_id": "p15_w280",
+          "text": "each system has its advantages. For example: AI applied with a data warehouse could: • Optimise pricing strategies, based on historical booking data • Predict customer preferences and recommend personalised travel packages AI applied with a data lake could: • Analyse social media sentiment to gauge public opinion on different travel destinations • Use image recognition with social media photos to identify the most popular tourist attractions • Analyse customer feedback to identify areas of concern and improve customer services The combination of AI, data warehouses, data lakes and cloud infrastructure, provides a scalable and flexible environment for managing and gleaning insights from different forms of big data. Used together they can help a travel company provide amazing and personalised travel experiences!"
+        },
+        {
+          "rank": 3,
+          "score": 0.39318525791168213,
+          "page": 13,
+          "chunk_id": "p13_w280",
+          "text": "as TikTok and YouTube account for over half of all internet traffic. Social data is rising at an incredible pace, but is also very useful for AI systems to understand human behaviour. 3. New data collection and storage technologies: new technologies, such as sensors placed throughout our cities, energy grids and transport infrastructure, are generating huge amounts of data on human usage patterns. Similarly the ‘Internet of Things (IoT)’, which are the networked everyday items (such as fitness trackers and Smart TV’s) are growing in popularity and producing new streams of data. The CISCO Annual Internet Report 2023 estimates that of the 29.3 billion connected devices, 14.7 billion are IoT devices. Nearly 50% of these are connected home appliances (such as home security systems) and 30% are connected car applications (such as networked vehicle diagnostics tools, emergency calling systems and in car entertainment platforms). This volume of data is also leading to a significant rise in cloud computing and data storage centres, with the U.S. hosting 10x more data centres than any other country in the world (in 2023) 8. These extremely large and very complex datasets are often called ‘Big Data’ and are characterised by their volume, velocity, variety and veracity, commonly referred to as the 4 V ’s."
+        },
+        {
+          "rank": 4,
+          "score": 0.31840741634368896,
+          "page": 13,
+          "chunk_id": "p13_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 13 The volume of digital data in the world is rising so fast, and getting so large, that in 2022 scientists formally agreed two new units of measurement for the first time in 31 years. These are the Ronnabyte (RB) and the Quettabyte (QB). A Ronnabyte is a billion, billion, billion bytes (!) and a Quettabyte is a thousand Ronnabytes…or 1 followed by 30 zeros! Scientists believe this will be sufficient for at least the next 25 years, but the relentless pace of digital innovation means we may all be using Quettabytes quicker than anyone expected! Data Bytes Size 1 Ronnabyte (RB) 1,000,000,000,000,000,000,000,000,000 1027 1 Quettabyte (QB) 1,000,000,000,000,000,000,000,000,000,000 1030 This data explosion is largely driven by three factors: 1. Increasing numbers of smartphones and internet devices: the number of devices connected to the internet grows every year. There are several estimates for the total number of networked devices in the world, but all agree that it is many billions of devices. The CISCO Annual Internet Report 2023 7 estimates there are 29.3 billion networked devices in the world, which is more than 3 x the global population of 8 billion people (in 2023). 2. Growth of social media: social media platforms generate many terabytes of text, video and audio data every day (1 terabyte = approximately 1500 CD’s) with billions of messages and posts made every minute. In 2020, during the height of the COVID-19 pandemic, the Head of WhatsApp (Will Catchcart) issued a tweet stating that approximately 100 billion messages were being exchanged every day on WhatsApp alone and it is estimated that videos shared on platforms such as TikTok and YouTube account for over half of all internet traffic. Social data is rising at an incredible pace,"
+        },
+        {
+          "rank": 5,
+          "score": 0.31695491075515747,
+          "page": 12,
+          "chunk_id": "p12_w280",
+          "text": "years). To put that in context, a top-of-the-range laptop in 2024 may come with a 1 terabyte hard drive, which is a billion times smaller than a zettabyte. Therefore the volume of global data produced in a single year in 2025, may be equivalent to 175 billion laptop computers.…or 21 laptops for every person on earth! Data Bytes Size 1 Kilobyte (KB) 1,000 103 1 Megabyte (MB) 1,000,000 106 1 Gigabyte (GB) 1,000,000,000 109 1 Terabyte (TB) 1,000,000,000,000 1012 1 Petabyte (PB) 1,000,000,000,000,000 1015 1 Exabyte (EB) 1,000,000,000,000,000,000 1018 1 Zettabyte (ZB) 1,000,000,000,000,000,000,000 1021"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 8,
+      "question": "Why are GPUs useful for AI and deep learning?",
+      "correct_answer": "GPUs can process tasks in parallel rather than sequentially, and this accelerated parallel processing is well suited to AI applications, especially deep learning.",
+      "gold_page": 16,
+      "source_passage": "A key innovation was their ability to process tasks in parallel (rather than sequentially as in normal computers) and it turns out the accelerated parallel processing required to create lifelike graphics in computer games and movies is ideal for powering AI applications and especially deep learning systems.",
+      "matched_rank": 1,
+      "matched_score": 0.6022,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6021630764007568,
+          "page": 16,
+          "chunk_id": "p16_w280",
+          "text": "exponential growth in the power of computer chips, which has enabled computers small enough, powerful enough and cheap enough to now sit on all of our desks and power the smartphones in our pockets. But to achieve AI breakthroughs required even more computing power. In the 1990’s a company called NVIDIA popularised the term ‘Graphics Processing Unit’ (GPU), which was typically an electronic circuit board that plugged into a computer to accelerate its power. This became a critical piece of technology for computer gamers (and later Hollywood), as it enabled very fast and realistic rendering of graphics and special effects. GPU chips led computer games to advance from pixilated images to realistic graphics in just a few years, to the point where they are now almost indistinguishable from real life. The images below show just how much computer graphics, powered by GPU chips, have improved in only the last 3 years. The rapid advance of GPU chips partly explains why now is a global moment for AI. As GPU technology evolved for computer games, a key innovation was their ability to process tasks in parallel (rather than sequentially as in normal computers) and it turns out the accelerated parallel processing required to create lifelike graphics in computer games and movies is ideal for powering AI applications and especially deep learning systems, such as sophisticated AI chatbots. Therefore GPU computer chips, originally from the gaming industry, eFootball Computer Game Graphics of Argentinian Lionel Messi Real Lionel Messi (2021 to 2023) 41"
+        },
+        {
+          "rank": 2,
+          "score": 0.43141502141952515,
+          "page": 10,
+          "chunk_id": "p10_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 10 < Contents | ‘Explainable AI’ is therefore an active and ongoing field in which researchers are trying to understand and articulate how AI systems reach an output. This is crucial to improve trust in artificial intelligence systems (i.e. to understand the magic inside the black box and to turn a ‘black box’ into a ‘glass box’). The ‘digital doctor’ example nicely illustrates why ‘explainable AI’ is so important (in this case for both the patient and the doctor) to understand why an AI system has made a decision and believes a patient has breast cancer before sending them for intrusive cancer treatment. When considering how an AI system is constructed, there are two primary methods for how an AI system ‘learns’ to perform a task, which are machine learning and deep learning. • Machine Learning : Machine Learning (ML) systems can learn from huge amounts of data and continuously improve their performance over time when provided with more and/or better quality training data. With this ‘knowledge’ gained from training data, machine learning powered AI systems can then make predictions (such as for weather forecasting), or recognise patterns in data (such as for image and speech recognition). • Deep Learning : Deep Learning (DL) is a more sophisticated subset of Machine Learning and uses complex processes inspired by the human brain called Artificial Neural Networks (ANN). How neutral networks function is beyond the scope of this ‘Introduction to AI’ report, but deep learning systems can excel at very complex tasks such as generating new works of art and medical drug discovery."
+        },
+        {
+          "rank": 3,
+          "score": 0.4306020736694336,
+          "page": 18,
+          "chunk_id": "p18_w280",
+          "text": "plant in Arizona (its first production facility outside of Taiwan) and Intel is building a new plant in Ohio, with tax credits provided by the US Chips & Science Act. Since 2016, Google has also developed its own chip that is specifically designed for AI, called a TPU (Tensor Processing Unit). Although GPU chips are at the core of most AI computing power today and can perform tasks in parallel, a TPU chip takes this a step further and can perform ‘matrix calculations’ which significantly accelerates machine learning tasks. These differences could be thought of like a traditional newspaper printing press – a normal laptop computer could print one letter at a time, a GPU chip could print a whole line of text at a time, and a TPU chip could print an entire page at a time. Example chip producers (not an exhaustive list)"
+        },
+        {
+          "rank": 4,
+          "score": 0.406494140625,
+          "page": 35,
+          "chunk_id": "p35_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 35 ANNEX : AI TERMINOLOGY AI has introduced many new concepts and technical terms into business and everyday language. The below table summarises some key terms that would be helpful for every business leader to have a basic appreciation of at a high level. By understanding the basics of these concepts it will help to ground AI systems into practical situations that business leaders can relate to. Description Examples Narrow AI Narrow AI (sometimes called weak AI) is a type of AI that is designed to only perform a specific task, or set of tasks. Examples of narrow AI include smart speaker voice assistants, computers capable of playing chess, or AI medical systems able to analyse images and detect cancer. These are narrow AI examples as they are only able to perform tasks that they have been specifically trained for – for example the AI medical imager is not able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can rival human intelligence in all aspects, remains a theoretical concept and has not yet been achieved. True general AI would also require the AI to be able to interact with the real world (to perform tasks humans can do) and"
+        },
+        {
+          "rank": 5,
+          "score": 0.3949701189994812,
+          "page": 19,
+          "chunk_id": "p19_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 19 CPU vs GPU vs TPU The ‘matrix’ capability of TPU chips makes them ideal for training and deploying very large AI models. They are already installed in many Google data centres, so when you use Google Translate today (which involves AI processing in the background), TPU’s are probably powering your query 14 15. The latest generation of Google TPU’s (TPU v5) are capable of nearly 400 trillion calculations per second! But despite this incredible ability, the real magic happens when thousands of chips are interconnected to create a single supercomputer that is capable of handling very demanding AI workloads. In 2020 Microsoft built the supercomputer used to train ChatGPT 16. It used 10,000 GPU chips and cost millions of dollars. At the time it was not only the largest supercomputer built in the public cloud, but also the 5th largest supercomputer ever built 17. Semiconductor chip technology and cloud infrastructure have only recently made such large scale, powerful supercomputers possible. But most members of the general public and users of AI chatbots (or other sophisticated AI systems) probably have no idea about the massive scale of computing power required behind the scenes to train and drive these advanced AI capabilities. These very large and very expensive supercomputers can take up entire warehouses of space and cost many millions of dollars to build and run. This has caused concern with some university academics and national governments who may not be able to afford these very large investments, or have the technological capability to build and operate supercomputers themselves. There is therefore a legitimate concern that the computing power required for AI may mean that AI cannot be studied by everyone, or benefit everyone in society. This disparity may lead"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 9,
+      "question": "How does the report distinguish a TPU from a GPU?",
+      "correct_answer": "The report says a TPU can perform matrix calculations that significantly accelerate machine-learning tasks; its analogy is that a GPU prints a line of text at a time while a TPU prints an entire page at a time.",
+      "gold_page": 18,
+      "source_passage": "A TPU chip takes this a step further and can perform ‘matrix calculations’ which significantly accelerates machine learning tasks.",
+      "matched_rank": 1,
+      "matched_score": 0.5377,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5377470850944519,
+          "page": 18,
+          "chunk_id": "p18_w280",
+          "text": "plant in Arizona (its first production facility outside of Taiwan) and Intel is building a new plant in Ohio, with tax credits provided by the US Chips & Science Act. Since 2016, Google has also developed its own chip that is specifically designed for AI, called a TPU (Tensor Processing Unit). Although GPU chips are at the core of most AI computing power today and can perform tasks in parallel, a TPU chip takes this a step further and can perform ‘matrix calculations’ which significantly accelerates machine learning tasks. These differences could be thought of like a traditional newspaper printing press – a normal laptop computer could print one letter at a time, a GPU chip could print a whole line of text at a time, and a TPU chip could print an entire page at a time. Example chip producers (not an exhaustive list)"
+        },
+        {
+          "rank": 2,
+          "score": 0.42169389128685,
+          "page": 16,
+          "chunk_id": "p16_w280",
+          "text": "exponential growth in the power of computer chips, which has enabled computers small enough, powerful enough and cheap enough to now sit on all of our desks and power the smartphones in our pockets. But to achieve AI breakthroughs required even more computing power. In the 1990’s a company called NVIDIA popularised the term ‘Graphics Processing Unit’ (GPU), which was typically an electronic circuit board that plugged into a computer to accelerate its power. This became a critical piece of technology for computer gamers (and later Hollywood), as it enabled very fast and realistic rendering of graphics and special effects. GPU chips led computer games to advance from pixilated images to realistic graphics in just a few years, to the point where they are now almost indistinguishable from real life. The images below show just how much computer graphics, powered by GPU chips, have improved in only the last 3 years. The rapid advance of GPU chips partly explains why now is a global moment for AI. As GPU technology evolved for computer games, a key innovation was their ability to process tasks in parallel (rather than sequentially as in normal computers) and it turns out the accelerated parallel processing required to create lifelike graphics in computer games and movies is ideal for powering AI applications and especially deep learning systems, such as sophisticated AI chatbots. Therefore GPU computer chips, originally from the gaming industry, eFootball Computer Game Graphics of Argentinian Lionel Messi Real Lionel Messi (2021 to 2023) 41"
+        },
+        {
+          "rank": 3,
+          "score": 0.34986481070518494,
+          "page": 19,
+          "chunk_id": "p19_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 19 CPU vs GPU vs TPU The ‘matrix’ capability of TPU chips makes them ideal for training and deploying very large AI models. They are already installed in many Google data centres, so when you use Google Translate today (which involves AI processing in the background), TPU’s are probably powering your query 14 15. The latest generation of Google TPU’s (TPU v5) are capable of nearly 400 trillion calculations per second! But despite this incredible ability, the real magic happens when thousands of chips are interconnected to create a single supercomputer that is capable of handling very demanding AI workloads. In 2020 Microsoft built the supercomputer used to train ChatGPT 16. It used 10,000 GPU chips and cost millions of dollars. At the time it was not only the largest supercomputer built in the public cloud, but also the 5th largest supercomputer ever built 17. Semiconductor chip technology and cloud infrastructure have only recently made such large scale, powerful supercomputers possible. But most members of the general public and users of AI chatbots (or other sophisticated AI systems) probably have no idea about the massive scale of computing power required behind the scenes to train and drive these advanced AI capabilities. These very large and very expensive supercomputers can take up entire warehouses of space and cost many millions of dollars to build and run. This has caused concern with some university academics and national governments who may not be able to afford these very large investments, or have the technological capability to build and operate supercomputers themselves. There is therefore a legitimate concern that the computing power required for AI may mean that AI cannot be studied by everyone, or benefit everyone in society. This disparity may lead"
+        },
+        {
+          "rank": 4,
+          "score": 0.2862173318862915,
+          "page": 9,
+          "chunk_id": "p9_w560",
+          "text": "This can even include their developers, as they too can often only verify the output and not the steps taken by the AI."
+        },
+        {
+          "rank": 5,
+          "score": 0.24669726192951202,
+          "page": 12,
+          "chunk_id": "p12_w280",
+          "text": "years). To put that in context, a top-of-the-range laptop in 2024 may come with a 1 terabyte hard drive, which is a billion times smaller than a zettabyte. Therefore the volume of global data produced in a single year in 2025, may be equivalent to 175 billion laptop computers.…or 21 laptops for every person on earth! Data Bytes Size 1 Kilobyte (KB) 1,000 103 1 Megabyte (MB) 1,000,000 106 1 Gigabyte (GB) 1,000,000,000 109 1 Terabyte (TB) 1,000,000,000,000 1012 1 Petabyte (PB) 1,000,000,000,000,000 1015 1 Exabyte (EB) 1,000,000,000,000,000,000 1018 1 Zettabyte (ZB) 1,000,000,000,000,000,000,000 1021"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 10,
+      "question": "What are the three capability-based categories of AI?",
+      "correct_answer": "Artificial Narrow Intelligence (ANI), Artificial General Intelligence (AGI), and Artificial Super Intelligence (ASI).",
+      "gold_page": 21,
+      "source_passage": "An AI system delivers either artificial narrow intelligence (ANI), artificial general intelligence (AGI), or artificial super intelligence (ASI).",
+      "matched_rank": "Not found",
+      "matched_score": null,
+      "success": false,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5626504421234131,
+          "page": 20,
+          "chunk_id": "p20_w280",
+          "text": "as Algorithms + Data + Compute (rather than computing power) to reflect the essential elements of AI. As these three core components of AI get increasingly more capable, accessible and affordable to businesses and the public, what AI can really achieve in the future is yet to be determined!"
+        },
+        {
+          "rank": 2,
+          "score": 0.5344617366790771,
+          "page": 35,
+          "chunk_id": "p35_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 35 ANNEX : AI TERMINOLOGY AI has introduced many new concepts and technical terms into business and everyday language. The below table summarises some key terms that would be helpful for every business leader to have a basic appreciation of at a high level. By understanding the basics of these concepts it will help to ground AI systems into practical situations that business leaders can relate to. Description Examples Narrow AI Narrow AI (sometimes called weak AI) is a type of AI that is designed to only perform a specific task, or set of tasks. Examples of narrow AI include smart speaker voice assistants, computers capable of playing chess, or AI medical systems able to analyse images and detect cancer. These are narrow AI examples as they are only able to perform tasks that they have been specifically trained for – for example the AI medical imager is not able to also play chess. Business leaders could use narrow AI systems to automate tasks such as repetitive data entry, transcribing speech, or recommending products. General AI General AI (sometimes called strong AI, of Artificial General Intelligence [AGI]) is a type of AI that is designed to perform any intellectual task that an ‘average’ human can do. Whilst sophisticated AI chatbots have been trained with very large non-topic specific datasets and are therefore able to do many impressive things and recognised by Microsoft researchers as able to exhibit early “sparks of artificial general intelligence” 39, true general AI, which can rival human intelligence in all aspects, remains a theoretical concept and has not yet been achieved. True general AI would also require the AI to be able to interact with the real world (to perform tasks humans can do) and"
+        },
+        {
+          "rank": 3,
+          "score": 0.5326962471008301,
+          "page": 7,
+          "chunk_id": "p7_w280",
+          "text": "ARTIFICIAL INTELLIGENCE & WHY THERE IS GLOBAL INTEREST NOW One of the most important aspects of AI is that it is a multi-use technology. Like electricity it can be applied in lots of different ways, to lots of different scenarios. There is no single, universally accepted definition for Artificial Intelligence, but the Oxford English Dictionary defines AI as “the capacity of computers, or other machines, to exhibit intelligent behaviour”. This means AI systems appear to think, learn and act like humans and in some cases exceed the capabilities of humans. AI systems can analyse vast amounts of data, solve complex problems, make decisions and perform creative tasks. FAKE FAKE"
+        },
+        {
+          "rank": 4,
+          "score": 0.5001317262649536,
+          "page": 35,
+          "chunk_id": "p35_w280",
+          "text": "also require the AI to be able to interact with the real world (to perform tasks humans can do) and therefore require embodiment – see next definition. While AI is advancing rapidly, it is important for business leaders to understand the current limitations of AI to manage expectations. Today’s AI business applications utilise narrow AI capable of on an individual task, or set of tasks, which can enhance or augment business capabilities. A true general AI assistant would be able to perform any office management task that a human could do and have transformative capabilities such as fully autonomous decision making, creative problem solving skills and an ability to conduct strategic planning across various business functions. This does not yet exist."
+        },
+        {
+          "rank": 5,
+          "score": 0.485331654548645,
+          "page": 31,
+          "chunk_id": "p31_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 31 This ‘explosion’ of generative AI applications has caused many world leaders to call for a proper debate on the opportunities and challenges related to generative AI and the regulatory needs and guidelines required for its safe and responsible use. The UK government therefore hosted the world’s first AI Safety Summit in November 2023. Many countries are currently leveraging their existing legal and policy frameworks to manage the risks of AI, whilst in Europe the EU is advancing a continent wide ‘AI Act’ to responsibly seize the opportunities presented by AI. Many other multinational groups including several UN bodies, the G7 and private sector companies are also developing responsible AI guidelines. These are discussed further in the ‘AI Risks & Governance’ report from WTTC. In September 2023, an OECD report prepared for the 2023 Japanese G7 Presidency identified seven common challenges posed by generative AI that require international alignment and collaboration 23. The report noted that international policy frameworks for generative AI should be inclusive and feature input from a diverse range of stakeholders, not just ‘AI experts’ and include the perspectives of governments from both developed and developing countries, private companies, civil society and interested sectors of the economy. This includes international Travel & Tourism. GLOBAL DIGITAL DIVIDE & AI SKILLS GAP As noted earlier in this chapter, as AI systems access more high quality data and use greater computer power, they become more accurate, creative and insightful. However it is also important to note that handling massive amounts of data can present privacy, security and data governance challenges for AI developers and users and that there is a significant data and ‘digital divide’ in the world. The International Telecommunications Union (ITU) – the UN agency responsible for"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 11,
+      "question": "What is generative AI and what kinds of content can it produce?",
+      "correct_answer": "Generative AI produces new content from a user prompt and what it learned from large training datasets. It can generate text, imagery, video, and audio.",
+      "gold_page": 24,
+      "source_passage": "Generative AI is a type of AI technology that can produce new and creative content such as text, imagery, video and audio, from a user ‘prompt’.",
+      "matched_rank": 1,
+      "matched_score": 0.7148,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.7148115634918213,
+          "page": 24,
+          "chunk_id": "p24_w280",
+          "text": "diagram below illustrates just some of the possible outputs (such as text, computer code, images and video) and tasks (such as producing marketing and advertising material, website building, video editing and document summarisation) that generative AI foundation models can achieve. Generative AI Application Landscape Generative AI has its origins in a 2017 Google research paper entitled “Attention Is All Y ou Need” 22, which introduced a new type of AI architecture for language understanding called ‘Transformers’. Many research organisations, universities and companies have investigated this technique to develop innovative AI applications. Since 2017, the number of scientific publications focussed on generative AI has grown fivefold and venture capital (VC) investment in generative AI solutions reached $12 billion (USD) in the first six months of 2023 alone."
+        },
+        {
+          "rank": 2,
+          "score": 0.6595059633255005,
+          "page": 36,
+          "chunk_id": "p36_w280",
+          "text": "to identify using traditional machine learning techniques. A bank could use deep learning algorithms to detect fraudulent transactions, by identifying patterns in complex financial data. Predictive AI Predictive AI is the general term for a type of AI that uses data with either machine learning, or deep learning, to forecast future outcomes or behaviours. An airline could use predictive AI to forecast future ticket demands and optimise its pricing and sales strategy, or a retailer could use predictive AI to forecast the future demand for products, which would help them to make informed decisions on stock management and production planning Generative AI Generative AI is the general term for AI systems that can create new and original material such as text, images, video or audio, which resembles human created content. The roll out of Generative AI capabilities to the public is widely regarding as launching the current global interest in AI. AI chatbots are a form of Generative AI. A business could use generative AI tools to produce product descriptions, press releases or marketing copy, whereas a media company could use Generative AI to compose new music, or develop visual advertising materials."
+        },
+        {
+          "rank": 3,
+          "score": 0.6447731256484985,
+          "page": 24,
+          "chunk_id": "p24_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 24 < Contents | GENERATIVE AI Generative AI (sometimes abbreviated to “Gen AI”) is a relatively new form of AI that burst onto the global scene in late 2022 with the release of a sophisticated AI chatbot called ChatGPT. ChatGPT took the world by storm with its ability to generate intelligent and amusing written content that resembles human speech, combined with its capability to generate useful, high quality content very quickly, such as emails, poems, business plans, holiday schedules and much more. As illustrated in the earlier chapters of this report, AI technology has been around for many years and routinely used in applications such as weather forecasting, or email spam filters, but these are often hidden and unknown to the users of systems. ChatGPT, along with other sophisticated AI chatbots released in 2023 such as Google Bard and Microsoft Copilot, could be credited with really exposing the power and potential of AI to corporate businesses and the mass general public. AI chatbots are powered by generative AI, which is a type of AI technology that can produce new and creative content such as text, imagery, video and audio, from a user ‘prompt’. It creates this new content based on the prompt and what it has learned from very large quantities of training data (sometimes many millions of internet pages) to produce a generative AI model. An example of this is foundation models which can be defined as “AI models trained on a broad data set that can applied to a wide range of downstream tasks” 21 .These enable anyone to automate projects and generate amazing content on a standard computer. The diagram below illustrates just some of the possible outputs (such as text, computer code, images and video) and tasks (such"
+        },
+        {
+          "rank": 4,
+          "score": 0.5663374662399292,
+          "page": 25,
+          "chunk_id": "p25_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 25 Number of Scientific Publications on Generative AI (by year) Generative AI’s ability to produce new, exciting and creative content is predicted to create considerable global business and economic value, but also comes with potentially significant challenges and risks (discussed further in the accompany WTTC report on ‘AI Risks & Governance’). As a result generative AI has taken centre stage in many public, academic and political discussions. This can be illustrated by the huge rise in global news stories and posts on X (formally Twitter) dedicated to generative AI worldwide, with international news stories on generative AI increasing from just under 2000 in late 2022, to nearly 14,000 by June 2023. The number of posts on X (tweets) rose from 7000 in October 2022, to 57,000 in March 2023 (an 8x increase) 23. The global interest in this new form of AI is phenomenal and is therefore an important technology for all Travel & Tourism businesses to recognise. Number of Global News Articles Number of posts on X (formally Twitter) A specific type of generative AI foundation model is a large language model (LLM), which is a sophisticated AI model designed to generate human like text responses to a user’s prompt. It is the underlying AI model driving AI chatbots (such as Google Bard or Microsoft CoPilot). The user ‘prompt’ is commonly a text input, but could also be something else, such as an image or audio input for example. A prompt allows the user to provide instructions to an LLM (often an AI chatbot) in a natural conversational style, which is understood by the AI in a process called natural language processing (NLP). This natural, conversational way of providing instructions to an AI system is the same way"
+        },
+        {
+          "rank": 5,
+          "score": 0.5634791851043701,
+          "page": 29,
+          "chunk_id": "p29_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 29 Hallucinations are a well known feature of current generative AI systems and many researchers are working on solutions, so that future versions of AI systems will have improved accuracy and better performance. All users of generative AI systems today (including Travel & Tourism businesses) should therefore be aware of their current limitations and are advised to verify any AI generated outputs that may be business, safety or operationally critical. Whilst AI chatbots may be many peoples first introduction to generative AI applications there is a very rapidly growing market of AI applications and open source AI models. Open source tools are freely available to download and use and in some cases they can be manipulated to your exact user needs and with your own data in a process called ‘fine tuning’. The diagram below from Sequoia Capital (a U.S. venture capital firm) attempts to map the generative AI market by use case 24 . It illustrates the many and varied generative AI applications available in September 2023, but this still does not capture all available applications."
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 12,
+      "question": "What is the difference between a large language model and a foundational model?",
+      "correct_answer": "An LLM is designed for understanding and generating human-like language. Foundational models are broader and can include models trained on text, images, video, or audio; LLMs are one type within this broader category.",
+      "gold_page": 37,
+      "source_passage": "Foundational Models are a broader category of underlying AI architecture, which includes LLM’s, but also AI models trained with more than just text, such as large datasets of images, video or audio.",
+      "matched_rank": 1,
+      "matched_score": 0.5574,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5574262142181396,
+          "page": 37,
+          "chunk_id": "p37_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 37 Large Language Models (LLM) Large Language Models (LLM’s) are a type of underlying AI architecture that are specifically designed to understand and generate human-like language. They are trained on massive datasets of text and computer code (hence the name Large - Language Models) to develop a deep understanding of language patterns, grammar and semantics, enabling them to generate new coherent, relevant and natural sounding text Large Language Models (LLM’s) can perform a wide range of language related tasks, such as real time translation, writing documents, or answering questions in an informative way. The terms LLM and Generative AI are sometime used interchangeably, but are in fact different. An LLM is the underlying AI model that powers the language capabilities of a Generative AI system (such as an AI Chatbot). Foundational Models Foundational Models are a broader category of underlying AI architecture, which includes LLM’s, but also AI models trained with more than just text, such as large datasets of images, video or audio Foundational models are also referred to as ‘General Purpose AI’ in the EU 40. However business leaders should note that EU General Purpose AI are foundational models able to be applied to lots of areas and is not the same as General AI, or Artificial General Intelligence (AGI) which is described earlier in this table and refers to AI that has the full intellectual capabilities of humans. Foundational models can serve as the basis (hence the name Foundational) for developing more specialised models. They have wide uses and can be adapted (often referred to as ‘fine tuned’) with industry specific data and knowledge. For example a business may ‘fine tune’ an LLM with its company policies to create an AI chatbot for its website, or"
+        },
+        {
+          "rank": 2,
+          "score": 0.37168341875076294,
+          "page": 25,
+          "chunk_id": "p25_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 25 Number of Scientific Publications on Generative AI (by year) Generative AI’s ability to produce new, exciting and creative content is predicted to create considerable global business and economic value, but also comes with potentially significant challenges and risks (discussed further in the accompany WTTC report on ‘AI Risks & Governance’). As a result generative AI has taken centre stage in many public, academic and political discussions. This can be illustrated by the huge rise in global news stories and posts on X (formally Twitter) dedicated to generative AI worldwide, with international news stories on generative AI increasing from just under 2000 in late 2022, to nearly 14,000 by June 2023. The number of posts on X (tweets) rose from 7000 in October 2022, to 57,000 in March 2023 (an 8x increase) 23. The global interest in this new form of AI is phenomenal and is therefore an important technology for all Travel & Tourism businesses to recognise. Number of Global News Articles Number of posts on X (formally Twitter) A specific type of generative AI foundation model is a large language model (LLM), which is a sophisticated AI model designed to generate human like text responses to a user’s prompt. It is the underlying AI model driving AI chatbots (such as Google Bard or Microsoft CoPilot). The user ‘prompt’ is commonly a text input, but could also be something else, such as an image or audio input for example. A prompt allows the user to provide instructions to an LLM (often an AI chatbot) in a natural conversational style, which is understood by the AI in a process called natural language processing (NLP). This natural, conversational way of providing instructions to an AI system is the same way"
+        },
+        {
+          "rank": 3,
+          "score": 0.33143875002861023,
+          "page": 24,
+          "chunk_id": "p24_w280",
+          "text": "diagram below illustrates just some of the possible outputs (such as text, computer code, images and video) and tasks (such as producing marketing and advertising material, website building, video editing and document summarisation) that generative AI foundation models can achieve. Generative AI Application Landscape Generative AI has its origins in a 2017 Google research paper entitled “Attention Is All Y ou Need” 22, which introduced a new type of AI architecture for language understanding called ‘Transformers’. Many research organisations, universities and companies have investigated this technique to develop innovative AI applications. Since 2017, the number of scientific publications focussed on generative AI has grown fivefold and venture capital (VC) investment in generative AI solutions reached $12 billion (USD) in the first six months of 2023 alone."
+        },
+        {
+          "rank": 4,
+          "score": 0.30705174803733826,
+          "page": 25,
+          "chunk_id": "p25_w280",
+          "text": "called natural language processing (NLP). This natural, conversational way of providing instructions to an AI system is the same way that instructions are provided to ‘home smart speakers’ and is a new, exciting and innovative way for humans to interact with computers."
+        },
+        {
+          "rank": 5,
+          "score": 0.2809661030769348,
+          "page": 26,
+          "chunk_id": "p26_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 26 < Contents | A simple example of a text prompt and response from a LLM could be: Sophisticated AI chatbots, powered by LLM’s, are also able to remember the details and context of a conversation and reply as part of a free flowing discussion. For example if the prompt “how does this compare to a cheetah” is added after the above response, the AI system knows to compare it to Usain Bolt over 100m, without the user specifically having to ask how a cheetah compares to the runner. This natural way of communicating and remembering previous parts of a discussion is a how a human conversation would flow and is being replicated by the generative AI system. To achieve such impressive abilities, LLM models are typically trained on enormous amounts of text data (sometimes called a ‘corpus’, meaning a large collection of documents) to learn the patterns, grammar, and semantics of one, or more, languages and use AI deep learning techniques to understand and generate coherent, conversational and contextually appropriate responses in only a few seconds. LLM’s, such as those that power sophisticated AI chatbots, are remarkably versatile and accurate in comprehending and generating text across a very wide range of topics and writing styles. Below are a few more examples of complex prompts provided to an AI chatbot that demonstrate their ability to remember the previous parts of a conversation, perform translation, summarise text, draw tables and populate them with content drawn from multiple sources. What is the world record for the 100m sprint? The world record for the 100m sprint is 9.58 seconds, set by Usain Bolt of Jamaica on 16 August 2009 at the World Athletics Championships in Berlin, Germany. AI How does this compare to a cheetah?"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 13,
+      "question": "What does the report mean by an AI hallucination?",
+      "correct_answer": "A hallucination is an AI output that may seem real but is actually incorrect or unrealistic.",
+      "gold_page": 38,
+      "source_passage": "Hallucinations are outputs from AI systems that may seem real, but are in fact incorrect, or unrealistic.",
+      "matched_rank": 2,
+      "matched_score": 0.5901,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.5988312363624573,
+          "page": 28,
+          "chunk_id": "p28_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 28 < Contents | It is important to remember that the text output from the AI chatbot in the above examples is generated entirely by AI and based on the vast amounts of information it has been trained on from the internet. It has not simply copy-and-pasted these responses from the WTTC website, as these exact paragraphs, descriptions and tables do not exist in this format on the WTTC website. However in the last example, where the AI chatbot was asked to provide the months that the reports were published, it has provided incorrect information. This is known as a ‘hallucination’ and is a feature of all AI chatbots today. Sometimes they produce answers, information and statistics that look accurate and sound convincing, but are in fact incorrect. This is due to the complex way that large language models produce their output. Some common reasons for hallucinations are illustrated below. Reasons for Generative AI Hallucinations In the AI chatbot example above, the table is also incomplete as it has missed other reports published by WTTC in 2022, including a report on ‘Critical Factors to Attract Hotel Investment’ (published in June 2022) and a joint report with Harvard University on the ‘Circular Economy in Travel & Tourism’ (published in May 2022). Nevertheless, the AI has done a remarkable job of finding and correctly summarising the majority of WTTC reports, in only a few seconds, from a single sentence text prompt asking for information on the reports published by WTTC in 2022 (written in a natural conversational way). Add a column including the month they were published. AIReport Title Description Month Published Economic Impact Research This report provides an in-depth analysis of the economic impact of the travel and tourism industry, both globally and"
+        },
+        {
+          "rank": 2,
+          "score": 0.5901107788085938,
+          "page": 38,
+          "chunk_id": "p38_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 38 < Contents | Hallucinations Hallucinations are outputs from AI systems that may seem real, but are in fact incorrect, or unrealistic. They may come as the output from either Predictive or Generative AI systems and are most likely to occur when the AI algorithms have been trained on incomplete, or inaccurate data. Hallucinations can be misleading (or even dangerous) if not properly understood, but can also be useful for generating new creative content or exploring new ideas, such as for drug discovery. An example of hallucination may be an AI chatbot providing a false answer, rather than saying it doesn’t know the answer to a question, or an AI powered image recognition system that mistakenly classifies products, leading to incorrect order fulfilment. Hallucinations can sometimes be hard to spot. For example if an AI system output that 92 x 53 = 6784 (which is wrong), it would be hard to spot as a hallucination without manual verification. Preventing hallucinations in business commercial arrangements is especially important. For example an AI system could incorrectly give the wrong price to a customer for a holiday."
+        },
+        {
+          "rank": 3,
+          "score": 0.36078938841819763,
+          "page": 5,
+          "chunk_id": "p5_w280",
+          "text": "famous, Girl with Pearl Earring (c. 1665) by Johannes Vermeer to an international exhibition and temporarily replaced it in their gallery with an AI inspired version entitled Girl with Glowing Earrings, with many visitors to the gallery believing it was a real painting. In April 2023 the German artist Boris Eldagsen won the 2023 Sony World Photography Award with an image entitled Pseudomnesia: The Electrician, before refusing the prize after revealing it was created by AI. (Pseudomnesia is Latin for fake memory!) These images show how far AI creative technology has advanced in only a few short years, from an ability to generate low quality AI portraits in 2018, to high quality AI paintings and photorealistic AI images today. Both the Girl with Pearl Earring and Pseudomnesia images were created with AI software that is now available to everyone online and is partly why AI has taken off with the public in 2023, enabling any of us to become potential artists. But paintings and photography are not the only form of art that has been shaped by AI. In 2023 the Grammys announced that music created with AI would be eligible for awards and Paul McCartney announced he had used AI to extract John Lennon’s voice from an old demo tape. In late 2023, this track was released as the final Beatles Song Now and Then 1 which drew considerable public attention to AI across all generations. Canadian singer Grimes has also invited anyone to create new songs with an AI copy of her voice, offering to split the royalties equally on any AI track that is commercially successful."
+        },
+        {
+          "rank": 4,
+          "score": 0.34986379742622375,
+          "page": 24,
+          "chunk_id": "p24_w280",
+          "text": "diagram below illustrates just some of the possible outputs (such as text, computer code, images and video) and tasks (such as producing marketing and advertising material, website building, video editing and document summarisation) that generative AI foundation models can achieve. Generative AI Application Landscape Generative AI has its origins in a 2017 Google research paper entitled “Attention Is All Y ou Need” 22, which introduced a new type of AI architecture for language understanding called ‘Transformers’. Many research organisations, universities and companies have investigated this technique to develop innovative AI applications. Since 2017, the number of scientific publications focussed on generative AI has grown fivefold and venture capital (VC) investment in generative AI solutions reached $12 billion (USD) in the first six months of 2023 alone."
+        },
+        {
+          "rank": 5,
+          "score": 0.3404490053653717,
+          "page": 9,
+          "chunk_id": "p9_w280",
+          "text": "taking different routes through a city based on experience of traffic conditions at different times of day). Returning to a ‘digital doctor’ example, an ‘AI digital doctor’ could be trained on thousands (or millions!) of medical scans from sick and well patients to learn how to detect tumours, without following pre-defined rules which are otherwise very difficult to codify and write. Many human doctors may say that experience plays a significant role in clinical diagnosis, but an AI system can be trained on far more x-ray images than a doctor could ever experience, leading to AI systems having remarkable capabilities in areas such as breast cancer detection. For example a Swedish AI study in 2023 found that AI-supported breast cancer screening (the analysis of mammogram images) was as good as two radiologists working together 2. It also reduced their workload by 50% and led to 20% more cancers being detected early for treatment 3. This illustrates some of the incredible capabilities of AI and its benefit to society. But this also leads to an important concept in AI called ‘Explainable AI’. It is possible to verify the output of an AI system as correct (for example did a patient really have cancer or not), but it may not be possible to know exactly how the AI system got to a decision or outcome, as the AI has calculated the ‘interim steps’ (e.g. the blue snake in the diagram above) by itself, without human programming of the specific steps to be taken. AI systems are therefore sometimes referred to as ‘black boxes’ with details of exactly how they work and operate - in some cases - not fully known, or understood. This can even include their developers, as they too can often only verify the output and not the steps taken"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 14,
+      "question": "According to the report, what proportion of the world had never been connected to the internet in 2022?",
+      "correct_answer": "The ITU estimate cited in the report was 34%, representing 2.6 billion people.",
+      "gold_page": 31,
+      "source_passage": "The International Telecommunications Union (ITU) estimates that 34% of the world has never been connected to the internet (in 2022), representing 2.6 billion people.",
+      "matched_rank": 1,
+      "matched_score": 0.6306,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6305655241012573,
+          "page": 31,
+          "chunk_id": "p31_w280",
+          "text": "a significant data and ‘digital divide’ in the world. The International Telecommunications Union (ITU) – the UN agency responsible for advancing digital technology – estimates that 34% of the world has never been connected to the internet (in 2022), representing 2.6 billion people 25. Therefore a third of the world’s population does not have access to AI. The ITU considers that ‘universal and meaningful digital connectivity’ 26 (defined as a ‘the possibility for everyone to enjoy a safe, productive and affordable online experience’) should be a global priority. The ITU states that the AI revolution should benefit everyone in the world and should not worsen the international digital divide. ITU data shows that the global youth are the driving force behind connectivity, with 75% of all 15-24 year olds in the world now online, compared to 65% amongst the rest of the population. Sadly the affordability of entry level fixed and mobile internet services is leaving populations in the least developed countries (LDCs) behind. ITU data from 2022 finds that in a typical low income economy, the cheapest mobile broadband costs 9% of a person’s income (over 6x the global average) and in those least developed countries 64% of the population is not connected to the internet (almost double the global average of 34% who are not online). To begin to address this issue, the UK and Canada announced an ‘AI for Development’ vision at the 2023 UN General Assembly (UNGA) 27, which aims to boost local AI skills, innovation and computing power in the world’s poorest nations, with an initial focus on Africa. Then UK Foreign Secretary, James Cleverly stated at the UN launch that “the opportunity of AI is immense…and the UK alongside our allies and partners is making sure that the fulfilment of this enormous potential is"
+        },
+        {
+          "rank": 2,
+          "score": 0.6234614849090576,
+          "page": 32,
+          "chunk_id": "p32_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 32 < Contents | In addressing digital inequality, the science fiction writer William Gibson (who first used the term ‘cyberspace’ in his 1984 novel Neuromancer) is reported to have said over 30 years ago that “the future is already here, it’s just not evenly distributed yet”. This could be used to describe the global digital divide and AI situation today. The Worlds Offline Population : ITU Global Connectivity Report 2022 (Size of tile represents the country’s share of the world’s offline population) At the annual UN mid-year policy discussions on urgent global issue in July 2023, the ITU Secretary General , Doreen Bodgan-Martin said that “in a world where 95% of the global population is within range of a mobile broadband network, mere connectivity is not sufficient” adding “too many people who could go online decide against it because they do not have the digital skills” 28. IT illiteracy and the digital skills gap are therefore barriers to a successful AI future for everyone. UN ITU Secretary General, Doreen Bodgan-Martin"
+        },
+        {
+          "rank": 3,
+          "score": 0.47511881589889526,
+          "page": 13,
+          "chunk_id": "p13_w280",
+          "text": "as TikTok and YouTube account for over half of all internet traffic. Social data is rising at an incredible pace, but is also very useful for AI systems to understand human behaviour. 3. New data collection and storage technologies: new technologies, such as sensors placed throughout our cities, energy grids and transport infrastructure, are generating huge amounts of data on human usage patterns. Similarly the ‘Internet of Things (IoT)’, which are the networked everyday items (such as fitness trackers and Smart TV’s) are growing in popularity and producing new streams of data. The CISCO Annual Internet Report 2023 estimates that of the 29.3 billion connected devices, 14.7 billion are IoT devices. Nearly 50% of these are connected home appliances (such as home security systems) and 30% are connected car applications (such as networked vehicle diagnostics tools, emergency calling systems and in car entertainment platforms). This volume of data is also leading to a significant rise in cloud computing and data storage centres, with the U.S. hosting 10x more data centres than any other country in the world (in 2023) 8. These extremely large and very complex datasets are often called ‘Big Data’ and are characterised by their volume, velocity, variety and veracity, commonly referred to as the 4 V ’s."
+        },
+        {
+          "rank": 4,
+          "score": 0.4595816731452942,
+          "page": 13,
+          "chunk_id": "p13_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 13 The volume of digital data in the world is rising so fast, and getting so large, that in 2022 scientists formally agreed two new units of measurement for the first time in 31 years. These are the Ronnabyte (RB) and the Quettabyte (QB). A Ronnabyte is a billion, billion, billion bytes (!) and a Quettabyte is a thousand Ronnabytes…or 1 followed by 30 zeros! Scientists believe this will be sufficient for at least the next 25 years, but the relentless pace of digital innovation means we may all be using Quettabytes quicker than anyone expected! Data Bytes Size 1 Ronnabyte (RB) 1,000,000,000,000,000,000,000,000,000 1027 1 Quettabyte (QB) 1,000,000,000,000,000,000,000,000,000,000 1030 This data explosion is largely driven by three factors: 1. Increasing numbers of smartphones and internet devices: the number of devices connected to the internet grows every year. There are several estimates for the total number of networked devices in the world, but all agree that it is many billions of devices. The CISCO Annual Internet Report 2023 7 estimates there are 29.3 billion networked devices in the world, which is more than 3 x the global population of 8 billion people (in 2023). 2. Growth of social media: social media platforms generate many terabytes of text, video and audio data every day (1 terabyte = approximately 1500 CD’s) with billions of messages and posts made every minute. In 2020, during the height of the COVID-19 pandemic, the Head of WhatsApp (Will Catchcart) issued a tweet stating that approximately 100 billion messages were being exchanged every day on WhatsApp alone and it is estimated that videos shared on platforms such as TikTok and YouTube account for over half of all internet traffic. Social data is rising at an incredible pace,"
+        },
+        {
+          "rank": 5,
+          "score": 0.40372011065483093,
+          "page": 16,
+          "chunk_id": "p16_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 16 < Contents | COMPUTING POWER : THE MACHINES BEHIND AI Training AI systems typically requires a lot of data. This data can be very large and very complex and needs to be processed very quickly, which requires a lot of computing power. For example, sophisticated AI chatbots (such as Google Bard, Microsoft Copilot) were trained on datasets that included hundreds of billions of words (for comparison the Bible contains fewer than one million words). To download this volume data on a typical home internet connection and then process it for AI training could take hundreds of years on a standard computer. This task therefore requires a special type of computing power. Let’s imagine you wanted to learn everything on the internet. In 2022 there were approximately 5.75 billion webpages online. If a person spent one minute studying every page, it would take a human approximately 11,000 years to ‘learn the internet’ (without any breaks!). The most advanced supercomputers in 2023, which contain advanced computing power, are now able to process this vast amount of data and use AI techniques (such as deep learning algorithms) to ‘learn’ all this information in only a few months! This remarkable advancement in modern computing power is enabling the current wave of AI innovations and powering many applications of AI that were simply not possible only a few years ago. The history of increasing computing power can be traced back to the 1960’s, when Gordon Moore (a co-founder of Intel) observed that the number of transistors on an integrated circuit was doubling around every two years. This became known as ‘Moore’s Law’. This doubling led to exponential growth in the power of computer chips, which has enabled computers small enough, powerful enough and cheap enough to"
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "question_id": 15,
+      "question": "What did the 2023 Randstad survey report about workers receiving AI training?",
+      "correct_answer": "Only 13% of workers had been offered any form of AI training in the previous 12 months.",
+      "gold_page": 33,
+      "source_passage": "Randstad surveyed 7,000 employees in companies of all sizes, across 34 countries and found that only 13% of workers had been offered any form of AI training in the last 12 months.",
+      "matched_rank": 2,
+      "matched_score": 0.578,
+      "success": true,
+      "top_5_results": [
+        {
+          "rank": 1,
+          "score": 0.6996053457260132,
+          "page": 42,
+          "chunk_id": "p42_w280",
+          "text": "the UN General Assembly (https://www.gov.uk/ government/news/uk-sets-out-ai-for-development-vision-at-un-general-assembly) 28 ITU Secretary General Speech – UN High Level Political Forum 2023 (https://www.itu.int/en/osg/ Pages/Speeches.aspx?ItemID=18) 29 Randstad Work Monitor Survey (https://www.randstad.co.uk/workmonitor) 30 Randstad Work Monitor Survey – Only 13% Offered AI Training (https://www.randstad.com/"
+        },
+        {
+          "rank": 2,
+          "score": 0.5779839754104614,
+          "page": 33,
+          "chunk_id": "p33_w280",
+          "text": "also found that most business leaders estimate that implementing AI and automation within their company will require at least 40% of their workforce to re-skill over the next three years 32. But the thought of digitally retraining half, or more, of an entire workforce can seem like a daunting and expensive task. That is why organisations, such as Microsoft, Google and IBM offer basic AI training for free via their YouTube channel and website (such as online at Microsoft Learn 33, Grow with Google 34 or IBM Training 35), often in partnership with organisations such as LinkedIn Learning, Coursera and edX. In September 2023, IBM also announced a plan to help close the AI skills gap by training 2 million people in AI by the end of 2026, with a focus on underrepresented communities 36. To achieve this goal IBM is collaborating with universities and training providers around the world to deliver adult education and launching new generative AI coursework on topics such as ‘Prompt Writing’ and ‘Improving Customer Service with AI’ through IBM SkillsBuild 37. Many online creators are also making videos on how to use AI and there have been more than 1.7 billion views of videos related to AI tools on YouTube in 2023 alone 38. More sophisticated, paid for training courses are also available from several universities (both in person and online) and many training providers who may also offer consulting services to tailor training to your specific organisational needs. A simple, useful tool, for training an entire workforce can also be peer-to-peer training, where an employee who attends a training course (or workshop/seminar) shares the key learnings with other members of the team. Awareness training and co-mentoring, where teams coach each other and swap expertise in one-to-one sessions, can also allow organisations to make the"
+        },
+        {
+          "rank": 3,
+          "score": 0.5716060400009155,
+          "page": 33,
+          "chunk_id": "p33_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 33 This digital skills gap affects both developed and developing countries. In 2023, international HR and recruitment company Randstad surveyed 7,000 employees in companies of all sizes, across 34 countries and found that only 13% of workers had been offered any form of AI training in the last 12 months 29. This is despite a huge global surge in AI, with Randstad also observing a 20x increase in the number of new job postings across all industries requiring AI skills in 2023 30. Their research also found that AI training was the third most requested form of development requested by workers, after leadership and wellbeing training. A similar result was found in the GitLab 2023 global survey of software development companies 31. It’s showed that even when AI training was provided within organisations, there was a significant difference in the quality and availability of training across seniority levels. Those lower in organisations were most concerned about job losses from AI, yet were not provided the skills necessary to work with and alongside AI technology, with the report noting that “although this suggests that organisations are making a top-down attempt to make AI resources available to employees, those resources may not be adequate at lower levels” Commenting on the report, the training organisation Skillsoft said “investing in reskilling and upskilling is vital to ensure everyone can benefit from AI” . To ensure this, the firm argued “organisations must take a stronger stance on training employees to use AI strategically and responsibly within their existing roles” . A 2023 global survey of corporate executives by the IBM Institute of Business Values also found that most business leaders estimate that implementing AI and automation within their company will require at least 40%"
+        },
+        {
+          "rank": 4,
+          "score": 0.5708388090133667,
+          "page": 43,
+          "chunk_id": "p43_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council < Contents | 43 press/2023/over-50-believe-ai-will-future-proof-their-careers-only-13-have-been-offered-ai-training) 31 GitLab Global Software Developer Survey (https://about.gitlab.com/developer-survey) 32 IBM Institute of Business Values AI Survey (https://www.ibm.com/thought-leadership/institute- business-value/en-us/report/augmented-workforce) 33 Microsoft Learn (https://learn.microsoft.com/en-us) 34 Grow with Google (https://grow.google/intl/uk/courses-and-tools) 35 IBM AI Training (https://www.ibm.com/training/ailearning) 36 IBM Commits to AI Training for Underrepresented Communities (https://newsroom.ibm. com/2023-09-18-IBM-Commits-to-Train-2-Million-in-Artificial-Intelligence-in-Three-Years,-with-a-Focus-on- Underrepresented-Communities) 37 IBM SkillsBuild (https://skillsbuild.org) 38 YouTube Culture & Trends Report 2023 (https://blog.youtube/culture-and-trends/youtube-culture- trends-report-2023) 39 Microsoft Research Paper – Sparks of Artificial General Intelligence (https://www.microsoft.com/en- us/research/publication/sparks-of-artificial-general-intelligence-early-experiments-with-gpt-4) 40 EU Parliament – General Purpose AI (https://www.europarl.europa.eu/RegData/etudes/ ATAG/2023/745708/EPRS_ATA(2023)745708_EN.pdf) 41 eFootball Graphics Evolution – YouTube (https://youtu.be/_wQ6IGAIqII)"
+        },
+        {
+          "rank": 5,
+          "score": 0.5269712209701538,
+          "page": 42,
+          "chunk_id": "p42_w0",
+          "text": "INTRODUCTION TO AI World Travel & Tourism Council 42 < Contents | ENDNOTES 1 Beatles Now and Then YouTube Video (https://youtu.be/Opxhh9Oh3rg) 2 Guardian – AI in Breast Cancer Screening (https://www.theguardian.com/society/2023/aug/02/ai-use- breast-cancer-screening-study-preliminary-results) 3 Politico – AI in Breast Cancer Screening (https://www.politico.eu/article/ai-improves-breast-cancer- detection-rate-20-percent-swedish-study) 4 WIRED March 2019 – Godfathers of AI Boom Wins Computing’s Highest Honour (https://www.wired. com/story/godfathers-ai-boom-win-computings-highest-honor ) 5 Science News – 90% of Worlds Data Generated in Last 2 Years (https://www.sciencedaily.com/ releases/2013/05/130522085217.htm) 6 EU Parliament – AI Threats & Opportunities (https://www.europarl.europa.eu/pdfs/news/ expert/2020/9/story/20200918STO87404/20200918STO87404_en.pdf) 7 CISCO Annual Internet Report 2023 (https://www.cisco.com/c/en/us/solutions/collateral/executive- perspectives/annual-internet-report/white-paper-c11-741490.html) 8 North America Data Centres (https://cloudscene.com/region/datacenters-in-north-america) 9 Made in China 2025 Roadmap – English Translation (https://cset.georgetown.edu/wp-content/ uploads/t0181_Made_in_China_roadmap_EN.pdf) 10 Reuters – China to Boost Chip Industry (https://www.reuters.com/technology/china-launch-new-40- bln-state-fund-boost-chip-industry-sources-say-2023-09-05) 11 EU Commission – EU Chips Act (https://commission.europa.eu/strategy-and-policy/ priorities-2019-2024/europe-fit-digital-age/european-chips-act_en) 12 US White House Fact Sheet – US Chips & Science Act (https://www.whitehouse.gov/briefing-room/ statements-releases/2022/08/09/fact-sheet-chips-and-science-act-will-lower-costs-create-jobs-strengthen- supply-chains-and-counter-china) 13 CNN – Intel CEO Interview (https://edition.cnn.com/2023/01/17 /tech/intel-ceo-chip-manufacturing- davos/index.html) 14 Google TPU Accelerate AI Development (https://cloud.google.com/tpu) 15 Google TPU System Architecture (https://cloud.google.com/tpu/docs/system-architecture-tpu-vm) 16 Microsoft AI Supercomputer & Vision for Future of AI (https://news.microsoft.com/source/features/ ai/openai-azure-supercomputer) 17 Microsoft’s AI Supercomputer – YouTube (https://youtu.be/Rk3nTUfRZmo) 18 UK Government - £900M Investment in AI Exascale Computer (https://www.gov.uk/government/ news/government-commits-up-to-35-billion-to-future-of-tech-and-science) 19 UK Government – Bristol University to Host UK AI Supercomputer (https://www.gov.uk/government/ news/bristol-set-to-host-uks-most-powerful-supercomputer-to-turbocharge-ai-innovation) 20 UK Bristol University – Supercomputer for AI Discoveries (https://www.bristol.ac.uk/news/2023/ september/isambard-ai.html) 21 Stanford University Human Centred AI – Foundation Models (https://hai.stanford.edu/news/ reflections-foundation-models) 22 Google Research – Attention Is All You Need (https://research.google/pubs/pub46201) 23 G7 Towards a Common Understanding of Generative AI (https://www.oecd-ilibrary.org/science-and- technology/g7-hiroshima-process-on-generative-artificial-intelligence-ai_bf3c0c60-en) 24 Sequoia Capital – Generative AI Market Map (https://www.sequoiacap.com/article/generative-ai-act- two) 25 ITU Statistics (https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx) 26 ITU Measuring Digital Development 2022 (https://www.itu.int/en/ITU-D/Statistics/Pages/facts/ default.aspx) 27 UK Government - AI for Development at the UN General Assembly (https://www.gov.uk/ government/news/uk-sets-out-ai-for-development-vision-at-un-general-assembly) 28 ITU Secretary General Speech – UN High Level Political Forum 2023 (https://www.itu.int/en/osg/ Pages/Speeches.aspx?ItemID=18)"
+        }
+      ]
+    }
+  ]
+}

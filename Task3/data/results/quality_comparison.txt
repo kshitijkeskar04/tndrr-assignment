@@ -1,0 +1,304 @@
+==========================================================================================
+PROMPT: P01
+QUESTION: Explain machine learning to a beginner in 120 words. Include one practical example.
+
+--- FP16 ANSWER ---
+Machine learning is a subset of artificial intelligence that involves the development of algorithms that can learn from data and improve their performance over time. It's used to make predictions or decisions based on patterns in data, without being explicitly programmed to do so. A practical example of machine learning is in image recognition. By training a machine learning model on a large dataset of images, it can learn to recognize objects in new images, without being explicitly programmed to do so. This allows for more accurate and efficient image processing and analysis.
+
+--- Q4_K_M ANSWER ---
+Machine learning is a subset of artificial intelligence that involves the development of algorithms that enable computers to learn from data and improve their performance over time. It's a powerful tool for solving complex problems by analyzing patterns and making predictions based on data. A practical example of machine learning is in image recognition, where a computer can learn to identify objects in images by training it on a large dataset of images. This allows the computer to recognize and classify objects with high accuracy.
+
+==========================================================================================
+PROMPT: P02
+QUESTION: Write a Python function that returns the factorial of a non-negative integer. Include input validation and a short example.
+
+--- FP16 ANSWER ---
+Certainly! Below is a Python function that calculates the factorial of a non-negative integer using recursion. It includes input validation to ensure the input is a non-negative integer.
+
+```python
+def factorial(n):
+    """
+    Calculate the factorial of a non-negative integer n.
+    
+    Args:
+    n (int): A non-negative integer whose factorial is to be calculated.
+    
+    Returns:
+    int: The factorial of n.
+    
+    Raises:
+    ValueError: If n is not a non-negative integer.
+    """
+    if not isinstance(n, int) or n < 0:
+        raise ValueError("Input must be a non-negative integer.")
+    
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Example usage:
+try
+
+--- Q4_K_M ANSWER ---
+```python
+def factorial(n):
+    """
+    Calculate the factorial of a non-negative integer n.
+    
+    Parameters:
+    n (int): A non-negative integer
+    
+    Returns:
+    int: The factorial of n
+    
+    Raises:
+    ValueError: If n is negative
+    
+    Examples:
+    >>> factorial(5)
+    120
+    >>> factorial(0)
+    1
+    >>> factorial(-1)
+    Traceback (most recent call last):
+        ...
+    ValueError: n must be a non-negative integer
+    """
+    if n < 0:
+        raise ValueError("n must be a non-negative integer")
+    elif n == 0:
+        return 1
+    else:
+        result = 1
+        for i in range(1, n
+
+==========================================================================================
+PROMPT: P03
+QUESTION: Explain the difference between supervised and unsupervised learning. Give two examples of each.
+
+--- FP16 ANSWER ---
+Supervised learning and unsupervised learning are two main types of machine learning algorithms used for different purposes. Here's a detailed explanation of each:
+
+1. Supervised Learning:
+   - **Definition**: Supervised learning is a type of machine learning where the model is trained on a labeled dataset, meaning that the input data and corresponding output values are provided. The goal is to learn a mapping from inputs to outputs that can be used to make predictions or classifications.
+   - **Example**: Image recognition is a classic example of supervised learning. The model learns to recognize different types of objects in images by training on a large dataset of labeled images.
+   - **Advantages**: It is often more accurate and reliable than unsupervised learning because it uses labeled data to train the model.
+   - **Dis
+
+--- Q4_K_M ANSWER ---
+Supervised learning and unsupervised learning are two main types of machine learning algorithms used for different purposes. Here's a detailed explanation of each:
+
+1. Supervised Learning:
+Supervised learning is a type of machine learning where the algorithm is trained on a labeled dataset. In supervised learning, the algorithm is given a set of input data and a corresponding output data. The goal is to learn a mapping from the input data to the output data, which can be used to make predictions or classifications. The algorithm is trained using a labeled dataset, which means that the input data and the corresponding output data are already known. Examples of supervised learning include:
+- Classification: This is a type of supervised learning where the algorithm is trained to classify objects or entities based on their features. For example, a system might
+
+==========================================================================================
+PROMPT: P04
+QUESTION: What is overfitting in machine learning? Explain three ways to reduce it.
+
+--- FP16 ANSWER ---
+Overfitting in machine learning refers to a situation where a model learns the training data too well, to the point where it performs poorly on new, unseen data. This can happen due to several reasons, including:
+
+1. **Complexity of the Training Data**: If the training data is too complex, the model may learn the noise in the data rather than the underlying patterns. This can lead to overfitting.
+
+2. **Overfitting to the Training Data**: The model may become too specialized to the training data, and it may not generalize well to new data. This is often due to the model having too many parameters or too many features.
+
+3. **Overfitting to the Test Data**: The model may also become too specialized to the test data, leading to overfitting
+
+--- Q4_K_M ANSWER ---
+Overfitting in machine learning refers to a situation where a model becomes too complex and fits the training data too closely, leading to poor generalization to new data. This can result in poor performance on unseen data and a high risk of overfitting.
+
+Three ways to reduce overfitting in machine learning are:
+
+1. **Data Augmentation**: This involves generating new data by applying transformations to the existing data. For example, adding noise to the training data or using different data augmentation techniques like random cropping, rotation, or flipping. This helps to reduce the model's complexity and improve its ability to generalize.
+
+2. **Regularization**: This involves adding a penalty term to the loss function to discourage the model from fitting the training data too closely. Common regularization techniques include L1 and L2 regularization
+
+==========================================================================================
+PROMPT: P05
+QUESTION: Explain how a neural network learns using the ideas of weights, loss, and gradient descent.
+
+--- FP16 ANSWER ---
+A neural network learns by a process of trial and error, using the following steps:
+
+1. **Initialization**: The network starts with a set of weights that are randomly initialized. These weights are the starting points for the learning process.
+
+2. **Training**: The network is trained on a dataset of input-output pairs. The goal is to adjust the weights so that the output of the network is as close as possible to the desired output.
+
+3. **Loss Function**: The network calculates a loss function that measures the difference between the desired output and the actual output. This loss function is used to evaluate the performance of the network.
+
+4. **Gradient Descent**: The network uses a technique called gradient descent to adjust the weights. The gradient descent algorithm calculates the direction of the steepest ascent in the
+
+--- Q4_K_M ANSWER ---
+A neural network learns by a process of trial and error, where it adjusts the weights of its connections based on the error it calculates between its predictions and the actual outputs. Here's a detailed explanation of how this process works:
+
+1. **Input Layer**: The neural network starts with an input layer, which receives the input data. This layer is the first layer of the network and is responsible for processing the incoming data.
+
+2. **Hidden Layers**: The network then moves on to hidden layers, which are the intermediate layers. These layers are responsible for processing the input data and making predictions based on the input and the weights of the connections.
+
+3. **Output Layer**: The final layer of the network is the output layer, which produces the final output. This layer is responsible for making predictions based on
+
+==========================================================================================
+PROMPT: P06
+QUESTION: Write an SQL query to find duplicate email addresses in a table named users. Explain the query.
+
+--- FP16 ANSWER ---
+To find duplicate email addresses in a table named `users`, you can use the following SQL query:
+
+```sql
+SELECT email_address
+FROM users
+GROUP BY email_address
+HAVING COUNT(email_address) > 1;
+```
+
+### Explanation:
+- **SELECT email_address**: This part of the query selects the `email_address` column from the `users` table.
+- **FROM users**: This specifies the table from which to retrieve the data.
+- **GROUP BY email_address**: This groups the results by the `email_address` column, so that each group contains only one row.
+- **HAVING COUNT(email_address) > 1**: This condition filters the groups to only include those where the count of `email_address` is greater than 1. This means that if there is
+
+--- Q4_K_M ANSWER ---
+To find duplicate email addresses in a table named `users`, you can use the following SQL query:
+
+```sql
+SELECT email_address
+FROM users
+GROUP BY email_address
+HAVING COUNT(email_address) > 1;
+```
+
+### Explanation:
+
+1. **SELECT email_address**: This part of the query selects the `email_address` column from the `users` table. This is the column you want to look for duplicates.
+
+2. **FROM users**: This specifies the table from which to retrieve the data. In this case, it's the `users` table.
+
+3. **GROUP BY email_address**: This groups the results by the `email_address` column. This means that for each unique `email_address`, the query will return only one row.
+
+4. **HAVING COUNT
+
+==========================================================================================
+PROMPT: P07
+QUESTION: Explain Python decorators and provide a small working example.
+
+--- FP16 ANSWER ---
+A Python decorator is a function that takes another function as an argument, changes its behavior, and returns the modified function. Decorators are often used to add functionality to functions without changing their source code.
+
+Here's a small working example of a Python decorator:
+
+```python
+def my_decorator(func):
+    def wrapper():
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
+```
+
+In this example, `my_decorator` is a decorator function that takes another function `func` as an argument. The `wrapper` function is a new function that takes no arguments and prints some messages before and after calling `func`. The
+
+--- Q4_K_M ANSWER ---
+Python decorators are a powerful feature in Python that allow you to modify the behavior of functions, classes, and modules. They are used to add functionality to existing code without changing the original code. Here's a small working example of a decorator in Python:
+
+```python
+def my_decorator(func):
+    def wrapper():
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
+```
+
+In this example, we define a function `my_decorator` that takes another function `func` as an argument. The `wrapper` function is a new function that takes no arguments and returns another function. Inside the `wrapper` function, we
+
+==========================================================================================
+PROMPT: P08
+QUESTION: Summarise this text in exactly three bullet points: A city introduced bus lanes, integrated ticketing, and real-time arrival displays. After six months, average bus journeys became 18 percent faster, passenger complaints fell, and ridership increased. The city plans to extend the programme to two more routes, while monitoring whether the improvements continue during peak hours.
+
+--- FP16 ANSWER ---
+- A city introduced bus lanes, integrated ticketing, and real-time arrival displays.
+- After six months, average bus journeys became 18 percent faster.
+- Passenger complaints fell.
+- Ridership increased.
+- The city plans to extend the programme to two more routes, while monitoring whether the improvements continue during peak hours.
+
+--- Q4_K_M ANSWER ---
+- A city introduced bus lanes, integrated ticketing, and real-time arrival displays.
+- After six months, average bus journeys became 18 percent faster.
+- Passenger complaints fell.
+- Ridership increased.
+- The city plans to extend the programme to two more routes, while monitoring whether the improvements continue during peak hours.
+
+==========================================================================================
+PROMPT: P09
+QUESTION: A shop buys an item for 800 rupees and sells it for 1,000 rupees. Calculate the profit and profit percentage. Show the formula.
+
+--- FP16 ANSWER ---
+To calculate the profit and profit percentage, we can use the following formula:
+
+\[ \text{Profit} = \text{Selling Price} - \text{Cost Price} \]
+
+Given:
+- Cost Price (CP) = 800 rupees
+- Selling Price (SP) = 1,000 rupees
+
+Now, let's calculate the profit:
+
+\[ \text{Profit} = 1,000 - 800 = 200 \text{ rupees} \]
+
+To find the profit percentage, we use the formula:
+
+\[ \text{Profit Percentage} = \left( \frac{\text{Profit}}{\text{Cost Price}} \right) \times 100 \]
+
+Substituting the values
+
+--- Q4_K_M ANSWER ---
+To calculate the profit and profit percentage, we need to follow these steps:
+
+1. **Calculate the profit:**
+   - The shop buys the item for 800 rupees.
+   - The selling price is 1,000 rupees.
+   - The profit is the difference between the selling price and the cost price.
+   - Profit = Selling Price - Cost Price
+   - Profit = 1,000 - 800 = 200 rupees
+
+2. **Calculate the profit percentage:**
+   - The profit is 200 rupees.
+   - The cost price is 800 rupees.
+   - The profit percentage is the profit divided by the cost price, multiplied by 100 to get a percentage
+
+==========================================================================================
+PROMPT: P10
+QUESTION: Explain the Transformer architecture in simple terms. Mention attention, tokens, and positional information.
+
+--- FP16 ANSWER ---
+The Transformer architecture is a type of neural network used for natural language processing tasks. It is a type of recurrent neural network (RNN) that is particularly well-suited for tasks involving sequential data, such as text. The main components of the Transformer architecture are:
+
+1. **Attention**: This is a mechanism that allows the model to focus on different parts of the input sequence. It is a key component of the Transformer architecture, as it enables the model to understand the context of the input sequence and to focus on the most relevant parts of it.
+
+2. **Tokens**: These are the individual words or characters in the input sequence. The Transformer architecture is designed to work with sequences of tokens, which are the building blocks of the input data.
+
+3. **Positional Information**: This is a mechanism
+
+--- Q4_K_M ANSWER ---
+The Transformer architecture is a type of neural network used for natural language processing tasks. It is a type of deep learning model that is particularly effective for tasks such as text generation, translation, and question answering. The architecture consists of several components:
+
+1. **Token**: Tokens are the basic units of text that are used to represent words, phrases, or other units of meaning. They are the building blocks of the model and are used to represent the input text.
+
+2. **Attention**: Attention is a mechanism that allows the model to focus on the most relevant information when processing text. It is a key component of the Transformer architecture, which is designed to handle large amounts of text data efficiently.
+
+3. **Tokens**: Tokens are the basic units of text that are used to represent words, phrases, or

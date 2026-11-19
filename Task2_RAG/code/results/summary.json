@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_words": 100,
+    "overlap_words": 20,
+    "num_chunks": 198,
+    "questions": 15,
+    "hits_at_5": 14,
+    "recall_at_5": 0.9333,
+    "mrr_at_5": 0.9
+  },
+  {
+    "chunk_words": 300,
+    "overlap_words": 20,
+    "num_chunks": 73,
+    "questions": 15,
+    "hits_at_5": 14,
+    "recall_at_5": 0.9333,
+    "mrr_at_5": 0.7444
+  }
+]

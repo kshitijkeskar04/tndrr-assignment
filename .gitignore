@@ -1,0 +1,24 @@
+# ── Large binary model weights (store locally / on cloud storage) ──
+data/models/*.gguf
+
+# ── Server logs (noisy, regenerated on every run) ──
+data/results/*_server.log
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──
+venv/
+.venv/
+env/
+
+# ── OS artefacts ──
+Thumbs.db
+.DS_Store
+
+# ── HuggingFace download cache ──
+data/models/.cache/

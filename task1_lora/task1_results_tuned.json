@@ -1,0 +1,452 @@
+[
+  [
+    "I gotta book eye checkup on Thursday at half past 6 \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"thursday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"thursday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "I gotta cancel Netflix subscription on Friday at 7 in the evening \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"friday\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"friday\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Can you remind me to iron formal shirt at 6:30pm on Sunday?",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"sunday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"sunday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Make sure I download bank statement at 11am on Friday",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"friday\", \"time\": \"11:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"friday\", \"time\": \"11:00\"}"
+  ],
+  [
+    "Set reminder on Friday at 6:30 to buy milk",
+    "{\"action\": \"reminder\", \"task\": \"buy milk\", \"day\": \"friday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"buy milk\", \"day\": \"friday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Alert me at 7 in the evening next week to cancel Netflix subscription",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"next week\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"next week\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Reminder for today (7pm): fertilize the balcony garden",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"today\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"today\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Schedule a reminder for noon on Sunday: cancel Netflix subscription",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"sunday\", \"time\": \"12:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"sunday\", \"time\": \"12:00\"}"
+  ],
+  [
+    "Can you remind me to download bank statement at midnight on Sunday?",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"sunday\", \"time\": \"00:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"sunday\", \"time\": \"00:00\"}"
+  ],
+  [
+    "Reminder for tonight (8am): download bank statement",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"today\", \"time\": \"08:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"today\", \"time\": \"08:00\"}"
+  ],
+  [
+    "Remind me tomorrow at 8am to read \"Deep Learning\" chapter 4",
+    "{\"action\": \"reminder\", \"task\": \"read 'Deep Learning' chapter 4\", \"day\": \"tomorrow\", \"time\": \"08:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"read \\\"Deep Learning\\\" chapter 4\", \"day\": \"tomorrow\", \"time\": \"08:00\"}"
+  ],
+  [
+    "Schedule a reminder for 14:30 this Monday: upload lab records",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"14:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"14:30\"}"
+  ],
+  [
+    "Reminder for on Friday (8am): upload lab records",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"friday\", \"time\": \"08:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"friday\", \"time\": \"08:00\"}"
+  ],
+  [
+    "Make sure I download bank statement at 7pm on Thursday",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"thursday\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"thursday\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Make sure I calibrate the sensor at 9:30am this Monday",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"monday\", \"time\": \"09:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"monday\", \"time\": \"09:30\"}"
+  ],
+  [
+    "Don't let me forget to upload lab records on Wednesday at 10:15pm",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"wednesday\", \"time\": \"22:15\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"wednesday\", \"time\": \"22:15\"}"
+  ],
+  [
+    "Schedule a reminder for half past 6 on Tuesday: calibrate the sensor",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"tuesday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"tuesday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Set a reminder: calibrate the sensor, on Tuesday at midnight",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"tuesday\", \"time\": \"00:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"tuesday\", \"time\": \"00:00\"}"
+  ],
+  [
+    "Alert me at 6:30pm on Saturday to return library books",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"saturday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"saturday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "I gotta return library books on Monday at 8am \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"monday\", \"time\": \"08:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"monday\", \"time\": \"08:00\"}"
+  ],
+  [
+    "Forget about reminding me to go to the gym tonight at 8pm",
+    "{\"action\": \"reminder\", \"task\": \"go to the gym\", \"day\": \"today\", \"time\": \"19:00\"}",
+    "{\"action\": \"cancel_reminder\", \"task\": \"go to the gym\", \"day\": \"today\", \"time\": \"20:00\"}"
+  ],
+  [
+    "Remind me to iron formal shirt on Tuesday at 3:45pm",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"tuesday\", \"time\": \"15:45\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"tuesday\", \"time\": \"15:45\"}"
+  ],
+  [
+    "I gotta fertilize the balcony garden on Friday at 9:30am \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"friday\", \"time\": \"09:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"friday\", \"time\": \"09:30\"}"
+  ],
+  [
+    "pls remind me on Sunday 12pm to fertilize the balcony garden",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"sunday\", \"time\": \"12:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"sunday\", \"time\": \"12:00\"}"
+  ],
+  [
+    "Make sure I calibrate the sensor at 6:30pm on Tuesday",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"tuesday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"tuesday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "I gotta download bank statement next week at noon \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"next week\", \"time\": \"12:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"next week\", \"time\": \"12:00\"}"
+  ],
+  [
+    "Make sure I calibrate the sensor at 3:45pm on Friday",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"friday\", \"time\": \"15:45\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"friday\", \"time\": \"15:45\"}"
+  ],
+  [
+    "Remind me to pay rent at 9am and call Dad at 6pm tomorrow",
+    "{\"action\": \"reminder\", \"task\": \"pay rent\", \"day\": \"tomorrow\", \"time\": \"09:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"pay rent\", \"day\": \"tomorrow\", \"time\": \"09:00\"}"
+  ],
+  [
+    "Hey, ping me tomorrow around 14:30 so I upload lab records",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"tomorrow\", \"time\": \"14:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"tomorrow\", \"time\": \"14:30\"}"
+  ],
+  [
+    "Can you remind me to upload lab records at 10:15pm this Monday?",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"22:15\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"22:15\"}"
+  ],
+  [
+    "Remind me next Tuesday at 4pm to renew license",
+    "{\"action\": \"reminder\", \"task\": \"renew license\", \"day\": \"next tuesday\", \"time\": \"16:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"renew license\", \"day\": \"tuesday\", \"time\": \"16:00\"}"
+  ],
+  [
+    "I gotta pack gym bag on Sunday at half past 6 \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"sunday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"sunday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Alert me at 5:00 pm this Monday to pack gym bag",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"monday\", \"time\": \"17:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"monday\", \"time\": \"17:00\"}"
+  ],
+  [
+    "Alert me at 10:15pm on Wednesday to book eye checkup",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"wednesday\", \"time\": \"22:15\"}",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"wednesday\", \"time\": \"22:15\"}"
+  ],
+  [
+    "Reminder for next week (3:45pm): book eye checkup",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"next week\", \"time\": \"15:45\"}",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"next week\", \"time\": \"15:45\"}"
+  ],
+  [
+    "Don't let me forget to book eye checkup on Saturday at 7 in the evening",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"saturday\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"saturday\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Alert me at 7 in the evening next week to book eye checkup",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"next week\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"next week\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Alert me at 9am today to iron formal shirt",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"today\", \"time\": \"09:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"today\", \"time\": \"09:00\"}"
+  ],
+  [
+    "Make sure I upload lab records at midnight this Monday",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"00:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"00:00\"}"
+  ],
+  [
+    "Remind me to submit the report by EOD today",
+    "{\"action\": \"reminder\", \"task\": \"submit the report\", \"day\": \"eod\", \"time\": \"12:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"submit the report\", \"day\": \"today\", \"time\": \"17:00\"}"
+  ],
+  [
+    "Can you remind me to iron formal shirt at 3:45pm today?",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"today\", \"time\": \"15:45\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"today\", \"time\": \"15:45\"}"
+  ],
+  [
+    "Hey, ping me on Thursday around noon so I download bank statement",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"thursday\", \"time\": \"12:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"thursday\", \"time\": \"12:00\"}"
+  ],
+  [
+    "Schedule a reminder for 7 in the evening this Monday: fertilize the balcony garden",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"monday\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"monday\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Alert me at 5:00 pm on Monday to fertilize the balcony garden",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"monday\", \"time\": \"17:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"monday\", \"time\": \"17:00\"}"
+  ],
+  [
+    "Alert me at midnight today to pack gym bag",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"today\", \"time\": \"00:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"today\", \"time\": \"00:00\"}"
+  ],
+  [
+    "today at 8am I need to return library books, remind me",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"today\", \"time\": \"08:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"today\", \"time\": \"08:00\"}"
+  ],
+  [
+    "Hey, ping me on Saturday around 11am so I pack gym bag",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"saturday\", \"time\": \"11:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"saturday\", \"time\": \"11:00\"}"
+  ],
+  [
+    "Can you remind me to iron formal shirt at 6:30pm tonight?",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"today\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"today\", \"time\": \"18:30\"}"
+  ],
+  [
+    "I gotta upload lab records tmrw at 3:45pm \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"tomorrow\", \"time\": \"15:45\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"tomorrow\", \"time\": \"15:45\"}"
+  ],
+  [
+    "Schedule a reminder for midnight on Tuesday: download bank statement",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"tuesday\", \"time\": \"00:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"tuesday\", \"time\": \"00:00\"}"
+  ],
+  [
+    "Can you remind me to message Priya about notes at 11am on Wednesday?",
+    "{\"action\": \"reminder\", \"task\": \"message Priya\", \"day\": \"wednesday\", \"time\": \"11:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"message Priya about notes\", \"day\": \"wednesday\", \"time\": \"11:00\"}"
+  ],
+  [
+    "Set a reminder: download bank statement, this Monday at 11am",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"monday\", \"time\": \"11:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"monday\", \"time\": \"11:00\"}"
+  ],
+  [
+    "I gotta iron formal shirt on Sunday at 11am \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"sunday\", \"time\": \"11:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"sunday\", \"time\": \"11:00\"}"
+  ],
+  [
+    "Alert me at 8am on Tuesday to fertilize the balcony garden",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"tuesday\", \"time\": \"08:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"tuesday\", \"time\": \"08:00\"}"
+  ],
+  [
+    "Reminder for on Tuesday (midnight): message Priya about notes",
+    "{\"action\": \"reminder\", \"task\": \"message Priya about notes\", \"day\": \"tuesday\", \"time\": \"00:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"message Priya about notes\", \"day\": \"tuesday\", \"time\": \"00:00\"}"
+  ],
+  [
+    "I gotta calibrate the sensor on Thursday at 14:30 \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"thursday\", \"time\": \"14:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"thursday\", \"time\": \"14:30\"}"
+  ],
+  [
+    "pls remind me on Wednesday 9:30am to cancel Netflix subscription",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"wednesday\", \"time\": \"09:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"wednesday\", \"time\": \"09:30\"}"
+  ],
+  [
+    "Ping me in 2 hours to check the oven",
+    "{\"action\": \"reminder\", \"task\": \"check the oven\", \"day\": \"tomorrow\", \"time\": \"14:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"check the oven\", \"day\": \"today\", \"time\": \"unknown\"}"
+  ],
+  [
+    "tomorrow at noon I need to iron formal shirt, remind me",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"tomorrow\", \"time\": \"12:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"tomorrow\", \"time\": \"12:00\"}"
+  ],
+  [
+    "Set a reminder: calibrate the sensor, next week at 3:45pm",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"next week\", \"time\": \"15:45\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"next week\", \"time\": \"15:45\"}"
+  ],
+  [
+    "Don't let me forget to iron formal shirt on Saturday at 14:30",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"saturday\", \"time\": \"14:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"saturday\", \"time\": \"14:30\"}"
+  ],
+  [
+    "I gotta upload lab records this Monday at 6:30pm \u2014 set an alert",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Alert me at 6:30pm on Saturday to return library books",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"saturday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"saturday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Can you remind me to call Rahul on Monday?",
+    "{\"action\": \"reminder\", \"task\": \"call Rahul\", \"day\": \"monday\", \"time\": \"14:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"call Rahul\", \"day\": \"monday\", \"time\": \"unknown\"}"
+  ],
+  [
+    "pls remind me this Monday 3:45pm to book eye checkup",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"monday\", \"time\": \"15:45\"}",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"monday\", \"time\": \"15:45\"}"
+  ],
+  [
+    "Set a reminder: download bank statement, on Saturday at 7 in the evening",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"saturday\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"saturday\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Schedule a reminder for half past 6 on Monday: pack gym bag",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"monday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"monday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Alert me at 9:30am tonight to calibrate the sensor",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"today\", \"time\": \"09:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"today\", \"time\": \"09:30\"}"
+  ],
+  [
+    "Set a reminder: calibrate the sensor, tonight at 5pm",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"today\", \"time\": \"17:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"calibrate the sensor\", \"day\": \"today\", \"time\": \"17:00\"}"
+  ],
+  [
+    "Reminder for on Friday (half past 6): book eye checkup",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"friday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"friday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "pls remind me tonight 9:30am to pack gym bag",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"today\", \"time\": \"09:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"today\", \"time\": \"09:30\"}"
+  ],
+  [
+    "Set a reminder: pack gym bag, on Friday at 9am",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"friday\", \"time\": \"09:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"pack gym bag\", \"day\": \"friday\", \"time\": \"09:00\"}"
+  ],
+  [
+    "Reminder for next week (14:30): fertilize the balcony garden",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"next week\", \"time\": \"14:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"next week\", \"time\": \"14:30\"}"
+  ],
+  [
+    "tomorrow at 10:15pm I need to download bank statement, remind me",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"tomorrow\", \"time\": \"22:15\"}",
+    "{\"action\": \"reminder\", \"task\": \"download bank statement\", \"day\": \"tomorrow\", \"time\": \"22:15\"}"
+  ],
+  [
+    "Actually don't remind me to call mom tomorrow at 5pm",
+    "{\"action\": \"reminder\", \"task\": \"call mom\", \"day\": \"tomorrow\", \"time\": \"17:00\"}",
+    "{\"action\": \"cancel_reminder\", \"task\": \"call mom\", \"day\": \"tomorrow\", \"time\": \"17:00\"}"
+  ],
+  [
+    "Can you remind me to cancel Netflix subscription at 8am on Wednesday?",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"wednesday\", \"time\": \"08:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"wednesday\", \"time\": \"08:00\"}"
+  ],
+  [
+    "Alert me at 6:30pm tmrw to upload lab records",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"tomorrow\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"tomorrow\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Schedule a reminder for 12pm tmrw: return library books",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"tomorrow\", \"time\": \"12:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"tomorrow\", \"time\": \"12:00\"}"
+  ],
+  [
+    "Schedule a reminder for 3:45pm tmrw: message Priya about notes",
+    "{\"action\": \"reminder\", \"task\": \"message Priya about notes\", \"day\": \"tomorrow\", \"time\": \"15:45\"}",
+    "{\"action\": \"reminder\", \"task\": \"message Priya about notes\", \"day\": \"tomorrow\", \"time\": \"15:45\"}"
+  ],
+  [
+    "Remind me to fertilize the balcony garden tomorrow at 14:30",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"tomorrow\", \"time\": \"14:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"tomorrow\", \"time\": \"14:30\"}"
+  ],
+  [
+    "Set a reminder: fertilize the balcony garden, tmrw at 10:15pm",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"tomorrow\", \"time\": \"22:15\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"tomorrow\", \"time\": \"22:15\"}"
+  ],
+  [
+    "this Monday at 7pm I need to upload lab records, remind me",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"monday\", \"time\": \"19:00\"}"
+  ],
+  [
+    "Make sure I iron formal shirt at 10:15pm tomorrow",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"tomorrow\", \"time\": \"22:15\"}",
+    "{\"action\": \"reminder\", \"task\": \"iron formal shirt\", \"day\": \"tomorrow\", \"time\": \"22:15\"}"
+  ],
+  [
+    "Alert me at 8am tmrw to book eye checkup",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"tomorrow\", \"time\": \"08:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"book eye checkup\", \"day\": \"tomorrow\", \"time\": \"08:00\"}"
+  ],
+  [
+    "on Wednesday at 9:30am I need to fertilize the balcony garden, remind me",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"wednesday\", \"time\": \"09:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"wednesday\", \"time\": \"09:30\"}"
+  ],
+  [
+    "Wake me up at quarter to seven tomorrow",
+    "{\"action\": \"reminder\", \"task\": \"wake me up\", \"day\": \"tomorrow\", \"time\": \"19:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"wake up\", \"day\": \"tomorrow\", \"time\": \"06:45\"}"
+  ],
+  [
+    "tonight at 5pm I need to upload lab records, remind me",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"today\", \"time\": \"17:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"upload lab records\", \"day\": \"today\", \"time\": \"17:00\"}"
+  ],
+  [
+    "Alert me at half past 6 on Saturday to fertilize the balcony garden",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"saturday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"fertilize the balcony garden\", \"day\": \"saturday\", \"time\": \"18:30\"}"
+  ],
+  [
+    "Schedule a reminder for 5pm this Monday: cancel Netflix subscription",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"monday\", \"time\": \"17:00\"}",
+    "{\"action\": \"reminder\", \"task\": \"cancel Netflix subscription\", \"day\": \"monday\", \"time\": \"17:00\"}"
+  ],
+  [
+    "Can you remind me to return library books at half past 6 on Friday?",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"friday\", \"time\": \"18:30\"}",
+    "{\"action\": \"reminder\", \"task\": \"return library books\", \"day\": \"friday\", \"time\": \"18:30\"}"
+  ]
+]

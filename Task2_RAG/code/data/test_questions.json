@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question": "What three components explain how modern AI systems can exhibit intelligent behaviour?",
+    "answer": "The report identifies advanced algorithms, data, and computing power as the three components.",
+    "page": 8,
+    "source_passage": "These three components of advanced algorithms, data and computing power explain how machines can exhibit intelligent behaviour."
+  },
+  {
+    "id": 2,
+    "question": "How does traditional programming differ from AI systems according to the report?",
+    "answer": "Traditional programming follows explicitly coded rules and steps; AI learns how to solve a problem by examining training data rather than following explicitly pre-programmed decision points.",
+    "page": 9,
+    "source_passage": "Unlike traditional programming, AI systems are not explicitly coded in a series of precise steps, but instead ‘learn’ how to solve a problem by examining training data."
+  },
+  {
+    "id": 3,
+    "question": "What is Explainable AI trying to achieve?",
+    "answer": "It seeks to understand and articulate how AI systems reach an output, improving trust and making the black box more transparent.",
+    "page": 10,
+    "source_passage": "‘Explainable AI’ is therefore an active and ongoing field in which researchers are trying to understand and articulate how AI systems reach an output. This is crucial to improve trust in artificial intelligence systems."
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between machine learning and deep learning?",
+    "answer": "Machine learning learns from data to make predictions or recognise patterns. Deep learning is a more sophisticated subset of machine learning that uses artificial neural networks inspired by the human brain.",
+    "page": 10,
+    "source_passage": "Deep Learning is a more sophisticated subset of Machine Learning and uses complex processes inspired by the human brain called Artificial Neural Networks (ANN)."
+  },
+  {
+    "id": 5,
+    "question": "How are supervised, unsupervised, and reinforcement learning distinguished?",
+    "answer": "Supervised learning uses correctly labelled data; unsupervised learning finds patterns in unlabelled data; reinforcement learning learns through trial and error using rewards or penalties.",
+    "page": 11,
+    "source_passage": "Supervised Learning: AI models are trained on data that has been correctly labelled. Unsupervised Learning: AI models are trained on data that has not been labelled. Reinforcement Learning: AI models ‘learn by doing’ through a trial-and-error feedback loop."
+  },
+  {
+    "id": 6,
+    "question": "What are the four Vs used to characterise Big Data?",
+    "answer": "Volume, velocity, variety, and veracity.",
+    "page": 13,
+    "source_passage": "Big Data is characterised by its volume, velocity, variety and veracity, commonly referred to as the 4 V’s."
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between a data warehouse and a data lake?",
+    "answer": "A data warehouse stores structured data in an organised and optimised way. A data lake stores many types of unstructured data, such as posts, images, videos, surveys, and reviews.",
+    "page": 15,
+    "source_passage": "A data warehouse is a repository that stores structured data, in a highly organised and optimised way. Alternatively a data lake is a repository that can store all types of unstructured data, such as social media posts, images, videos, customer feedback surveys, or online reviews."
+  },
+  {
+    "id": 8,
+    "question": "Why are GPUs useful for AI and deep learning?",
+    "answer": "GPUs can process tasks in parallel rather than sequentially, and this accelerated parallel processing is well suited to AI applications, especially deep learning.",
+    "page": 16,
+    "source_passage": "A key innovation was their ability to process tasks in parallel (rather than sequentially as in normal computers) and it turns out the accelerated parallel processing required to create lifelike graphics in computer games and movies is ideal for powering AI applications and especially deep learning systems."
+  },
+  {
+    "id": 9,
+    "question": "How does the report distinguish a TPU from a GPU?",
+    "answer": "The report says a TPU can perform matrix calculations that significantly accelerate machine-learning tasks; its analogy is that a GPU prints a line of text at a time while a TPU prints an entire page at a time.",
+    "page": 18,
+    "source_passage": "A TPU chip takes this a step further and can perform ‘matrix calculations’ which significantly accelerates machine learning tasks."
+  },
+  {
+    "id": 10,
+    "question": "What are the three capability-based categories of AI?",
+    "answer": "Artificial Narrow Intelligence (ANI), Artificial General Intelligence (AGI), and Artificial Super Intelligence (ASI).",
+    "page": 21,
+    "source_passage": "An AI system delivers either artificial narrow intelligence (ANI), artificial general intelligence (AGI), or artificial super intelligence (ASI)."
+  },
+  {
+    "id": 11,
+    "question": "What is generative AI and what kinds of content can it produce?",
+    "answer": "Generative AI produces new content from a user prompt and what it learned from large training datasets. It can generate text, imagery, video, and audio.",
+    "page": 24,
+    "source_passage": "Generative AI is a type of AI technology that can produce new and creative content such as text, imagery, video and audio, from a user ‘prompt’."
+  },
+  {
+    "id": 12,
+    "question": "What is the difference between a large language model and a foundational model?",
+    "answer": "An LLM is designed for understanding and generating human-like language. Foundational models are broader and can include models trained on text, images, video, or audio; LLMs are one type within this broader category.",
+    "page": 37,
+    "source_passage": "Foundational Models are a broader category of underlying AI architecture, which includes LLM’s, but also AI models trained with more than just text, such as large datasets of images, video or audio."
+  },
+  {
+    "id": 13,
+    "question": "What does the report mean by an AI hallucination?",
+    "answer": "A hallucination is an AI output that may seem real but is actually incorrect or unrealistic.",
+    "page": 38,
+    "source_passage": "Hallucinations are outputs from AI systems that may seem real, but are in fact incorrect, or unrealistic."
+  },
+  {
+    "id": 14,
+    "question": "According to the report, what proportion of the world had never been connected to the internet in 2022?",
+    "answer": "The ITU estimate cited in the report was 34%, representing 2.6 billion people.",
+    "page": 31,
+    "source_passage": "The International Telecommunications Union (ITU) estimates that 34% of the world has never been connected to the internet (in 2022), representing 2.6 billion people."
+  },
+  {
+    "id": 15,
+    "question": "What did the 2023 Randstad survey report about workers receiving AI training?",
+    "answer": "Only 13% of workers had been offered any form of AI training in the previous 12 months.",
+    "page": 33,
+    "source_passage": "Randstad surveyed 7,000 employees in companies of all sizes, across 34 countries and found that only 13% of workers had been offered any form of AI training in the last 12 months."
+  }
+]

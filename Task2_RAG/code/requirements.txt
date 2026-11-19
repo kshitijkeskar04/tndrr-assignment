@@ -1,0 +1,7 @@
+pypdf>=4.0.0
+numpy>=1.26.0
+sentence-transformers>=3.0.0
+# Optional faster vector index; the project works with NumPy if FAISS is not installed.
+faiss-cpu>=1.8.0
+# Optional LLM answer generation via OpenAI-compatible API.
+openai>=1.30.0

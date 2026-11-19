@@ -1,0 +1,138 @@
+{
+  "label": "FP16",
+  "model_path": "D:\\downloads\\Task3_Local_LLM_Benchmark_Kit\\task3_local_llm\\models\\qwen2.5-0.5b-instruct-fp16.gguf",
+  "model_size_bytes": 1266425696,
+  "model_size_GB_decimal": 1.266,
+  "hardware": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "logical_cpu_count": 8,
+    "ram_total_GB": 8.32,
+    "nvidia_smi_before_run": "NVIDIA GeForce GTX 1650, 4096, 58"
+  },
+  "runtime": {
+    "llama_server_command": [
+      "llama-server.exe",
+      "-m",
+      "D:\\downloads\\Task3_Local_LLM_Benchmark_Kit\\task3_local_llm\\models\\qwen2.5-0.5b-instruct-fp16.gguf",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "8080",
+      "-c",
+      "2048",
+      "-t",
+      "6",
+      "-ngl",
+      "0"
+    ],
+    "gpu_layers": 0,
+    "threads": 6,
+    "context_size": 2048,
+    "max_new_tokens": 160
+  },
+  "peak_server_process_rss_GB": 1.146,
+  "generation_tokens_per_second_mean": 18.314,
+  "results": [
+    {
+      "id": "P01",
+      "prompt": "Explain machine learning to a beginner in 120 words. Include one practical example.",
+      "output": "Machine learning is a subset of artificial intelligence that involves the development of algorithms that can learn from data and improve their performance over time. It's used to make predictions or decisions based on patterns in data, without being explicitly programmed to do so. A practical example of machine learning is in image recognition. By training a machine learning model on a large dataset of images, it can learn to recognize objects in new images, without being explicitly programmed to do so. This allows for more accurate and efficient image processing and analysis.",
+      "prompt_tokens": 43,
+      "generated_tokens": 103,
+      "generation_tokens_per_second": 17.193260848568332,
+      "request_elapsed_seconds": 9.456,
+      "finish_reason": "eos"
+    },
+    {
+      "id": "P02",
+      "prompt": "Write a Python function that returns the factorial of a non-negative integer. Include input validation and a short example.",
+      "output": "Certainly! Below is a Python function that calculates the factorial of a non-negative integer using recursion. It includes input validation to ensure the input is a non-negative integer.\n\n```python\ndef factorial(n):\n    \"\"\"\n    Calculate the factorial of a non-negative integer n.\n    \n    Args:\n    n (int): A non-negative integer whose factorial is to be calculated.\n    \n    Returns:\n    int: The factorial of n.\n    \n    Raises:\n    ValueError: If n is not a non-negative integer.\n    \"\"\"\n    if not isinstance(n, int) or n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n    \n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\n\n# Example usage:\ntry",
+      "prompt_tokens": 46,
+      "generated_tokens": 160,
+      "generation_tokens_per_second": 15.46066359890799,
+      "request_elapsed_seconds": 10.893,
+      "finish_reason": "limit"
+    },
+    {
+      "id": "P03",
+      "prompt": "Explain the difference between supervised and unsupervised learning. Give two examples of each.",
+      "output": "Supervised learning and unsupervised learning are two main types of machine learning algorithms used for different purposes. Here's a detailed explanation of each:\n\n1. Supervised Learning:\n   - **Definition**: Supervised learning is a type of machine learning where the model is trained on a labeled dataset, meaning that the input data and corresponding output values are provided. The goal is to learn a mapping from inputs to outputs that can be used to make predictions or classifications.\n   - **Example**: Image recognition is a classic example of supervised learning. The model learns to recognize different types of objects in images by training on a large dataset of labeled images.\n   - **Advantages**: It is often more accurate and reliable than unsupervised learning because it uses labeled data to train the model.\n   - **Dis",
+      "prompt_tokens": 42,
+      "generated_tokens": 160,
+      "generation_tokens_per_second": 17.31418826947411,
+      "request_elapsed_seconds": 9.716,
+      "finish_reason": "limit"
+    },
+    {
+      "id": "P04",
+      "prompt": "What is overfitting in machine learning? Explain three ways to reduce it.",
+      "output": "Overfitting in machine learning refers to a situation where a model learns the training data too well, to the point where it performs poorly on new, unseen data. This can happen due to several reasons, including:\n\n1. **Complexity of the Training Data**: If the training data is too complex, the model may learn the noise in the data rather than the underlying patterns. This can lead to overfitting.\n\n2. **Overfitting to the Training Data**: The model may become too specialized to the training data, and it may not generalize well to new data. This is often due to the model having too many parameters or too many features.\n\n3. **Overfitting to the Test Data**: The model may also become too specialized to the test data, leading to overfitting",
+      "prompt_tokens": 40,
+      "generated_tokens": 160,
+      "generation_tokens_per_second": 17.49906258952449,
+      "request_elapsed_seconds": 9.729,
+      "finish_reason": "limit"
+    },
+    {
+      "id": "P05",
+      "prompt": "Explain how a neural network learns using the ideas of weights, loss, and gradient descent.",
+      "output": "A neural network learns by a process of trial and error, using the following steps:\n\n1. **Initialization**: The network starts with a set of weights that are randomly initialized. These weights are the starting points for the learning process.\n\n2. **Training**: The network is trained on a dataset of input-output pairs. The goal is to adjust the weights so that the output of the network is as close as possible to the desired output.\n\n3. **Loss Function**: The network calculates a loss function that measures the difference between the desired output and the actual output. This loss function is used to evaluate the performance of the network.\n\n4. **Gradient Descent**: The network uses a technique called gradient descent to adjust the weights. The gradient descent algorithm calculates the direction of the steepest ascent in the",
+      "prompt_tokens": 43,
+      "generated_tokens": 160,
+      "generation_tokens_per_second": 18.35743660911591,
+      "request_elapsed_seconds": 9.366,
+      "finish_reason": "limit"
+    },
+    {
+      "id": "P06",
+      "prompt": "Write an SQL query to find duplicate email addresses in a table named users. Explain the query.",
+      "output": "To find duplicate email addresses in a table named `users`, you can use the following SQL query:\n\n```sql\nSELECT email_address\nFROM users\nGROUP BY email_address\nHAVING COUNT(email_address) > 1;\n```\n\n### Explanation:\n- **SELECT email_address**: This part of the query selects the `email_address` column from the `users` table.\n- **FROM users**: This specifies the table from which to retrieve the data.\n- **GROUP BY email_address**: This groups the results by the `email_address` column, so that each group contains only one row.\n- **HAVING COUNT(email_address) > 1**: This condition filters the groups to only include those where the count of `email_address` is greater than 1. This means that if there is",
+      "prompt_tokens": 43,
+      "generated_tokens": 160,
+      "generation_tokens_per_second": 20.374049611451497,
+      "request_elapsed_seconds": 8.439,
+      "finish_reason": "limit"
+    },
+    {
+      "id": "P07",
+      "prompt": "Explain Python decorators and provide a small working example.",
+      "output": "A Python decorator is a function that takes another function as an argument, changes its behavior, and returns the modified function. Decorators are often used to add functionality to functions without changing their source code.\n\nHere's a small working example of a Python decorator:\n\n```python\ndef my_decorator(func):\n    def wrapper():\n        print(\"Something is happening before the function is called.\")\n        func()\n        print(\"Something is happening after the function is called.\")\n    return wrapper\n\n@my_decorator\ndef say_hello():\n    print(\"Hello!\")\n\nsay_hello()\n```\n\nIn this example, `my_decorator` is a decorator function that takes another function `func` as an argument. The `wrapper` function is a new function that takes no arguments and prints some messages before and after calling `func`. The",
+      "prompt_tokens": 35,
+      "generated_tokens": 160,
+      "generation_tokens_per_second": 18.930705640266826,
+      "request_elapsed_seconds": 8.963,
+      "finish_reason": "limit"
+    },
+    {
+      "id": "P08",
+      "prompt": "Summarise this text in exactly three bullet points: A city introduced bus lanes, integrated ticketing, and real-time arrival displays. After six months, average bus journeys became 18 percent faster, passenger complaints fell, and ridership increased. The city plans to extend the programme to two more routes, while monitoring whether the improvements continue during peak hours.",
+      "output": "- A city introduced bus lanes, integrated ticketing, and real-time arrival displays.\n- After six months, average bus journeys became 18 percent faster.\n- Passenger complaints fell.\n- Ridership increased.\n- The city plans to extend the programme to two more routes, while monitoring whether the improvements continue during peak hours.",
+      "prompt_tokens": 96,
+      "generated_tokens": 66,
+      "generation_tokens_per_second": 20.72391504725212,
+      "request_elapsed_seconds": 5.014,
+      "finish_reason": "eos"
+    },
+    {
+      "id": "P09",
+      "prompt": "A shop buys an item for 800 rupees and sells it for 1,000 rupees. Calculate the profit and profit percentage. Show the formula.",
+      "output": "To calculate the profit and profit percentage, we can use the following formula:\n\n\\[ \\text{Profit} = \\text{Selling Price} - \\text{Cost Price} \\]\n\nGiven:\n- Cost Price (CP) = 800 rupees\n- Selling Price (SP) = 1,000 rupees\n\nNow, let's calculate the profit:\n\n\\[ \\text{Profit} = 1,000 - 800 = 200 \\text{ rupees} \\]\n\nTo find the profit percentage, we use the formula:\n\n\\[ \\text{Profit Percentage} = \\left( \\frac{\\text{Profit}}{\\text{Cost Price}} \\right) \\times 100 \\]\n\nSubstituting the values",
+      "prompt_tokens": 60,
+      "generated_tokens": 160,
+      "generation_tokens_per_second": 19.090543325267678,
+      "request_elapsed_seconds": 8.945,
+      "finish_reason": "limit"
+    },
+    {
+      "id": "P10",
+      "prompt": "Explain the Transformer architecture in simple terms. Mention attention, tokens, and positional information.",
+      "output": "The Transformer architecture is a type of neural network used for natural language processing tasks. It is a type of recurrent neural network (RNN) that is particularly well-suited for tasks involving sequential data, such as text. The main components of the Transformer architecture are:\n\n1. **Attention**: This is a mechanism that allows the model to focus on different parts of the input sequence. It is a key component of the Transformer architecture, as it enables the model to understand the context of the input sequence and to focus on the most relevant parts of it.\n\n2. **Tokens**: These are the individual words or characters in the input sequence. The Transformer architecture is designed to work with sequences of tokens, which are the building blocks of the input data.\n\n3. **Positional Information**: This is a mechanism",
+      "prompt_tokens": 42,
+      "generated_tokens": 160,
+      "generation_tokens_per_second": 18.200061948890102,
+      "request_elapsed_seconds": 9.218,
+      "finish_reason": "limit"
+    }
+  ]
+}

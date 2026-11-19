@@ -1,0 +1,114 @@
+﻿id,prompt,output,prompt_tokens,generated_tokens,generation_tokens_per_second,request_elapsed_seconds,finish_reason
+P01,Explain machine learning to a beginner in 120 words. Include one practical example.,"Machine learning is a subset of artificial intelligence that involves the development of algorithms that can learn from data and improve their performance over time. It's used to make predictions or decisions based on patterns in data, without being explicitly programmed to do so. A practical example of machine learning is in image recognition. By training a machine learning model on a large dataset of images, it can learn to recognize objects in new images, without being explicitly programmed to do so. This allows for more accurate and efficient image processing and analysis.",43,103,17.193260848568332,9.456,eos
+P02,Write a Python function that returns the factorial of a non-negative integer. Include input validation and a short example.,"Certainly! Below is a Python function that calculates the factorial of a non-negative integer using recursion. It includes input validation to ensure the input is a non-negative integer.
+
+```python
+def factorial(n):
+    """"""
+    Calculate the factorial of a non-negative integer n.
+    
+    Args:
+    n (int): A non-negative integer whose factorial is to be calculated.
+    
+    Returns:
+    int: The factorial of n.
+    
+    Raises:
+    ValueError: If n is not a non-negative integer.
+    """"""
+    if not isinstance(n, int) or n < 0:
+        raise ValueError(""Input must be a non-negative integer."")
+    
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Example usage:
+try",46,160,15.46066359890799,10.893,limit
+P03,Explain the difference between supervised and unsupervised learning. Give two examples of each.,"Supervised learning and unsupervised learning are two main types of machine learning algorithms used for different purposes. Here's a detailed explanation of each:
+
+1. Supervised Learning:
+   - **Definition**: Supervised learning is a type of machine learning where the model is trained on a labeled dataset, meaning that the input data and corresponding output values are provided. The goal is to learn a mapping from inputs to outputs that can be used to make predictions or classifications.
+   - **Example**: Image recognition is a classic example of supervised learning. The model learns to recognize different types of objects in images by training on a large dataset of labeled images.
+   - **Advantages**: It is often more accurate and reliable than unsupervised learning because it uses labeled data to train the model.
+   - **Dis",42,160,17.31418826947411,9.716,limit
+P04,What is overfitting in machine learning? Explain three ways to reduce it.,"Overfitting in machine learning refers to a situation where a model learns the training data too well, to the point where it performs poorly on new, unseen data. This can happen due to several reasons, including:
+
+1. **Complexity of the Training Data**: If the training data is too complex, the model may learn the noise in the data rather than the underlying patterns. This can lead to overfitting.
+
+2. **Overfitting to the Training Data**: The model may become too specialized to the training data, and it may not generalize well to new data. This is often due to the model having too many parameters or too many features.
+
+3. **Overfitting to the Test Data**: The model may also become too specialized to the test data, leading to overfitting",40,160,17.49906258952449,9.729,limit
+P05,"Explain how a neural network learns using the ideas of weights, loss, and gradient descent.","A neural network learns by a process of trial and error, using the following steps:
+
+1. **Initialization**: The network starts with a set of weights that are randomly initialized. These weights are the starting points for the learning process.
+
+2. **Training**: The network is trained on a dataset of input-output pairs. The goal is to adjust the weights so that the output of the network is as close as possible to the desired output.
+
+3. **Loss Function**: The network calculates a loss function that measures the difference between the desired output and the actual output. This loss function is used to evaluate the performance of the network.
+
+4. **Gradient Descent**: The network uses a technique called gradient descent to adjust the weights. The gradient descent algorithm calculates the direction of the steepest ascent in the",43,160,18.35743660911591,9.366,limit
+P06,Write an SQL query to find duplicate email addresses in a table named users. Explain the query.,"To find duplicate email addresses in a table named `users`, you can use the following SQL query:
+
+```sql
+SELECT email_address
+FROM users
+GROUP BY email_address
+HAVING COUNT(email_address) > 1;
+```
+
+### Explanation:
+- **SELECT email_address**: This part of the query selects the `email_address` column from the `users` table.
+- **FROM users**: This specifies the table from which to retrieve the data.
+- **GROUP BY email_address**: This groups the results by the `email_address` column, so that each group contains only one row.
+- **HAVING COUNT(email_address) > 1**: This condition filters the groups to only include those where the count of `email_address` is greater than 1. This means that if there is",43,160,20.374049611451497,8.439,limit
+P07,Explain Python decorators and provide a small working example.,"A Python decorator is a function that takes another function as an argument, changes its behavior, and returns the modified function. Decorators are often used to add functionality to functions without changing their source code.
+
+Here's a small working example of a Python decorator:
+
+```python
+def my_decorator(func):
+    def wrapper():
+        print(""Something is happening before the function is called."")
+        func()
+        print(""Something is happening after the function is called."")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print(""Hello!"")
+
+say_hello()
+```
+
+In this example, `my_decorator` is a decorator function that takes another function `func` as an argument. The `wrapper` function is a new function that takes no arguments and prints some messages before and after calling `func`. The",35,160,18.930705640266826,8.963,limit
+P08,"Summarise this text in exactly three bullet points: A city introduced bus lanes, integrated ticketing, and real-time arrival displays. After six months, average bus journeys became 18 percent faster, passenger complaints fell, and ridership increased. The city plans to extend the programme to two more routes, while monitoring whether the improvements continue during peak hours.","- A city introduced bus lanes, integrated ticketing, and real-time arrival displays.
+- After six months, average bus journeys became 18 percent faster.
+- Passenger complaints fell.
+- Ridership increased.
+- The city plans to extend the programme to two more routes, while monitoring whether the improvements continue during peak hours.",96,66,20.72391504725212,5.014,eos
+P09,"A shop buys an item for 800 rupees and sells it for 1,000 rupees. Calculate the profit and profit percentage. Show the formula.","To calculate the profit and profit percentage, we can use the following formula:
+
+\[ \text{Profit} = \text{Selling Price} - \text{Cost Price} \]
+
+Given:
+- Cost Price (CP) = 800 rupees
+- Selling Price (SP) = 1,000 rupees
+
+Now, let's calculate the profit:
+
+\[ \text{Profit} = 1,000 - 800 = 200 \text{ rupees} \]
+
+To find the profit percentage, we use the formula:
+
+\[ \text{Profit Percentage} = \left( \frac{\text{Profit}}{\text{Cost Price}} \right) \times 100 \]
+
+Substituting the values",60,160,19.090543325267678,8.945,limit
+P10,"Explain the Transformer architecture in simple terms. Mention attention, tokens, and positional information.","The Transformer architecture is a type of neural network used for natural language processing tasks. It is a type of recurrent neural network (RNN) that is particularly well-suited for tasks involving sequential data, such as text. The main components of the Transformer architecture are:
+
+1. **Attention**: This is a mechanism that allows the model to focus on different parts of the input sequence. It is a key component of the Transformer architecture, as it enables the model to understand the context of the input sequence and to focus on the most relevant parts of it.
+
+2. **Tokens**: These are the individual words or characters in the input sequence. The Transformer architecture is designed to work with sequences of tokens, which are the building blocks of the input data.
+
+3. **Positional Information**: This is a mechanism",42,160,18.200061948890102,9.218,limit

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "P01",
+    "prompt": "Explain machine learning to a beginner in 120 words. Include one practical example."
+  },
+  {
+    "id": "P02",
+    "prompt": "Write a Python function that returns the factorial of a non-negative integer. Include input validation and a short example."
+  },
+  {
+    "id": "P03",
+    "prompt": "Explain the difference between supervised and unsupervised learning. Give two examples of each."
+  },
+  {
+    "id": "P04",
+    "prompt": "What is overfitting in machine learning? Explain three ways to reduce it."
+  },
+  {
+    "id": "P05",
+    "prompt": "Explain how a neural network learns using the ideas of weights, loss, and gradient descent."
+  },
+  {
+    "id": "P06",
+    "prompt": "Write an SQL query to find duplicate email addresses in a table named users. Explain the query."
+  },
+  {
+    "id": "P07",
+    "prompt": "Explain Python decorators and provide a small working example."
+  },
+  {
+    "id": "P08",
+    "prompt": "Summarise this text in exactly three bullet points: A city introduced bus lanes, integrated ticketing, and real-time arrival displays. After six months, average bus journeys became 18 percent faster, passenger complaints fell, and ridership increased. The city plans to extend the programme to two more routes, while monitoring whether the improvements continue during peak hours."
+  },
+  {
+    "id": "P09",
+    "prompt": "A shop buys an item for 800 rupees and sells it for 1,000 rupees. Calculate the profit and profit percentage. Show the formula."
+  },
+  {
+    "id": "P10",
+    "prompt": "Explain the Transformer architecture in simple terms. Mention attention, tokens, and positional information."
+  }
+]
