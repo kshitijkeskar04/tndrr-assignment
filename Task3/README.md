@@ -1,7 +1,13 @@
-Task 3 — Running a Model Locally & Optimisation
-Benchmark comparing FP16 vs Q4_K_M (4-bit) quantisation of Qwen2.5-0.5B-Instruct using llama.cpp (llama-server) in CPU-only mode on an HP Pavilion laptop.
+# Task 3 — Running a Model Locally & Optimisation
 
-📂 Repository Structure
+Benchmark comparing **FP16** vs **Q4\_K\_M (4-bit)** quantisation of `Qwen2.5-0.5B-Instruct`
+using **llama.cpp** (`llama-server`) in CPU-only mode on an HP Pavilion laptop.
+
+---
+
+## 📂 Repository Structure
+
+```
 task3_local_llm/
 │
 ├── docs/
@@ -27,42 +33,72 @@ task3_local_llm/
 │
 ├── .gitignore
 └── README.md
-⚡ Key Results (TL;DR)
-Metric	FP16	Q4_K_M	Delta
-Model file size	1.266 GB	0.491 GB	-61.2%
-Peak server RAM (RSS)	1.146 GB	0.673 GB	-41.3%
-Mean generation speed	18.3 tok/s	41.6 tok/s	+2.27x
-Avg quality score (/5)	2.7	2.8	approx same
-📄 Full analysis → docs/REPORT.md
+```
 
-🚀 How to Reproduce
-1. Install llama.cpp
+---
+
+## ⚡ Key Results (TL;DR)
+
+| Metric | FP16 | Q4\_K\_M | Delta |
+|---|---:|---:|---|
+| Model file size | 1.266 GB | 0.491 GB | **-61.2%** |
+| Peak server RAM (RSS) | 1.146 GB | 0.673 GB | **-41.3%** |
+| Mean generation speed | 18.3 tok/s | 41.6 tok/s | **+2.27x** |
+| Avg quality score (/5) | 2.7 | 2.8 | approx same |
+
+📄 **Full analysis → [`docs/REPORT.md`](docs/REPORT.md)**
+
+---
+
+## 🚀 How to Reproduce
+
+### 1. Install llama.cpp
+```powershell
 winget install llama.cpp
 # or download from https://github.com/ggml-org/llama.cpp/releases
-2. Download model files
+```
+
+### 2. Download model files
+```powershell
 py -m pip install -U huggingface_hub
 huggingface-cli download Qwen/Qwen2.5-0.5B-Instruct-GGUF qwen2.5-0.5b-instruct-fp16.gguf    --local-dir data/models
 huggingface-cli download Qwen/Qwen2.5-0.5B-Instruct-GGUF qwen2.5-0.5b-instruct-q4_k_m.gguf --local-dir data/models
-3. Install Python dependencies
+```
+
+### 3. Install Python dependencies
+```powershell
 py -m pip install -r code/requirements.txt
-4. Run the benchmark
+```
+
+### 4. Run the benchmark
+```powershell
 # FP16
 py code/run_benchmark.py --model data/models/qwen2.5-0.5b-instruct-fp16.gguf --label FP16
 
 # 4-bit
 py code/run_benchmark.py --model data/models/qwen2.5-0.5b-instruct-q4_k_m.gguf --label Q4_K_M
-Results are written to data/results/.
+```
 
-🛠 Runtime Settings
-Parameter	Value
-Runtime	llama.cpp (CPU-only, -ngl 0)
-Threads	6
-Context size	2,048 tokens
-Max generated tokens	160
-Temperature	0 (greedy)
-Seed	42
-📋 Requirements
-Windows 10 / 11 (or Linux / macOS)
-Python 3.9+
-llama.cpp (llama-server on PATH)
-requests, psutil (see code/requirements.txt)
+Results are written to `data/results/`.
+
+---
+
+## 🛠 Runtime Settings
+
+| Parameter | Value |
+|---|---|
+| Runtime | llama.cpp (CPU-only, `-ngl 0`) |
+| Threads | 6 |
+| Context size | 2,048 tokens |
+| Max generated tokens | 160 |
+| Temperature | 0 (greedy) |
+| Seed | 42 |
+
+---
+
+## 📋 Requirements
+
+- Windows 10 / 11 (or Linux / macOS)
+- Python 3.9+
+- llama.cpp (`llama-server` on PATH)
+- `requests`, `psutil` (see `code/requirements.txt`)
